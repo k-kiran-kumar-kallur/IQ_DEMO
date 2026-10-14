@@ -1,0 +1,3537 @@
+{
+  "generated": "2026-10-08",
+  "documents": [
+    {
+      "path": "Sales_Revenue/forecast/FY2027_Revenue_Plan_Draft_v0.3.xlsx",
+      "iq": "Sales (Revenue) IQ",
+      "folder": "Sales_Revenue/forecast",
+      "format": "xlsx",
+      "classification": "Confidential",
+      "source_system": "SharePoint",
+      "size_bytes": 8052,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1002",
+        "ACC-1003",
+        "ACC-1004",
+        "ACC-1005",
+        "ACC-1006",
+        "ACC-1007",
+        "ACC-1008",
+        "ACC-1009",
+        "ACC-1010",
+        "ACC-1011",
+        "ACC-1012",
+        "ACC-1015",
+        "ACC-1016",
+        "ACC-1017",
+        "ACC-1018"
+      ],
+      "opportunities": [],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [],
+      "campaigns": []
+    },
+    {
+      "path": "Sales_Revenue/forecast/Forecast_Call_Notes_2026-10-05.txt",
+      "iq": "Sales (Revenue) IQ",
+      "folder": "Sales_Revenue/forecast",
+      "format": "txt",
+      "classification": "Internal",
+      "source_system": "SysHCM",
+      "size_bytes": 1992,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1003",
+        "ACC-1004",
+        "ACC-1008",
+        "ACC-1009",
+        "ACC-1010",
+        "ACC-1013",
+        "ACC-1014",
+        "ACC-1015"
+      ],
+      "opportunities": [
+        "OPP-24101",
+        "OPP-24102",
+        "OPP-24180",
+        "OPP-24200",
+        "OPP-24220"
+      ],
+      "bids": [
+        "BID-0618"
+      ],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-01"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "Sales_Revenue/forecast/Q4_2026_Revenue_Forecast_vs_Actuals.xlsx",
+      "iq": "Sales (Revenue) IQ",
+      "folder": "Sales_Revenue/forecast",
+      "format": "xlsx",
+      "classification": "Confidential",
+      "source_system": "SysHCM",
+      "size_bytes": 14631,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1002",
+        "ACC-1003",
+        "ACC-1004",
+        "ACC-1005",
+        "ACC-1006",
+        "ACC-1007",
+        "ACC-1008",
+        "ACC-1009",
+        "ACC-1010",
+        "ACC-1011",
+        "ACC-1012",
+        "ACC-1015",
+        "ACC-1016",
+        "ACC-1017",
+        "ACC-1018"
+      ],
+      "opportunities": [
+        "OPP-24101",
+        "OPP-24102",
+        "OPP-24120",
+        "OPP-24130",
+        "OPP-24180",
+        "OPP-24200"
+      ],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-01"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "Sales_Revenue/bookings/Bookings_and_New_Logos_FY2026.xlsx",
+      "iq": "Sales (Revenue) IQ",
+      "folder": "Sales_Revenue/bookings",
+      "format": "xlsx",
+      "classification": "Confidential",
+      "source_system": "SysHCM",
+      "size_bytes": 12416,
+      "accounts": [
+        "ACC-1002",
+        "ACC-1003",
+        "ACC-1004",
+        "ACC-1006",
+        "ACC-1008",
+        "ACC-1009",
+        "ACC-1012",
+        "ACC-1016",
+        "ACC-1017",
+        "ACC-1018"
+      ],
+      "opportunities": [
+        "OPP-24131",
+        "OPP-24170",
+        "OPP-24250",
+        "OPP-24270",
+        "OPP-24280",
+        "OPP-24290",
+        "OPP-24300",
+        "OPP-24310",
+        "OPP-24320",
+        "OPP-24340"
+      ],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-01",
+        "PRT-02",
+        "PRT-03",
+        "PRT-04"
+      ],
+      "campaigns": [
+        "CMP-2604"
+      ]
+    },
+    {
+      "path": "Sales_Revenue/quota_attainment/Quota_and_Attainment_FY2026.xlsx",
+      "iq": "Sales (Revenue) IQ",
+      "folder": "Sales_Revenue/quota_attainment",
+      "format": "xlsx",
+      "classification": "Confidential",
+      "source_system": "SharePoint",
+      "size_bytes": 9017,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1002",
+        "ACC-1003",
+        "ACC-1004",
+        "ACC-1005",
+        "ACC-1006",
+        "ACC-1007",
+        "ACC-1008",
+        "ACC-1009",
+        "ACC-1010",
+        "ACC-1011",
+        "ACC-1012",
+        "ACC-1013",
+        "ACC-1014",
+        "ACC-1015",
+        "ACC-1016",
+        "ACC-1017",
+        "ACC-1018"
+      ],
+      "opportunities": [
+        "OPP-24131",
+        "OPP-24170",
+        "OPP-24250",
+        "OPP-24270",
+        "OPP-24280",
+        "OPP-24290",
+        "OPP-24300",
+        "OPP-24310",
+        "OPP-24320",
+        "OPP-24340"
+      ],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-02"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "Sales_Revenue/sales_reviews/Sales_QBR_Q3_2026.pptx",
+      "iq": "Sales (Revenue) IQ",
+      "folder": "Sales_Revenue/sales_reviews",
+      "format": "pptx",
+      "classification": "Confidential",
+      "source_system": "SharePoint",
+      "size_bytes": 56086,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1004",
+        "ACC-1009",
+        "ACC-1011",
+        "ACC-1014",
+        "ACC-1017"
+      ],
+      "opportunities": [],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [],
+      "campaigns": []
+    },
+    {
+      "path": "Sales_Revenue/revenue_reports/Monthly_Revenue_Review_Sep_2026.pdf",
+      "iq": "Sales (Revenue) IQ",
+      "folder": "Sales_Revenue/revenue_reports",
+      "format": "pdf",
+      "classification": "Confidential",
+      "source_system": "SysHCM",
+      "size_bytes": 6375,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1004",
+        "ACC-1006",
+        "ACC-1008",
+        "ACC-1009",
+        "ACC-1016",
+        "ACC-1017",
+        "ACC-1018"
+      ],
+      "opportunities": [],
+      "bids": [],
+      "programmes": [],
+      "projects": [
+        "PRJ-3101"
+      ],
+      "partners": [],
+      "campaigns": []
+    },
+    {
+      "path": "Sales_Revenue/revenue_reports/Revenue_by_Account_and_Service_Line_FY2025-FY2026.xlsx",
+      "iq": "Sales (Revenue) IQ",
+      "folder": "Sales_Revenue/revenue_reports",
+      "format": "xlsx",
+      "classification": "Confidential",
+      "source_system": "SysHCM",
+      "size_bytes": 57510,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1002",
+        "ACC-1003",
+        "ACC-1004",
+        "ACC-1005",
+        "ACC-1006",
+        "ACC-1007",
+        "ACC-1008",
+        "ACC-1009",
+        "ACC-1010",
+        "ACC-1011",
+        "ACC-1012",
+        "ACC-1015",
+        "ACC-1016",
+        "ACC-1017",
+        "ACC-1018"
+      ],
+      "opportunities": [],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [],
+      "campaigns": []
+    },
+    {
+      "path": "Sales_Revenue/revenue_reports/Service_Line_PnL_Q3_2026.xlsx",
+      "iq": "Sales (Revenue) IQ",
+      "folder": "Sales_Revenue/revenue_reports",
+      "format": "xlsx",
+      "classification": "Restricted",
+      "source_system": "SharePoint",
+      "size_bytes": 10001,
+      "accounts": [],
+      "opportunities": [],
+      "bids": [],
+      "programmes": [],
+      "projects": [
+        "PRJ-3101"
+      ],
+      "partners": [],
+      "campaigns": []
+    },
+    {
+      "path": "Sales_Revenue/revenue_reports/SysHCM_revenue_extract_FY26P09.csv",
+      "iq": "Sales (Revenue) IQ",
+      "folder": "Sales_Revenue/revenue_reports",
+      "format": "csv",
+      "classification": "Restricted",
+      "source_system": "SysHCM",
+      "size_bytes": 3062,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1002",
+        "ACC-1003",
+        "ACC-1004",
+        "ACC-1005",
+        "ACC-1006",
+        "ACC-1007",
+        "ACC-1008",
+        "ACC-1009",
+        "ACC-1010",
+        "ACC-1011",
+        "ACC-1012",
+        "ACC-1015",
+        "ACC-1016",
+        "ACC-1017",
+        "ACC-1018"
+      ],
+      "opportunities": [],
+      "bids": [],
+      "programmes": [
+        "PRG-2001",
+        "PRG-2002",
+        "PRG-2003",
+        "PRG-2004",
+        "PRG-2005",
+        "PRG-2006",
+        "PRG-2007"
+      ],
+      "projects": [],
+      "partners": [],
+      "campaigns": []
+    },
+    {
+      "path": "Sales_Revenue/pipeline_reports/FocusNet_Pipeline_Report_2026-10-06.xlsx",
+      "iq": "Sales (Revenue) IQ",
+      "folder": "Sales_Revenue/pipeline_reports",
+      "format": "xlsx",
+      "classification": "Internal",
+      "source_system": "FocusNet",
+      "size_bytes": 19927,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1002",
+        "ACC-1003",
+        "ACC-1004",
+        "ACC-1005",
+        "ACC-1006",
+        "ACC-1007",
+        "ACC-1008",
+        "ACC-1009",
+        "ACC-1010",
+        "ACC-1011",
+        "ACC-1012",
+        "ACC-1013",
+        "ACC-1014",
+        "ACC-1015",
+        "ACC-1016",
+        "ACC-1017",
+        "ACC-1018"
+      ],
+      "opportunities": [
+        "OPP-24101",
+        "OPP-24102",
+        "OPP-24103",
+        "OPP-24110",
+        "OPP-24111",
+        "OPP-24120",
+        "OPP-24121",
+        "OPP-24130",
+        "OPP-24131",
+        "OPP-24140",
+        "OPP-24141",
+        "OPP-24150",
+        "OPP-24160",
+        "OPP-24170",
+        "OPP-24171",
+        "OPP-24180",
+        "OPP-24190",
+        "OPP-24200",
+        "OPP-24210",
+        "OPP-24220",
+        "OPP-24230",
+        "OPP-24240",
+        "OPP-24250",
+        "OPP-24260",
+        "OPP-24270",
+        "OPP-24280",
+        "OPP-24290",
+        "OPP-24300",
+        "OPP-24310",
+        "OPP-24320",
+        "OPP-24330",
+        "OPP-24340",
+        "OPP-24350"
+      ],
+      "bids": [
+        "BID-0612",
+        "BID-0615",
+        "BID-0618",
+        "BID-0619"
+      ],
+      "programmes": [
+        "PRG-2004"
+      ],
+      "projects": [],
+      "partners": [
+        "PRT-01",
+        "PRT-02",
+        "PRT-03",
+        "PRT-04",
+        "PRT-06"
+      ],
+      "campaigns": [
+        "CMP-2601",
+        "CMP-2602",
+        "CMP-2603",
+        "CMP-2604",
+        "CMP-2605"
+      ]
+    },
+    {
+      "path": "Sales_Revenue/pipeline_reports/pipeline_movement_W40_to_W41.csv",
+      "iq": "Sales (Revenue) IQ",
+      "folder": "Sales_Revenue/pipeline_reports",
+      "format": "csv",
+      "classification": "Internal",
+      "source_system": "SharePoint",
+      "size_bytes": 1412,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1003",
+        "ACC-1004",
+        "ACC-1006",
+        "ACC-1008",
+        "ACC-1010",
+        "ACC-1011",
+        "ACC-1013",
+        "ACC-1014",
+        "ACC-1015"
+      ],
+      "opportunities": [
+        "OPP-24101",
+        "OPP-24102",
+        "OPP-24120",
+        "OPP-24130",
+        "OPP-24141",
+        "OPP-24171",
+        "OPP-24190",
+        "OPP-24200",
+        "OPP-24220",
+        "OPP-24230",
+        "OPP-24240"
+      ],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [],
+      "campaigns": []
+    },
+    {
+      "path": "Sales_Revenue/pipeline_reports/powerbi_pipeline_dataset_2026-10-06.json",
+      "iq": "Sales (Revenue) IQ",
+      "folder": "Sales_Revenue/pipeline_reports",
+      "format": "json",
+      "classification": "Internal",
+      "source_system": "Power BI",
+      "size_bytes": 10080,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1002",
+        "ACC-1003",
+        "ACC-1004",
+        "ACC-1005",
+        "ACC-1006",
+        "ACC-1007",
+        "ACC-1008",
+        "ACC-1009",
+        "ACC-1010",
+        "ACC-1011",
+        "ACC-1012",
+        "ACC-1013",
+        "ACC-1014",
+        "ACC-1015"
+      ],
+      "opportunities": [
+        "OPP-24101",
+        "OPP-24102",
+        "OPP-24103",
+        "OPP-24110",
+        "OPP-24111",
+        "OPP-24120",
+        "OPP-24121",
+        "OPP-24130",
+        "OPP-24141",
+        "OPP-24150",
+        "OPP-24160",
+        "OPP-24171",
+        "OPP-24180",
+        "OPP-24190",
+        "OPP-24200",
+        "OPP-24210",
+        "OPP-24220",
+        "OPP-24230",
+        "OPP-24240",
+        "OPP-24260"
+      ],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-01",
+        "PRT-02",
+        "PRT-03",
+        "PRT-06"
+      ],
+      "campaigns": [
+        "CMP-2601",
+        "CMP-2602",
+        "CMP-2603",
+        "CMP-2604",
+        "CMP-2605"
+      ]
+    },
+    {
+      "path": "Sales_Revenue/renewals/Renewals_and_Expansion_Next_180_Days.xlsx",
+      "iq": "Sales (Revenue) IQ",
+      "folder": "Sales_Revenue/renewals",
+      "format": "xlsx",
+      "classification": "Confidential",
+      "source_system": "SysHCM",
+      "size_bytes": 10797,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1002",
+        "ACC-1003",
+        "ACC-1004",
+        "ACC-1005",
+        "ACC-1006",
+        "ACC-1007",
+        "ACC-1008",
+        "ACC-1009",
+        "ACC-1010",
+        "ACC-1011",
+        "ACC-1012",
+        "ACC-1015"
+      ],
+      "opportunities": [
+        "OPP-24101",
+        "OPP-24102",
+        "OPP-24103",
+        "OPP-24110",
+        "OPP-24111",
+        "OPP-24120",
+        "OPP-24121",
+        "OPP-24130",
+        "OPP-24141",
+        "OPP-24150",
+        "OPP-24160",
+        "OPP-24171",
+        "OPP-24180",
+        "OPP-24190",
+        "OPP-24200",
+        "OPP-24210",
+        "OPP-24240",
+        "OPP-24260"
+      ],
+      "bids": [
+        "BID-0612",
+        "BID-0615",
+        "BID-0619"
+      ],
+      "programmes": [
+        "PRG-2004"
+      ],
+      "projects": [],
+      "partners": [
+        "PRT-01",
+        "PRT-02",
+        "PRT-03"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "Solutions/analyst_research/Analyst_Research_Digest_Q3_2026.docx",
+      "iq": "Solutions IQ",
+      "folder": "Solutions/analyst_research",
+      "format": "docx",
+      "classification": "Internal",
+      "source_system": "SharePoint",
+      "size_bytes": 39999,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1003",
+        "ACC-1014"
+      ],
+      "opportunities": [],
+      "bids": [
+        "BID-0569"
+      ],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-03",
+        "PRT-04",
+        "PRT-06"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "Solutions/solution_documents/Cloud_Data_Platform_Reference_Architecture_BFSI.docx",
+      "iq": "Solutions IQ",
+      "folder": "Solutions/solution_documents",
+      "format": "docx",
+      "classification": "Internal",
+      "source_system": "SharePoint",
+      "size_bytes": 39997,
+      "accounts": [
+        "ACC-1003",
+        "ACC-1008",
+        "ACC-1013"
+      ],
+      "opportunities": [],
+      "bids": [
+        "BID-0612",
+        "BID-0614"
+      ],
+      "programmes": [
+        "PRG-2004"
+      ],
+      "projects": [],
+      "partners": [
+        "PRT-01",
+        "PRT-03"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "Solutions/solution_documents/Solution_Catalogue_by_Service_and_Industry.xlsx",
+      "iq": "Solutions IQ",
+      "folder": "Solutions/solution_documents",
+      "format": "xlsx",
+      "classification": "Internal",
+      "source_system": "SharePoint",
+      "size_bytes": 12211,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1002",
+        "ACC-1003",
+        "ACC-1004",
+        "ACC-1005",
+        "ACC-1006",
+        "ACC-1007",
+        "ACC-1008",
+        "ACC-1009",
+        "ACC-1010",
+        "ACC-1012",
+        "ACC-1015",
+        "ACC-1016",
+        "ACC-1017",
+        "ACC-1018"
+      ],
+      "opportunities": [],
+      "bids": [
+        "BID-0549",
+        "BID-0557",
+        "BID-0578",
+        "BID-0582",
+        "BID-0586",
+        "BID-0588",
+        "BID-0597",
+        "BID-0612",
+        "BID-0618"
+      ],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-01",
+        "PRT-02",
+        "PRT-03",
+        "PRT-04",
+        "PRT-05",
+        "PRT-06"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "Solutions/solution_documents/Win_Themes_Playbook_FY2027.pptx",
+      "iq": "Solutions IQ",
+      "folder": "Solutions/solution_documents",
+      "format": "pptx",
+      "classification": "Internal",
+      "source_system": "SharePoint",
+      "size_bytes": 35287,
+      "accounts": [
+        "ACC-1003",
+        "ACC-1004",
+        "ACC-1006",
+        "ACC-1008"
+      ],
+      "opportunities": [],
+      "bids": [
+        "BID-0549",
+        "BID-0557",
+        "BID-0578",
+        "BID-0582",
+        "BID-0586",
+        "BID-0588",
+        "BID-0597",
+        "BID-0612",
+        "BID-0618"
+      ],
+      "programmes": [],
+      "projects": [],
+      "partners": [],
+      "campaigns": []
+    },
+    {
+      "path": "Solutions/requirements/Calder_Insurance_RFP_Compliance_Matrix_CI-2026-014.xlsx",
+      "iq": "Solutions IQ",
+      "folder": "Solutions/requirements",
+      "format": "xlsx",
+      "classification": "Confidential",
+      "source_system": "SharePoint",
+      "size_bytes": 16854,
+      "accounts": [
+        "ACC-1014"
+      ],
+      "opportunities": [],
+      "bids": [
+        "BID-0618"
+      ],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-04",
+        "PRT-06"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "Solutions/requirements/RFP_RFI_SOW_Requirement_Patterns_FY2026.csv",
+      "iq": "Solutions IQ",
+      "folder": "Solutions/requirements",
+      "format": "csv",
+      "classification": "Internal",
+      "source_system": "SharePoint",
+      "size_bytes": 2694,
+      "accounts": [],
+      "opportunities": [],
+      "bids": [
+        "BID-0541",
+        "BID-0552",
+        "BID-0569",
+        "BID-0578",
+        "BID-0584",
+        "BID-0597",
+        "BID-0599",
+        "BID-0603",
+        "BID-0608",
+        "BID-0611",
+        "BID-0612",
+        "BID-0614",
+        "BID-0615",
+        "BID-0617",
+        "BID-0618",
+        "BID-0619",
+        "BID-0620"
+      ],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-01",
+        "PRT-03",
+        "PRT-04"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "Solutions/capability_gaps/accelerator_reuse_log_FY2026.csv",
+      "iq": "Solutions IQ",
+      "folder": "Solutions/capability_gaps",
+      "format": "csv",
+      "classification": "Internal",
+      "source_system": "SharePoint",
+      "size_bytes": 968,
+      "accounts": [
+        "ACC-1003",
+        "ACC-1007",
+        "ACC-1008",
+        "ACC-1013",
+        "ACC-1014",
+        "ACC-1016",
+        "ACC-1017"
+      ],
+      "opportunities": [],
+      "bids": [
+        "BID-0589",
+        "BID-0594",
+        "BID-0601",
+        "BID-0612",
+        "BID-0614",
+        "BID-0618",
+        "BID-0619"
+      ],
+      "programmes": [
+        "PRG-2004"
+      ],
+      "projects": [],
+      "partners": [
+        "PRT-06"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "Solutions/capability_gaps/capability_gaps_and_asset_reuse.json",
+      "iq": "Solutions IQ",
+      "folder": "Solutions/capability_gaps",
+      "format": "json",
+      "classification": "Internal",
+      "source_system": "SharePoint",
+      "size_bytes": 5093,
+      "accounts": [
+        "ACC-1003",
+        "ACC-1006",
+        "ACC-1009",
+        "ACC-1011",
+        "ACC-1012",
+        "ACC-1013",
+        "ACC-1014"
+      ],
+      "opportunities": [
+        "OPP-24150",
+        "OPP-24210",
+        "OPP-24240",
+        "OPP-24260"
+      ],
+      "bids": [
+        "BID-0546",
+        "BID-0549",
+        "BID-0557",
+        "BID-0569",
+        "BID-0572",
+        "BID-0582",
+        "BID-0588",
+        "BID-0589",
+        "BID-0594",
+        "BID-0597",
+        "BID-0599",
+        "BID-0611",
+        "BID-0612",
+        "BID-0614",
+        "BID-0618",
+        "BID-0619",
+        "BID-0620"
+      ],
+      "programmes": [
+        "PRG-2002",
+        "PRG-2004",
+        "PRG-2005"
+      ],
+      "projects": [],
+      "partners": [
+        "PRT-04",
+        "PRT-06"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "Solutions/pricing/Commercial_Pricing_Guidelines_FY2026.pdf",
+      "iq": "Solutions IQ",
+      "folder": "Solutions/pricing",
+      "format": "pdf",
+      "classification": "Confidential",
+      "source_system": "SharePoint",
+      "size_bytes": 4204,
+      "accounts": [],
+      "opportunities": [],
+      "bids": [],
+      "programmes": [],
+      "projects": [
+        "PRJ-3101"
+      ],
+      "partners": [],
+      "campaigns": []
+    },
+    {
+      "path": "Solutions/pricing/Pricing_Benchmarks_and_Deal_Pricing_Log_FY2026.xlsx",
+      "iq": "Solutions IQ",
+      "folder": "Solutions/pricing",
+      "format": "xlsx",
+      "classification": "Confidential",
+      "source_system": "SharePoint",
+      "size_bytes": 13115,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1002",
+        "ACC-1003",
+        "ACC-1006",
+        "ACC-1008",
+        "ACC-1009",
+        "ACC-1010",
+        "ACC-1011",
+        "ACC-1013",
+        "ACC-1014",
+        "ACC-1015"
+      ],
+      "opportunities": [],
+      "bids": [
+        "BID-0541",
+        "BID-0546",
+        "BID-0549",
+        "BID-0552",
+        "BID-0555",
+        "BID-0563",
+        "BID-0569",
+        "BID-0584",
+        "BID-0586",
+        "BID-0597",
+        "BID-0599",
+        "BID-0611",
+        "BID-0612",
+        "BID-0614",
+        "BID-0618"
+      ],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-06"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "Solutions/case_studies/Case_Study_Litware_Insurance_Claims_Intake_IDP.docx",
+      "iq": "Solutions IQ",
+      "folder": "Solutions/case_studies",
+      "format": "docx",
+      "classification": "Internal",
+      "source_system": "SharePoint",
+      "size_bytes": 39415,
+      "accounts": [
+        "ACC-1005",
+        "ACC-1014"
+      ],
+      "opportunities": [
+        "OPP-24150"
+      ],
+      "bids": [
+        "BID-0582",
+        "BID-0618"
+      ],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-06"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "Solutions/case_studies/Case_Study_Tailspin_Airlines_AWS_Migration_Factory.pdf",
+      "iq": "Solutions IQ",
+      "folder": "Solutions/case_studies",
+      "format": "pdf",
+      "classification": "Public",
+      "source_system": "SharePoint",
+      "size_bytes": 2870,
+      "accounts": [
+        "ACC-1004"
+      ],
+      "opportunities": [],
+      "bids": [
+        "BID-0608"
+      ],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-02"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "Solutions/case_studies/Case_Study_Wingtip_Logistics_Fleet_Analytics.pdf",
+      "iq": "Solutions IQ",
+      "folder": "Solutions/case_studies",
+      "format": "pdf",
+      "classification": "Public",
+      "source_system": "SharePoint",
+      "size_bytes": 3142,
+      "accounts": [
+        "ACC-1008"
+      ],
+      "opportunities": [],
+      "bids": [],
+      "programmes": [],
+      "projects": [
+        "PRJ-3201",
+        "PRJ-3202"
+      ],
+      "partners": [
+        "PRT-03"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "Solutions/case_studies/proof_points_and_reference_status.json",
+      "iq": "Solutions IQ",
+      "folder": "Solutions/case_studies",
+      "format": "json",
+      "classification": "Internal",
+      "source_system": "SharePoint",
+      "size_bytes": 4563,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1003",
+        "ACC-1004",
+        "ACC-1005",
+        "ACC-1006",
+        "ACC-1008",
+        "ACC-1009",
+        "ACC-1015"
+      ],
+      "opportunities": [],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-01",
+        "PRT-02",
+        "PRT-03"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "Accounts/stakeholder_reports/Stakeholder_Map_Key_Accounts_Oct_2026.xlsx",
+      "iq": "Accounts IQ",
+      "folder": "Accounts/stakeholder_reports",
+      "format": "xlsx",
+      "classification": "Confidential",
+      "source_system": "SharePoint",
+      "size_bytes": 13185,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1002",
+        "ACC-1003",
+        "ACC-1004",
+        "ACC-1005",
+        "ACC-1006",
+        "ACC-1007",
+        "ACC-1008",
+        "ACC-1009",
+        "ACC-1010",
+        "ACC-1011",
+        "ACC-1012",
+        "ACC-1013",
+        "ACC-1014",
+        "ACC-1015"
+      ],
+      "opportunities": [],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [],
+      "campaigns": []
+    },
+    {
+      "path": "Accounts/stakeholder_reports/focusnet_contacts_export_2026-10-06.csv",
+      "iq": "Accounts IQ",
+      "folder": "Accounts/stakeholder_reports",
+      "format": "csv",
+      "classification": "Confidential",
+      "source_system": "FocusNet",
+      "size_bytes": 6223,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1002",
+        "ACC-1003",
+        "ACC-1004",
+        "ACC-1005",
+        "ACC-1006",
+        "ACC-1007",
+        "ACC-1008",
+        "ACC-1009",
+        "ACC-1010",
+        "ACC-1011",
+        "ACC-1012",
+        "ACC-1013",
+        "ACC-1014",
+        "ACC-1015"
+      ],
+      "opportunities": [],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [],
+      "campaigns": []
+    },
+    {
+      "path": "Accounts/account_health/Account_Health_Review_Q3_2026.pptx",
+      "iq": "Accounts IQ",
+      "folder": "Accounts/account_health",
+      "format": "pptx",
+      "classification": "Confidential",
+      "source_system": "SharePoint",
+      "size_bytes": 42111,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1002",
+        "ACC-1003",
+        "ACC-1004",
+        "ACC-1005",
+        "ACC-1006",
+        "ACC-1007",
+        "ACC-1008",
+        "ACC-1009",
+        "ACC-1010",
+        "ACC-1011",
+        "ACC-1012",
+        "ACC-1015"
+      ],
+      "opportunities": [],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [],
+      "campaigns": []
+    },
+    {
+      "path": "Accounts/account_health/Account_Health_Scorecard_Sep_2026.csv",
+      "iq": "Accounts IQ",
+      "folder": "Accounts/account_health",
+      "format": "csv",
+      "classification": "Internal",
+      "source_system": "SharePoint",
+      "size_bytes": 2018,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1002",
+        "ACC-1003",
+        "ACC-1004",
+        "ACC-1005",
+        "ACC-1006",
+        "ACC-1007",
+        "ACC-1008",
+        "ACC-1009",
+        "ACC-1010",
+        "ACC-1011",
+        "ACC-1012",
+        "ACC-1015"
+      ],
+      "opportunities": [],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [],
+      "campaigns": []
+    },
+    {
+      "path": "Accounts/account_health/Northwind_Escalation_Email_Thread_2026-09-29.txt",
+      "iq": "Accounts IQ",
+      "folder": "Accounts/account_health",
+      "format": "txt",
+      "classification": "Confidential",
+      "source_system": "Emails / delivery mail",
+      "size_bytes": 3203,
+      "accounts": [
+        "ACC-1001"
+      ],
+      "opportunities": [],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [],
+      "campaigns": []
+    },
+    {
+      "path": "Accounts/meeting_notes/Fabrikam_Health_Executive_Meeting_Notes_2026-09-18.docx",
+      "iq": "Accounts IQ",
+      "folder": "Accounts/meeting_notes",
+      "format": "docx",
+      "classification": "Confidential",
+      "source_system": "SharePoint",
+      "size_bytes": 39922,
+      "accounts": [
+        "ACC-1002"
+      ],
+      "opportunities": [
+        "OPP-24110",
+        "OPP-24111"
+      ],
+      "bids": [],
+      "programmes": [
+        "PRG-2003"
+      ],
+      "projects": [],
+      "partners": [
+        "PRT-01"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "Accounts/meeting_notes/Meridian_Bank_Discovery_Call_Transcript_2026-08-12.txt",
+      "iq": "Accounts IQ",
+      "folder": "Accounts/meeting_notes",
+      "format": "txt",
+      "classification": "Confidential",
+      "source_system": "Copilot transcripts",
+      "size_bytes": 2429,
+      "accounts": [
+        "ACC-1013"
+      ],
+      "opportunities": [],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-01",
+        "PRT-03"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "Accounts/meeting_notes/Northwind_Weekly_Sync_Transcript_2026-10-01.txt",
+      "iq": "Accounts IQ",
+      "folder": "Accounts/meeting_notes",
+      "format": "txt",
+      "classification": "Confidential",
+      "source_system": "Copilot transcripts",
+      "size_bytes": 4357,
+      "accounts": [
+        "ACC-1001"
+      ],
+      "opportunities": [
+        "OPP-24103"
+      ],
+      "bids": [],
+      "programmes": [
+        "PRG-2001"
+      ],
+      "projects": [],
+      "partners": [
+        "PRT-01"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "Accounts/meeting_notes/Woodgrove_CDO_Intro_Call_2026-09-09_pasted_notes.txt",
+      "iq": "Accounts IQ",
+      "folder": "Accounts/meeting_notes",
+      "format": "txt",
+      "classification": "Confidential",
+      "source_system": "Pasted transcripts",
+      "size_bytes": 1528,
+      "accounts": [
+        "ACC-1003"
+      ],
+      "opportunities": [],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [],
+      "campaigns": []
+    },
+    {
+      "path": "Accounts/meeting_notes/meeting_intel_extracts.json",
+      "iq": "Accounts IQ",
+      "folder": "Accounts/meeting_notes",
+      "format": "json",
+      "classification": "Internal",
+      "source_system": "SharePoint",
+      "size_bytes": 6111,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1002",
+        "ACC-1003",
+        "ACC-1013"
+      ],
+      "opportunities": [
+        "OPP-24101",
+        "OPP-24103",
+        "OPP-24110"
+      ],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-01"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "Accounts/trigger_events/Woodgrove_Bank_Q3_2026_Earnings_Brief.pdf",
+      "iq": "Accounts IQ",
+      "folder": "Accounts/trigger_events",
+      "format": "pdf",
+      "classification": "Internal",
+      "source_system": "External feeds",
+      "size_bytes": 3516,
+      "accounts": [
+        "ACC-1003"
+      ],
+      "opportunities": [
+        "OPP-24120"
+      ],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [],
+      "campaigns": []
+    },
+    {
+      "path": "Accounts/trigger_events/external_news_triggers_2026-10.json",
+      "iq": "Accounts IQ",
+      "folder": "Accounts/trigger_events",
+      "format": "json",
+      "classification": "Internal",
+      "source_system": "External feeds",
+      "size_bytes": 5791,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1002",
+        "ACC-1003",
+        "ACC-1004",
+        "ACC-1006",
+        "ACC-1007",
+        "ACC-1008",
+        "ACC-1010",
+        "ACC-1011",
+        "ACC-1012",
+        "ACC-1013",
+        "ACC-1014"
+      ],
+      "opportunities": [
+        "OPP-24102",
+        "OPP-24120",
+        "OPP-24130",
+        "OPP-24141",
+        "OPP-24160",
+        "OPP-24171",
+        "OPP-24200",
+        "OPP-24210",
+        "OPP-24220"
+      ],
+      "bids": [
+        "BID-0618"
+      ],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-03",
+        "PRT-06"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "Accounts/landscape_whitespace/Account_Landscape_and_Whitespace_FY2027.xlsx",
+      "iq": "Accounts IQ",
+      "folder": "Accounts/landscape_whitespace",
+      "format": "xlsx",
+      "classification": "Confidential",
+      "source_system": "SharePoint",
+      "size_bytes": 11870,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1002",
+        "ACC-1003",
+        "ACC-1004",
+        "ACC-1005",
+        "ACC-1006",
+        "ACC-1007",
+        "ACC-1008",
+        "ACC-1009",
+        "ACC-1010",
+        "ACC-1011",
+        "ACC-1012",
+        "ACC-1013",
+        "ACC-1014"
+      ],
+      "opportunities": [
+        "OPP-24110",
+        "OPP-24120",
+        "OPP-24130",
+        "OPP-24160",
+        "OPP-24220",
+        "OPP-24230"
+      ],
+      "bids": [
+        "BID-0555",
+        "BID-0597",
+        "BID-0599"
+      ],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-01",
+        "PRT-02",
+        "PRT-03",
+        "PRT-04",
+        "PRT-05",
+        "PRT-06"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "Accounts/account_plans/Fabrikam_Health_Account_Plan_Summary_FY2027.pdf",
+      "iq": "Accounts IQ",
+      "folder": "Accounts/account_plans",
+      "format": "pdf",
+      "classification": "Confidential",
+      "source_system": "SharePoint",
+      "size_bytes": 4111,
+      "accounts": [
+        "ACC-1002"
+      ],
+      "opportunities": [
+        "OPP-24110",
+        "OPP-24111"
+      ],
+      "bids": [],
+      "programmes": [
+        "PRG-2003"
+      ],
+      "projects": [],
+      "partners": [
+        "PRT-01"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "Accounts/account_plans/Northwind_Traders_Account_Plan_FY2027.docx",
+      "iq": "Accounts IQ",
+      "folder": "Accounts/account_plans",
+      "format": "docx",
+      "classification": "Confidential",
+      "source_system": "SharePoint",
+      "size_bytes": 42831,
+      "accounts": [
+        "ACC-1001"
+      ],
+      "opportunities": [
+        "OPP-24101",
+        "OPP-24102",
+        "OPP-24103"
+      ],
+      "bids": [],
+      "programmes": [
+        "PRG-2001"
+      ],
+      "projects": [
+        "PRJ-3101",
+        "PRJ-3102",
+        "PRJ-3103"
+      ],
+      "partners": [],
+      "campaigns": []
+    },
+    {
+      "path": "Accounts/account_plans/Woodgrove_Bank_Account_Plan_FY2027.pptx",
+      "iq": "Accounts IQ",
+      "folder": "Accounts/account_plans",
+      "format": "pptx",
+      "classification": "Confidential",
+      "source_system": "SharePoint",
+      "size_bytes": 43484,
+      "accounts": [
+        "ACC-1003"
+      ],
+      "opportunities": [
+        "OPP-24120"
+      ],
+      "bids": [],
+      "programmes": [
+        "PRG-2004"
+      ],
+      "projects": [],
+      "partners": [
+        "PRT-01"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "Channels_Partners/partner_reports/Partner_Pipeline_Report_Oct_2026.xlsx",
+      "iq": "Channels and Partners IQ",
+      "folder": "Channels_Partners/partner_reports",
+      "format": "xlsx",
+      "classification": "Internal",
+      "source_system": "FocusNet",
+      "size_bytes": 12229,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1002",
+        "ACC-1003",
+        "ACC-1004",
+        "ACC-1005",
+        "ACC-1006",
+        "ACC-1007",
+        "ACC-1008",
+        "ACC-1009",
+        "ACC-1010",
+        "ACC-1012",
+        "ACC-1013",
+        "ACC-1014",
+        "ACC-1015",
+        "ACC-1016",
+        "ACC-1018"
+      ],
+      "opportunities": [
+        "OPP-24102",
+        "OPP-24110",
+        "OPP-24120",
+        "OPP-24121",
+        "OPP-24130",
+        "OPP-24131",
+        "OPP-24140",
+        "OPP-24150",
+        "OPP-24170",
+        "OPP-24171",
+        "OPP-24190",
+        "OPP-24210",
+        "OPP-24220",
+        "OPP-24230",
+        "OPP-24240",
+        "OPP-24250",
+        "OPP-24260",
+        "OPP-24270",
+        "OPP-24290",
+        "OPP-24330",
+        "OPP-24340"
+      ],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-01",
+        "PRT-02",
+        "PRT-03",
+        "PRT-04",
+        "PRT-05",
+        "PRT-06"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "Channels_Partners/partner_reports/Partner_Scorecard_Q3_2026.pptx",
+      "iq": "Channels and Partners IQ",
+      "folder": "Channels_Partners/partner_reports",
+      "format": "pptx",
+      "classification": "Internal",
+      "source_system": "SharePoint",
+      "size_bytes": 41443,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1003",
+        "ACC-1004",
+        "ACC-1010"
+      ],
+      "opportunities": [],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-01",
+        "PRT-02",
+        "PRT-03",
+        "PRT-04",
+        "PRT-05",
+        "PRT-06"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "Channels_Partners/joint_plans/AWS_Partner_Field_Priorities_H2_2026.pdf",
+      "iq": "Channels and Partners IQ",
+      "folder": "Channels_Partners/joint_plans",
+      "format": "pdf",
+      "classification": "Confidential",
+      "source_system": "SharePoint",
+      "size_bytes": 4083,
+      "accounts": [
+        "ACC-1004",
+        "ACC-1012",
+        "ACC-1014",
+        "ACC-1018"
+      ],
+      "opportunities": [
+        "OPP-24210"
+      ],
+      "bids": [
+        "BID-0618"
+      ],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-02",
+        "PRT-06"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "Channels_Partners/joint_plans/Microsoft_Joint_Business_Plan_FY2027.docx",
+      "iq": "Channels and Partners IQ",
+      "folder": "Channels_Partners/joint_plans",
+      "format": "docx",
+      "classification": "Confidential",
+      "source_system": "SharePoint",
+      "size_bytes": 40386,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1002",
+        "ACC-1003",
+        "ACC-1005",
+        "ACC-1010",
+        "ACC-1013",
+        "ACC-1015",
+        "ACC-1016"
+      ],
+      "opportunities": [],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-01",
+        "PRT-03"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "Channels_Partners/joint_plans/joint_account_plans.json",
+      "iq": "Channels and Partners IQ",
+      "folder": "Channels_Partners/joint_plans",
+      "format": "json",
+      "classification": "Internal",
+      "source_system": "SharePoint",
+      "size_bytes": 5837,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1002",
+        "ACC-1003",
+        "ACC-1004",
+        "ACC-1005",
+        "ACC-1008",
+        "ACC-1010",
+        "ACC-1012",
+        "ACC-1013",
+        "ACC-1014",
+        "ACC-1015"
+      ],
+      "opportunities": [
+        "OPP-24102",
+        "OPP-24110",
+        "OPP-24120",
+        "OPP-24121",
+        "OPP-24130",
+        "OPP-24150",
+        "OPP-24171",
+        "OPP-24190",
+        "OPP-24210",
+        "OPP-24220",
+        "OPP-24230",
+        "OPP-24240",
+        "OPP-24260"
+      ],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-01",
+        "PRT-02",
+        "PRT-03",
+        "PRT-04",
+        "PRT-06"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "Channels_Partners/deal_registrations/Deal_Registration_Tracker_FY2026.xlsx",
+      "iq": "Channels and Partners IQ",
+      "folder": "Channels_Partners/deal_registrations",
+      "format": "xlsx",
+      "classification": "Internal",
+      "source_system": "SharePoint",
+      "size_bytes": 8589,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1002",
+        "ACC-1003",
+        "ACC-1004",
+        "ACC-1005",
+        "ACC-1008",
+        "ACC-1010",
+        "ACC-1012",
+        "ACC-1013",
+        "ACC-1014"
+      ],
+      "opportunities": [
+        "OPP-24102",
+        "OPP-24110",
+        "OPP-24120",
+        "OPP-24130",
+        "OPP-24131",
+        "OPP-24150",
+        "OPP-24171",
+        "OPP-24190",
+        "OPP-24210",
+        "OPP-24220",
+        "OPP-24230"
+      ],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-01",
+        "PRT-02",
+        "PRT-03",
+        "PRT-04",
+        "PRT-06"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "Channels_Partners/deal_registrations/aws_ace_opportunities_export_2026-10-05.csv",
+      "iq": "Channels and Partners IQ",
+      "folder": "Channels_Partners/deal_registrations",
+      "format": "csv",
+      "classification": "Internal",
+      "source_system": "AWS Partner Central",
+      "size_bytes": 1183,
+      "accounts": [
+        "ACC-1004",
+        "ACC-1012",
+        "ACC-1014"
+      ],
+      "opportunities": [
+        "OPP-24130",
+        "OPP-24131",
+        "OPP-24210",
+        "OPP-24230"
+      ],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-02",
+        "PRT-06"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "Channels_Partners/deal_registrations/microsoft_partner_center_referrals_export_2026-10-05.json",
+      "iq": "Channels and Partners IQ",
+      "folder": "Channels_Partners/deal_registrations",
+      "format": "json",
+      "classification": "Internal",
+      "source_system": "Microsoft Partner Center",
+      "size_bytes": 8627,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1002",
+        "ACC-1003",
+        "ACC-1005",
+        "ACC-1010",
+        "ACC-1013"
+      ],
+      "opportunities": [
+        "OPP-24102",
+        "OPP-24110",
+        "OPP-24120",
+        "OPP-24150",
+        "OPP-24190",
+        "OPP-24220"
+      ],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-01",
+        "PRT-03"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "Channels_Partners/relationships/Microsoft_PDM_Monthly_Sync_Notes_2026-09-24.txt",
+      "iq": "Channels and Partners IQ",
+      "folder": "Channels_Partners/relationships",
+      "format": "txt",
+      "classification": "Internal",
+      "source_system": "SharePoint",
+      "size_bytes": 2113,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1002",
+        "ACC-1003",
+        "ACC-1010",
+        "ACC-1013",
+        "ACC-1015"
+      ],
+      "opportunities": [],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-01"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "Channels_Partners/relationships/Partner_Certifications_Status_Sep_2026.csv",
+      "iq": "Channels and Partners IQ",
+      "folder": "Channels_Partners/relationships",
+      "format": "csv",
+      "classification": "Internal",
+      "source_system": "SharePoint",
+      "size_bytes": 1805,
+      "accounts": [],
+      "opportunities": [],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-01",
+        "PRT-02",
+        "PRT-03",
+        "PRT-04",
+        "PRT-05",
+        "PRT-06"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "Channels_Partners/relationships/partner_relationship_map.json",
+      "iq": "Channels and Partners IQ",
+      "folder": "Channels_Partners/relationships",
+      "format": "json",
+      "classification": "Internal",
+      "source_system": "SharePoint",
+      "size_bytes": 6458,
+      "accounts": [
+        "ACC-1014"
+      ],
+      "opportunities": [
+        "OPP-24102",
+        "OPP-24110",
+        "OPP-24120",
+        "OPP-24121",
+        "OPP-24130",
+        "OPP-24150",
+        "OPP-24171",
+        "OPP-24190",
+        "OPP-24210",
+        "OPP-24220",
+        "OPP-24230",
+        "OPP-24240",
+        "OPP-24260"
+      ],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-01",
+        "PRT-02",
+        "PRT-03",
+        "PRT-04",
+        "PRT-05",
+        "PRT-06"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "Channels_Partners/funding/Funding_Expiry_Reminder_Lamna_AMM_email.txt",
+      "iq": "Channels and Partners IQ",
+      "folder": "Channels_Partners/funding",
+      "format": "txt",
+      "classification": "Confidential",
+      "source_system": "Emails / delivery mail",
+      "size_bytes": 1095,
+      "accounts": [
+        "ACC-1010"
+      ],
+      "opportunities": [
+        "OPP-24190"
+      ],
+      "bids": [
+        "BID-0615"
+      ],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-01",
+        "PRT-02"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "Channels_Partners/funding/Microsoft_ECIF_Approval_Woodgrove_POC_email.txt",
+      "iq": "Channels and Partners IQ",
+      "folder": "Channels_Partners/funding",
+      "format": "txt",
+      "classification": "Confidential",
+      "source_system": "Emails / delivery mail",
+      "size_bytes": 1202,
+      "accounts": [
+        "ACC-1003"
+      ],
+      "opportunities": [],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-01",
+        "PRT-03"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "Channels_Partners/funding/Partner_Funding_Tracker_FY2026.xlsx",
+      "iq": "Channels and Partners IQ",
+      "folder": "Channels_Partners/funding",
+      "format": "xlsx",
+      "classification": "Confidential",
+      "source_system": "SharePoint",
+      "size_bytes": 9210,
+      "accounts": [
+        "ACC-1002",
+        "ACC-1003",
+        "ACC-1004",
+        "ACC-1008",
+        "ACC-1010",
+        "ACC-1012",
+        "ACC-1013",
+        "ACC-1014"
+      ],
+      "opportunities": [
+        "OPP-24110",
+        "OPP-24120",
+        "OPP-24131",
+        "OPP-24170",
+        "OPP-24190",
+        "OPP-24210",
+        "OPP-24220",
+        "OPP-24230"
+      ],
+      "bids": [],
+      "programmes": [
+        "PRG-2004"
+      ],
+      "projects": [],
+      "partners": [
+        "PRT-01",
+        "PRT-02",
+        "PRT-03"
+      ],
+      "campaigns": [
+        "CMP-2604"
+      ]
+    },
+    {
+      "path": "Campaign/marketing_data/Campaign_Budget_and_Spend_Tracker_2026.xlsx",
+      "iq": "Campaign IQ",
+      "folder": "Campaign/marketing_data",
+      "format": "xlsx",
+      "classification": "Internal",
+      "source_system": "HubSpot",
+      "size_bytes": 7780,
+      "accounts": [],
+      "opportunities": [],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-01"
+      ],
+      "campaigns": [
+        "CMP-2601",
+        "CMP-2602",
+        "CMP-2603",
+        "CMP-2604",
+        "CMP-2605",
+        "CMP-2606",
+        "CMP-2607",
+        "CMP-2608"
+      ]
+    },
+    {
+      "path": "Campaign/marketing_data/hubspot_campaigns_export_2026-10-01.json",
+      "iq": "Campaign IQ",
+      "folder": "Campaign/marketing_data",
+      "format": "json",
+      "classification": "Internal",
+      "source_system": "HubSpot",
+      "size_bytes": 11318,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1002",
+        "ACC-1003",
+        "ACC-1005",
+        "ACC-1006",
+        "ACC-1007",
+        "ACC-1009",
+        "ACC-1010",
+        "ACC-1011",
+        "ACC-1012",
+        "ACC-1013",
+        "ACC-1014",
+        "ACC-1015",
+        "ACC-1016",
+        "ACC-1017"
+      ],
+      "opportunities": [
+        "OPP-24102",
+        "OPP-24110",
+        "OPP-24120",
+        "OPP-24121",
+        "OPP-24140",
+        "OPP-24141",
+        "OPP-24150",
+        "OPP-24160",
+        "OPP-24190",
+        "OPP-24220",
+        "OPP-24230",
+        "OPP-24260",
+        "OPP-24270"
+      ],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-01"
+      ],
+      "campaigns": [
+        "CMP-2601",
+        "CMP-2602",
+        "CMP-2603",
+        "CMP-2604",
+        "CMP-2605",
+        "CMP-2606",
+        "CMP-2607",
+        "CMP-2608"
+      ]
+    },
+    {
+      "path": "Campaign/lead_reports/MQL_SQL_Funnel_Report_Sep_2026.xlsx",
+      "iq": "Campaign IQ",
+      "folder": "Campaign/lead_reports",
+      "format": "xlsx",
+      "classification": "Internal",
+      "source_system": "HubSpot",
+      "size_bytes": 53046,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1002",
+        "ACC-1003",
+        "ACC-1005",
+        "ACC-1006",
+        "ACC-1007",
+        "ACC-1008",
+        "ACC-1009",
+        "ACC-1010",
+        "ACC-1011",
+        "ACC-1012",
+        "ACC-1013",
+        "ACC-1014",
+        "ACC-1015",
+        "ACC-1016",
+        "ACC-1017"
+      ],
+      "opportunities": [
+        "OPP-24120",
+        "OPP-24150",
+        "OPP-24160",
+        "OPP-24190",
+        "OPP-24220",
+        "OPP-24260",
+        "OPP-24270"
+      ],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [],
+      "campaigns": [
+        "CMP-2601",
+        "CMP-2602",
+        "CMP-2603",
+        "CMP-2604",
+        "CMP-2605",
+        "CMP-2606",
+        "CMP-2607",
+        "CMP-2608"
+      ]
+    },
+    {
+      "path": "Campaign/lead_reports/hubspot_contacts_lifecycle_export_2026-10-01.csv",
+      "iq": "Campaign IQ",
+      "folder": "Campaign/lead_reports",
+      "format": "csv",
+      "classification": "Confidential",
+      "source_system": "HubSpot",
+      "size_bytes": 157429,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1002",
+        "ACC-1003",
+        "ACC-1005",
+        "ACC-1006",
+        "ACC-1007",
+        "ACC-1008",
+        "ACC-1009",
+        "ACC-1010",
+        "ACC-1011",
+        "ACC-1012",
+        "ACC-1013",
+        "ACC-1014",
+        "ACC-1015",
+        "ACC-1016",
+        "ACC-1017"
+      ],
+      "opportunities": [],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [],
+      "campaigns": []
+    },
+    {
+      "path": "Campaign/attribution/Campaign_Attribution_and_ROI_FY2026.xlsx",
+      "iq": "Campaign IQ",
+      "folder": "Campaign/attribution",
+      "format": "xlsx",
+      "classification": "Confidential",
+      "source_system": "HubSpot",
+      "size_bytes": 10142,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1002",
+        "ACC-1003",
+        "ACC-1005",
+        "ACC-1006",
+        "ACC-1007",
+        "ACC-1010",
+        "ACC-1013",
+        "ACC-1014",
+        "ACC-1016"
+      ],
+      "opportunities": [
+        "OPP-24102",
+        "OPP-24110",
+        "OPP-24120",
+        "OPP-24121",
+        "OPP-24140",
+        "OPP-24141",
+        "OPP-24150",
+        "OPP-24160",
+        "OPP-24190",
+        "OPP-24220",
+        "OPP-24230",
+        "OPP-24260",
+        "OPP-24270"
+      ],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-06"
+      ],
+      "campaigns": [
+        "CMP-2601",
+        "CMP-2602",
+        "CMP-2603",
+        "CMP-2604",
+        "CMP-2605",
+        "CMP-2606",
+        "CMP-2607",
+        "CMP-2608"
+      ]
+    },
+    {
+      "path": "Campaign/campaign_reports/BFSI_Webinar_Series_Post_Event_Report.docx",
+      "iq": "Campaign IQ",
+      "folder": "Campaign/campaign_reports",
+      "format": "docx",
+      "classification": "Internal",
+      "source_system": "SharePoint",
+      "size_bytes": 40218,
+      "accounts": [
+        "ACC-1003",
+        "ACC-1005",
+        "ACC-1013",
+        "ACC-1014"
+      ],
+      "opportunities": [
+        "OPP-24120",
+        "OPP-24220"
+      ],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-01",
+        "PRT-03",
+        "PRT-06"
+      ],
+      "campaigns": [
+        "CMP-2601"
+      ]
+    },
+    {
+      "path": "Campaign/campaign_reports/Marketing_QBR_Q3_2026.pptx",
+      "iq": "Campaign IQ",
+      "folder": "Campaign/campaign_reports",
+      "format": "pptx",
+      "classification": "Internal",
+      "source_system": "SharePoint",
+      "size_bytes": 50333,
+      "accounts": [
+        "ACC-1001"
+      ],
+      "opportunities": [],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-06"
+      ],
+      "campaigns": [
+        "CMP-2601",
+        "CMP-2602",
+        "CMP-2603",
+        "CMP-2604",
+        "CMP-2605",
+        "CMP-2606",
+        "CMP-2607",
+        "CMP-2608"
+      ]
+    },
+    {
+      "path": "Campaign/campaign_reports/Q3_2026_Campaign_Performance_Report.pdf",
+      "iq": "Campaign IQ",
+      "folder": "Campaign/campaign_reports",
+      "format": "pdf",
+      "classification": "Internal",
+      "source_system": "SharePoint",
+      "size_bytes": 6566,
+      "accounts": [
+        "ACC-1005",
+        "ACC-1006",
+        "ACC-1013",
+        "ACC-1014"
+      ],
+      "opportunities": [
+        "OPP-24150",
+        "OPP-24220"
+      ],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-06"
+      ],
+      "campaigns": [
+        "CMP-2601",
+        "CMP-2602",
+        "CMP-2604",
+        "CMP-2605",
+        "CMP-2606",
+        "CMP-2607",
+        "CMP-2608"
+      ]
+    },
+    {
+      "path": "Campaign/inside_sales/Inside_Sales_Activity_Dashboard_W28-W40.xlsx",
+      "iq": "Campaign IQ",
+      "folder": "Campaign/inside_sales",
+      "format": "xlsx",
+      "classification": "Internal",
+      "source_system": "HubSpot",
+      "size_bytes": 16649,
+      "accounts": [],
+      "opportunities": [],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [],
+      "campaigns": []
+    },
+    {
+      "path": "Campaign/inside_sales/Voice_of_Prospect_Digest_September_2026.txt",
+      "iq": "Campaign IQ",
+      "folder": "Campaign/inside_sales",
+      "format": "txt",
+      "classification": "Internal",
+      "source_system": "SharePoint",
+      "size_bytes": 2627,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1003",
+        "ACC-1005",
+        "ACC-1010",
+        "ACC-1011",
+        "ACC-1013",
+        "ACC-1014"
+      ],
+      "opportunities": [],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-06"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "Campaign/inside_sales/hubspot_meetings_export_2026-09.csv",
+      "iq": "Campaign IQ",
+      "folder": "Campaign/inside_sales",
+      "format": "csv",
+      "classification": "Internal",
+      "source_system": "HubSpot",
+      "size_bytes": 3846,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1003",
+        "ACC-1005",
+        "ACC-1010",
+        "ACC-1012",
+        "ACC-1013",
+        "ACC-1014",
+        "ACC-1017"
+      ],
+      "opportunities": [],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [],
+      "campaigns": [
+        "CMP-2601",
+        "CMP-2602",
+        "CMP-2604",
+        "CMP-2605",
+        "CMP-2607"
+      ]
+    },
+    {
+      "path": "Campaign/account_engagement/target_account_engagement_intent_W33-W40.csv",
+      "iq": "Campaign IQ",
+      "folder": "Campaign/account_engagement",
+      "format": "csv",
+      "classification": "Internal",
+      "source_system": "HubSpot",
+      "size_bytes": 14100,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1002",
+        "ACC-1003",
+        "ACC-1005",
+        "ACC-1006",
+        "ACC-1007",
+        "ACC-1009",
+        "ACC-1010",
+        "ACC-1011",
+        "ACC-1012",
+        "ACC-1013",
+        "ACC-1014",
+        "ACC-1015",
+        "ACC-1016",
+        "ACC-1017"
+      ],
+      "opportunities": [],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-01",
+        "PRT-02",
+        "PRT-03",
+        "PRT-06"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "Delivery/weekly_status/Fabrikam_PDP_Weekly_Status_W40_email.txt",
+      "iq": "Delivery IQ",
+      "folder": "Delivery/weekly_status",
+      "format": "txt",
+      "classification": "Confidential",
+      "source_system": "Emails / delivery mail",
+      "size_bytes": 1771,
+      "accounts": [
+        "ACC-1002"
+      ],
+      "opportunities": [],
+      "bids": [],
+      "programmes": [
+        "PRG-2003"
+      ],
+      "projects": [],
+      "partners": [],
+      "campaigns": []
+    },
+    {
+      "path": "Delivery/weekly_status/Northwind_Atlas_Weekly_Status_Report_W40.docx",
+      "iq": "Delivery IQ",
+      "folder": "Delivery/weekly_status",
+      "format": "docx",
+      "classification": "Confidential",
+      "source_system": "SharePoint",
+      "size_bytes": 40011,
+      "accounts": [
+        "ACC-1001"
+      ],
+      "opportunities": [
+        "OPP-24103"
+      ],
+      "bids": [],
+      "programmes": [
+        "PRG-2001"
+      ],
+      "projects": [],
+      "partners": [],
+      "campaigns": []
+    },
+    {
+      "path": "Delivery/weekly_status/Wingtip_Fleet_Analytics_Status_W40.pptx",
+      "iq": "Delivery IQ",
+      "folder": "Delivery/weekly_status",
+      "format": "pptx",
+      "classification": "Confidential",
+      "source_system": "SharePoint",
+      "size_bytes": 34786,
+      "accounts": [
+        "ACC-1008"
+      ],
+      "opportunities": [
+        "OPP-24171"
+      ],
+      "bids": [],
+      "programmes": [],
+      "projects": [
+        "PRJ-3202"
+      ],
+      "partners": [],
+      "campaigns": []
+    },
+    {
+      "path": "Delivery/weekly_status/Woodgrove_Lakehouse_POC_Status_Report_W40.pdf",
+      "iq": "Delivery IQ",
+      "folder": "Delivery/weekly_status",
+      "format": "pdf",
+      "classification": "Confidential",
+      "source_system": "SharePoint",
+      "size_bytes": 3529,
+      "accounts": [
+        "ACC-1003"
+      ],
+      "opportunities": [],
+      "bids": [],
+      "programmes": [
+        "PRG-2004"
+      ],
+      "projects": [],
+      "partners": [
+        "PRT-01"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "Delivery/weekly_status/delivery_platform_status_feed_W38-W40.json",
+      "iq": "Delivery IQ",
+      "folder": "Delivery/weekly_status",
+      "format": "json",
+      "classification": "Internal",
+      "source_system": "Delivery platform (TBD)",
+      "size_bytes": 14182,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1002",
+        "ACC-1003",
+        "ACC-1008",
+        "ACC-1009",
+        "ACC-1011",
+        "ACC-1015"
+      ],
+      "opportunities": [],
+      "bids": [],
+      "programmes": [
+        "PRG-2001",
+        "PRG-2002",
+        "PRG-2003",
+        "PRG-2004",
+        "PRG-2005",
+        "PRG-2006",
+        "PRG-2007"
+      ],
+      "projects": [
+        "PRJ-3101",
+        "PRJ-3102",
+        "PRJ-3201",
+        "PRJ-3202",
+        "PRJ-3301",
+        "PRJ-3302",
+        "PRJ-3401",
+        "PRJ-3501",
+        "PRJ-3601",
+        "PRJ-3701"
+      ],
+      "partners": [
+        "PRT-03"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "Delivery/technology_landscape/Client_Technology_Landscape_Delivery_View.xlsx",
+      "iq": "Delivery IQ",
+      "folder": "Delivery/technology_landscape",
+      "format": "xlsx",
+      "classification": "Confidential",
+      "source_system": "SharePoint",
+      "size_bytes": 7553,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1002",
+        "ACC-1003",
+        "ACC-1008",
+        "ACC-1009",
+        "ACC-1011",
+        "ACC-1015"
+      ],
+      "opportunities": [],
+      "bids": [],
+      "programmes": [
+        "PRG-2001",
+        "PRG-2002",
+        "PRG-2003",
+        "PRG-2004",
+        "PRG-2005",
+        "PRG-2006",
+        "PRG-2007"
+      ],
+      "projects": [
+        "PRJ-3103"
+      ],
+      "partners": [
+        "PRT-01",
+        "PRT-03",
+        "PRT-05"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "Delivery/customer_pulse/Customer_Pulse_Survey_Responses_Q3_2026.csv",
+      "iq": "Delivery IQ",
+      "folder": "Delivery/customer_pulse",
+      "format": "csv",
+      "classification": "Confidential",
+      "source_system": "SharePoint",
+      "size_bytes": 7094,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1002",
+        "ACC-1003",
+        "ACC-1004",
+        "ACC-1005",
+        "ACC-1006",
+        "ACC-1007",
+        "ACC-1008",
+        "ACC-1009",
+        "ACC-1010",
+        "ACC-1011",
+        "ACC-1012",
+        "ACC-1015"
+      ],
+      "opportunities": [],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [],
+      "campaigns": []
+    },
+    {
+      "path": "Delivery/customer_pulse/customer_pulse_summary_Q3_2026.json",
+      "iq": "Delivery IQ",
+      "folder": "Delivery/customer_pulse",
+      "format": "json",
+      "classification": "Internal",
+      "source_system": "SharePoint",
+      "size_bytes": 2994,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1002",
+        "ACC-1003",
+        "ACC-1004",
+        "ACC-1005",
+        "ACC-1006",
+        "ACC-1007",
+        "ACC-1008",
+        "ACC-1009",
+        "ACC-1010",
+        "ACC-1011",
+        "ACC-1012",
+        "ACC-1015"
+      ],
+      "opportunities": [],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [],
+      "campaigns": []
+    },
+    {
+      "path": "Delivery/emails/Atlas_INC-48211_Incident_Report_2026-09-27.txt",
+      "iq": "Delivery IQ",
+      "folder": "Delivery/emails",
+      "format": "txt",
+      "classification": "Confidential",
+      "source_system": "Emails / delivery mail",
+      "size_bytes": 1696,
+      "accounts": [
+        "ACC-1001"
+      ],
+      "opportunities": [],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [],
+      "campaigns": []
+    },
+    {
+      "path": "Delivery/emails/WWI_WMS_SLA_Breach_Notification_2026-10-01.txt",
+      "iq": "Delivery IQ",
+      "folder": "Delivery/emails",
+      "format": "txt",
+      "classification": "Confidential",
+      "source_system": "Emails / delivery mail",
+      "size_bytes": 1200,
+      "accounts": [],
+      "opportunities": [],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [],
+      "campaigns": []
+    },
+    {
+      "path": "Delivery/stakeholders/Delivery_Stakeholder_Register.xlsx",
+      "iq": "Delivery IQ",
+      "folder": "Delivery/stakeholders",
+      "format": "xlsx",
+      "classification": "Confidential",
+      "source_system": "SharePoint",
+      "size_bytes": 9398,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1002",
+        "ACC-1003",
+        "ACC-1008",
+        "ACC-1009",
+        "ACC-1011",
+        "ACC-1015"
+      ],
+      "opportunities": [],
+      "bids": [],
+      "programmes": [
+        "PRG-2001",
+        "PRG-2002",
+        "PRG-2003",
+        "PRG-2004",
+        "PRG-2005",
+        "PRG-2006",
+        "PRG-2007"
+      ],
+      "projects": [],
+      "partners": [],
+      "campaigns": []
+    },
+    {
+      "path": "Delivery/priorities_investments/Client_Priorities_and_Future_Investments_FY2027.pdf",
+      "iq": "Delivery IQ",
+      "folder": "Delivery/priorities_investments",
+      "format": "pdf",
+      "classification": "Confidential",
+      "source_system": "SharePoint",
+      "size_bytes": 3797,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1002",
+        "ACC-1003",
+        "ACC-1008",
+        "ACC-1009",
+        "ACC-1011",
+        "ACC-1015"
+      ],
+      "opportunities": [
+        "OPP-24102",
+        "OPP-24110",
+        "OPP-24120",
+        "OPP-24171",
+        "OPP-24240"
+      ],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-01",
+        "PRT-03"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "Delivery/programmes/Atlas_RAID_Log_W40.xlsx",
+      "iq": "Delivery IQ",
+      "folder": "Delivery/programmes",
+      "format": "xlsx",
+      "classification": "Confidential",
+      "source_system": "SharePoint",
+      "size_bytes": 7822,
+      "accounts": [
+        "ACC-1001"
+      ],
+      "opportunities": [
+        "OPP-24103"
+      ],
+      "bids": [],
+      "programmes": [],
+      "projects": [
+        "PRJ-3101"
+      ],
+      "partners": [],
+      "campaigns": []
+    },
+    {
+      "path": "Delivery/programmes/PRG-2001_Northwind_Store_Modernisation_Programme_Charter.docx",
+      "iq": "Delivery IQ",
+      "folder": "Delivery/programmes",
+      "format": "docx",
+      "classification": "Confidential",
+      "source_system": "SharePoint",
+      "size_bytes": 40035,
+      "accounts": [
+        "ACC-1001"
+      ],
+      "opportunities": [
+        "OPP-24103"
+      ],
+      "bids": [],
+      "programmes": [
+        "PRG-2001"
+      ],
+      "projects": [],
+      "partners": [],
+      "campaigns": []
+    },
+    {
+      "path": "Delivery/programmes/Strategic_Programme_Portfolio_Q3_2026.xlsx",
+      "iq": "Delivery IQ",
+      "folder": "Delivery/programmes",
+      "format": "xlsx",
+      "classification": "Confidential",
+      "source_system": "SharePoint",
+      "size_bytes": 10677,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1002",
+        "ACC-1003",
+        "ACC-1008",
+        "ACC-1009",
+        "ACC-1011",
+        "ACC-1015"
+      ],
+      "opportunities": [],
+      "bids": [],
+      "programmes": [
+        "PRG-2001",
+        "PRG-2002",
+        "PRG-2003",
+        "PRG-2004",
+        "PRG-2005",
+        "PRG-2006",
+        "PRG-2007"
+      ],
+      "projects": [
+        "PRJ-3101",
+        "PRJ-3102",
+        "PRJ-3201",
+        "PRJ-3202",
+        "PRJ-3301",
+        "PRJ-3302",
+        "PRJ-3401",
+        "PRJ-3501",
+        "PRJ-3601",
+        "PRJ-3701"
+      ],
+      "partners": [
+        "PRT-03"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "Delivery/success_stories/Success_Story_Relecloud_AIOps_MTTR.pdf",
+      "iq": "Delivery IQ",
+      "folder": "Delivery/success_stories",
+      "format": "pdf",
+      "classification": "Internal",
+      "source_system": "SharePoint",
+      "size_bytes": 2632,
+      "accounts": [
+        "ACC-1009"
+      ],
+      "opportunities": [],
+      "bids": [],
+      "programmes": [
+        "PRG-2005"
+      ],
+      "projects": [],
+      "partners": [],
+      "campaigns": []
+    },
+    {
+      "path": "Delivery/success_stories/Success_Story_Wingtip_Predictive_Maintenance_Pilot.docx",
+      "iq": "Delivery IQ",
+      "folder": "Delivery/success_stories",
+      "format": "docx",
+      "classification": "Internal",
+      "source_system": "SharePoint",
+      "size_bytes": 39238,
+      "accounts": [
+        "ACC-1008"
+      ],
+      "opportunities": [
+        "OPP-24171"
+      ],
+      "bids": [],
+      "programmes": [
+        "PRG-2002"
+      ],
+      "projects": [
+        "PRJ-3202"
+      ],
+      "partners": [],
+      "campaigns": []
+    },
+    {
+      "path": "Delivery/qbr_notes/Northwind_QBR_Q3_2026_Meeting_Notes.docx",
+      "iq": "Delivery IQ",
+      "folder": "Delivery/qbr_notes",
+      "format": "docx",
+      "classification": "Confidential",
+      "source_system": "SharePoint",
+      "size_bytes": 40031,
+      "accounts": [
+        "ACC-1001"
+      ],
+      "opportunities": [
+        "OPP-24102"
+      ],
+      "bids": [],
+      "programmes": [
+        "PRG-2001"
+      ],
+      "projects": [],
+      "partners": [],
+      "campaigns": []
+    },
+    {
+      "path": "Delivery/qbr_notes/Relecloud_QBR_Q3_2026_notes.txt",
+      "iq": "Delivery IQ",
+      "folder": "Delivery/qbr_notes",
+      "format": "txt",
+      "classification": "Internal",
+      "source_system": "SharePoint",
+      "size_bytes": 1256,
+      "accounts": [
+        "ACC-1009"
+      ],
+      "opportunities": [],
+      "bids": [],
+      "programmes": [
+        "PRG-2005"
+      ],
+      "projects": [],
+      "partners": [],
+      "campaigns": []
+    },
+    {
+      "path": "Delivery/qbr_notes/Wingtip_Logistics_QBR_Q3_2026.pptx",
+      "iq": "Delivery IQ",
+      "folder": "Delivery/qbr_notes",
+      "format": "pptx",
+      "classification": "Confidential",
+      "source_system": "SharePoint",
+      "size_bytes": 40783,
+      "accounts": [
+        "ACC-1008"
+      ],
+      "opportunities": [
+        "OPP-24171"
+      ],
+      "bids": [],
+      "programmes": [
+        "PRG-2002"
+      ],
+      "projects": [],
+      "partners": [
+        "PRT-03"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "GTM/bid_no_bid/Calder_Insurance_Go_No-Go_Brief_2026-10-05.docx",
+      "iq": "GTM IQ",
+      "folder": "GTM/bid_no_bid",
+      "format": "docx",
+      "classification": "Confidential",
+      "source_system": "SharePoint",
+      "size_bytes": 39870,
+      "accounts": [
+        "ACC-1005",
+        "ACC-1014"
+      ],
+      "opportunities": [],
+      "bids": [
+        "BID-0618"
+      ],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-06"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "GTM/bid_no_bid/bid_qualification_decisions_FY2026.json",
+      "iq": "GTM IQ",
+      "folder": "GTM/bid_no_bid",
+      "format": "json",
+      "classification": "Internal",
+      "source_system": "FocusNet",
+      "size_bytes": 7683,
+      "accounts": [
+        "ACC-1003",
+        "ACC-1004",
+        "ACC-1006",
+        "ACC-1007",
+        "ACC-1008",
+        "ACC-1009",
+        "ACC-1010",
+        "ACC-1011",
+        "ACC-1012",
+        "ACC-1013",
+        "ACC-1014"
+      ],
+      "opportunities": [
+        "OPP-24120",
+        "OPP-24130",
+        "OPP-24131",
+        "OPP-24140",
+        "OPP-24160",
+        "OPP-24170",
+        "OPP-24180",
+        "OPP-24190",
+        "OPP-24200",
+        "OPP-24210",
+        "OPP-24220",
+        "OPP-24230",
+        "OPP-24330",
+        "OPP-24350"
+      ],
+      "bids": [
+        "BID-0588",
+        "BID-0592",
+        "BID-0597",
+        "BID-0599",
+        "BID-0601",
+        "BID-0603",
+        "BID-0608",
+        "BID-0609",
+        "BID-0611",
+        "BID-0612",
+        "BID-0614",
+        "BID-0615",
+        "BID-0616",
+        "BID-0617",
+        "BID-0618",
+        "BID-0619",
+        "BID-0620"
+      ],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-01",
+        "PRT-02",
+        "PRT-06"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "GTM/bid_performance/Bid_Performance_Report_Q3_2026.pdf",
+      "iq": "GTM IQ",
+      "folder": "GTM/bid_performance",
+      "format": "pdf",
+      "classification": "Internal",
+      "source_system": "SharePoint",
+      "size_bytes": 6891,
+      "accounts": [
+        "ACC-1009",
+        "ACC-1014"
+      ],
+      "opportunities": [],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [],
+      "campaigns": []
+    },
+    {
+      "path": "GTM/bid_pipeline/Weekly_Bid_Pipeline_Update_W41_email.txt",
+      "iq": "GTM IQ",
+      "folder": "GTM/bid_pipeline",
+      "format": "txt",
+      "classification": "Confidential",
+      "source_system": "Emails / delivery mail",
+      "size_bytes": 2790,
+      "accounts": [
+        "ACC-1002",
+        "ACC-1003",
+        "ACC-1004",
+        "ACC-1006",
+        "ACC-1007",
+        "ACC-1009",
+        "ACC-1010",
+        "ACC-1011",
+        "ACC-1012",
+        "ACC-1013",
+        "ACC-1014"
+      ],
+      "opportunities": [],
+      "bids": [
+        "BID-0603",
+        "BID-0608",
+        "BID-0611",
+        "BID-0612",
+        "BID-0614",
+        "BID-0615",
+        "BID-0618",
+        "BID-0619",
+        "BID-0620"
+      ],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-06"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "GTM/win_loss/Contoso_Smart_Factory_Bid_Debrief_Transcript_2026-08-21.txt",
+      "iq": "GTM IQ",
+      "folder": "GTM/win_loss",
+      "format": "txt",
+      "classification": "Confidential",
+      "source_system": "Copilot transcripts",
+      "size_bytes": 3444,
+      "accounts": [
+        "ACC-1006"
+      ],
+      "opportunities": [
+        "OPP-24140",
+        "OPP-24141"
+      ],
+      "bids": [
+        "BID-0597"
+      ],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-01"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "GTM/win_loss/Win_Loss_Review_FY2026_YTD.pptx",
+      "iq": "GTM IQ",
+      "folder": "GTM/win_loss",
+      "format": "pptx",
+      "classification": "Internal",
+      "source_system": "SharePoint",
+      "size_bytes": 42075,
+      "accounts": [
+        "ACC-1006",
+        "ACC-1007",
+        "ACC-1009",
+        "ACC-1010"
+      ],
+      "opportunities": [],
+      "bids": [
+        "BID-0555",
+        "BID-0569",
+        "BID-0584",
+        "BID-0592",
+        "BID-0597",
+        "BID-0599"
+      ],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-03",
+        "PRT-04"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "GTM/win_loss/win_loss_records_FY2025-FY2026.json",
+      "iq": "GTM IQ",
+      "folder": "GTM/win_loss",
+      "format": "json",
+      "classification": "Internal",
+      "source_system": "FocusNet",
+      "size_bytes": 19601,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1002",
+        "ACC-1003",
+        "ACC-1004",
+        "ACC-1005",
+        "ACC-1006",
+        "ACC-1007",
+        "ACC-1008",
+        "ACC-1009",
+        "ACC-1010",
+        "ACC-1011",
+        "ACC-1012",
+        "ACC-1015",
+        "ACC-1016",
+        "ACC-1017",
+        "ACC-1018"
+      ],
+      "opportunities": [
+        "OPP-23017",
+        "OPP-23098",
+        "OPP-23104",
+        "OPP-23121",
+        "OPP-23166",
+        "OPP-23171",
+        "OPP-23188",
+        "OPP-23202",
+        "OPP-23207",
+        "OPP-23241",
+        "OPP-23260",
+        "OPP-23270",
+        "OPP-24131",
+        "OPP-24140",
+        "OPP-24170",
+        "OPP-24250",
+        "OPP-24270",
+        "OPP-24280",
+        "OPP-24290",
+        "OPP-24300",
+        "OPP-24310",
+        "OPP-24320",
+        "OPP-24330",
+        "OPP-24340",
+        "OPP-24350"
+      ],
+      "bids": [
+        "BID-0541",
+        "BID-0546",
+        "BID-0549",
+        "BID-0552",
+        "BID-0555",
+        "BID-0557",
+        "BID-0560",
+        "BID-0563",
+        "BID-0566",
+        "BID-0569",
+        "BID-0572",
+        "BID-0575",
+        "BID-0578",
+        "BID-0580",
+        "BID-0582",
+        "BID-0584",
+        "BID-0585",
+        "BID-0586",
+        "BID-0587",
+        "BID-0588",
+        "BID-0589",
+        "BID-0590",
+        "BID-0591",
+        "BID-0592",
+        "BID-0594",
+        "BID-0595",
+        "BID-0597",
+        "BID-0598",
+        "BID-0599",
+        "BID-0601"
+      ],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-01",
+        "PRT-02",
+        "PRT-03",
+        "PRT-04"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "GTM/bid_trackers/GTM_Bid_Tracker_FY2026.xlsx",
+      "iq": "GTM IQ",
+      "folder": "GTM/bid_trackers",
+      "format": "xlsx",
+      "classification": "Internal",
+      "source_system": "FocusNet",
+      "size_bytes": 22208,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1002",
+        "ACC-1003",
+        "ACC-1004",
+        "ACC-1005",
+        "ACC-1006",
+        "ACC-1007",
+        "ACC-1008",
+        "ACC-1009",
+        "ACC-1010",
+        "ACC-1011",
+        "ACC-1012",
+        "ACC-1013",
+        "ACC-1014",
+        "ACC-1015",
+        "ACC-1016",
+        "ACC-1017",
+        "ACC-1018"
+      ],
+      "opportunities": [
+        "OPP-23017",
+        "OPP-23098",
+        "OPP-23104",
+        "OPP-23121",
+        "OPP-23166",
+        "OPP-23171",
+        "OPP-23188",
+        "OPP-23202",
+        "OPP-23207",
+        "OPP-23241",
+        "OPP-23260",
+        "OPP-23270",
+        "OPP-24110",
+        "OPP-24120",
+        "OPP-24121",
+        "OPP-24130",
+        "OPP-24131",
+        "OPP-24140",
+        "OPP-24141",
+        "OPP-24160",
+        "OPP-24170",
+        "OPP-24180",
+        "OPP-24190",
+        "OPP-24200",
+        "OPP-24210",
+        "OPP-24220",
+        "OPP-24230",
+        "OPP-24250",
+        "OPP-24260",
+        "OPP-24270",
+        "OPP-24280",
+        "OPP-24290",
+        "OPP-24300",
+        "OPP-24310",
+        "OPP-24320",
+        "OPP-24330",
+        "OPP-24340",
+        "OPP-24350"
+      ],
+      "bids": [
+        "BID-0541",
+        "BID-0546",
+        "BID-0549",
+        "BID-0552",
+        "BID-0555",
+        "BID-0557",
+        "BID-0560",
+        "BID-0563",
+        "BID-0566",
+        "BID-0569",
+        "BID-0572",
+        "BID-0575",
+        "BID-0578",
+        "BID-0580",
+        "BID-0582",
+        "BID-0584",
+        "BID-0585",
+        "BID-0586",
+        "BID-0587",
+        "BID-0588",
+        "BID-0589",
+        "BID-0590",
+        "BID-0591",
+        "BID-0592",
+        "BID-0594",
+        "BID-0595",
+        "BID-0597",
+        "BID-0598",
+        "BID-0599",
+        "BID-0601",
+        "BID-0603",
+        "BID-0608",
+        "BID-0609",
+        "BID-0611",
+        "BID-0612",
+        "BID-0614",
+        "BID-0615",
+        "BID-0616",
+        "BID-0617",
+        "BID-0618",
+        "BID-0619",
+        "BID-0620"
+      ],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-01",
+        "PRT-02",
+        "PRT-03",
+        "PRT-04",
+        "PRT-06"
+      ],
+      "campaigns": [
+        "CMP-2603"
+      ]
+    },
+    {
+      "path": "GTM/bid_trackers/focusnet_bid_register_export_2026-10-06.csv",
+      "iq": "GTM IQ",
+      "folder": "GTM/bid_trackers",
+      "format": "csv",
+      "classification": "Internal",
+      "source_system": "FocusNet",
+      "size_bytes": 7798,
+      "accounts": [
+        "ACC-1001",
+        "ACC-1002",
+        "ACC-1003",
+        "ACC-1004",
+        "ACC-1005",
+        "ACC-1006",
+        "ACC-1007",
+        "ACC-1008",
+        "ACC-1009",
+        "ACC-1010",
+        "ACC-1011",
+        "ACC-1012",
+        "ACC-1013",
+        "ACC-1014",
+        "ACC-1015",
+        "ACC-1016",
+        "ACC-1017",
+        "ACC-1018"
+      ],
+      "opportunities": [
+        "OPP-23017",
+        "OPP-23098",
+        "OPP-23104",
+        "OPP-23121",
+        "OPP-23166",
+        "OPP-23171",
+        "OPP-23188",
+        "OPP-23202",
+        "OPP-23207",
+        "OPP-23241",
+        "OPP-23260",
+        "OPP-23270",
+        "OPP-24120",
+        "OPP-24130",
+        "OPP-24131",
+        "OPP-24140",
+        "OPP-24160",
+        "OPP-24170",
+        "OPP-24180",
+        "OPP-24190",
+        "OPP-24200",
+        "OPP-24210",
+        "OPP-24220",
+        "OPP-24230",
+        "OPP-24250",
+        "OPP-24270",
+        "OPP-24280",
+        "OPP-24290",
+        "OPP-24300",
+        "OPP-24310",
+        "OPP-24320",
+        "OPP-24330",
+        "OPP-24340",
+        "OPP-24350"
+      ],
+      "bids": [
+        "BID-0541",
+        "BID-0546",
+        "BID-0549",
+        "BID-0552",
+        "BID-0555",
+        "BID-0557",
+        "BID-0560",
+        "BID-0563",
+        "BID-0566",
+        "BID-0569",
+        "BID-0572",
+        "BID-0575",
+        "BID-0578",
+        "BID-0580",
+        "BID-0582",
+        "BID-0584",
+        "BID-0585",
+        "BID-0586",
+        "BID-0587",
+        "BID-0588",
+        "BID-0589",
+        "BID-0590",
+        "BID-0591",
+        "BID-0592",
+        "BID-0594",
+        "BID-0595",
+        "BID-0597",
+        "BID-0598",
+        "BID-0599",
+        "BID-0601",
+        "BID-0603",
+        "BID-0608",
+        "BID-0609",
+        "BID-0611",
+        "BID-0612",
+        "BID-0614",
+        "BID-0615",
+        "BID-0616",
+        "BID-0617",
+        "BID-0618",
+        "BID-0619",
+        "BID-0620"
+      ],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-01",
+        "PRT-02",
+        "PRT-03",
+        "PRT-04",
+        "PRT-06"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "GTM/proposals/Calder_Insurance_Claims_Modernisation_Proposal_DRAFT_v0.6.docx",
+      "iq": "GTM IQ",
+      "folder": "GTM/proposals",
+      "format": "docx",
+      "classification": "Confidential",
+      "source_system": "SharePoint",
+      "size_bytes": 42283,
+      "accounts": [
+        "ACC-1005",
+        "ACC-1014"
+      ],
+      "opportunities": [
+        "OPP-24230"
+      ],
+      "bids": [
+        "BID-0618"
+      ],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-02",
+        "PRT-04",
+        "PRT-06"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "GTM/proposals/Tailspin_Crew_Ops_Orals_Presentation_2026-09-30.pptx",
+      "iq": "GTM IQ",
+      "folder": "GTM/proposals",
+      "format": "pptx",
+      "classification": "Confidential",
+      "source_system": "SharePoint",
+      "size_bytes": 50293,
+      "accounts": [
+        "ACC-1004"
+      ],
+      "opportunities": [],
+      "bids": [],
+      "programmes": [],
+      "projects": [],
+      "partners": [
+        "PRT-02"
+      ],
+      "campaigns": []
+    },
+    {
+      "path": "GTM/proposals/Woodgrove_Bank_EDP_RFP_Response_Executive_Summary.pdf",
+      "iq": "GTM IQ",
+      "folder": "GTM/proposals",
+      "format": "pdf",
+      "classification": "Confidential",
+      "source_system": "SharePoint",
+      "size_bytes": 5680,
+      "accounts": [
+        "ACC-1003"
+      ],
+      "opportunities": [
+        "OPP-24120"
+      ],
+      "bids": [
+        "BID-0612"
+      ],
+      "programmes": [
+        "PRG-2004"
+      ],
+      "projects": [],
+      "partners": [
+        "PRT-01",
+        "PRT-03"
+      ],
+      "campaigns": []
+    }
+  ]
+}

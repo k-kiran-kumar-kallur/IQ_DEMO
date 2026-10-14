@@ -1,0 +1,253 @@
+{
+  "source": "FocusNet bid qualification module",
+  "extracted_at": "2026-10-07T06:00:00Z",
+  "threshold_fit_score": 0.6,
+  "decisions": [
+    {
+      "bid_id": "BID-0618",
+      "opportunity_id": "OPP-24230",
+      "account_id": "ACC-1014",
+      "account": "Calder Insurance",
+      "rfx_type": "RFP",
+      "decision": "Go",
+      "decision_date": "2026-10-05",
+      "decided_by": "Anita Rao",
+      "reason_to_pursue": "Insurance automation fit; first Guidewire joint pursuit",
+      "qualification_gaps": [
+        "No executive relationship",
+        "Fixed-price R1 request",
+        "On-site team requirement"
+      ],
+      "fit_score": 0.71
+    },
+    {
+      "bid_id": "BID-0614",
+      "opportunity_id": "OPP-24220",
+      "account_id": "ACC-1013",
+      "account": "Meridian Bank",
+      "rfx_type": "RFP",
+      "decision": "Go",
+      "decision_date": "2026-08-18",
+      "decided_by": "Anita Rao",
+      "reason_to_pursue": "Webinar-sourced; CIO champion; Azure funding available",
+      "qualification_gaps": [
+        "CFO Grace Liu never met",
+        "CISO not engaged",
+        "Incumbent Cognizant holds data warehouse until June 2027"
+      ],
+      "fit_score": 0.78
+    },
+    {
+      "bid_id": "BID-0612",
+      "opportunity_id": "OPP-24120",
+      "account_id": "ACC-1003",
+      "account": "Woodgrove Bank",
+      "rfx_type": "RFP",
+      "decision": "Go",
+      "decision_date": "2026-08-24",
+      "decided_by": "Anita Rao",
+      "reason_to_pursue": "Strategic account; POC in flight; Microsoft co-sell",
+      "qualification_gaps": [
+        "New CDO (Catherine Hughes) not yet sponsor"
+      ],
+      "fit_score": 0.82
+    },
+    {
+      "bid_id": "BID-0615",
+      "opportunity_id": "OPP-24190",
+      "account_id": "ACC-1010",
+      "account": "Lamna Healthcare",
+      "rfx_type": "RFP",
+      "decision": "Go",
+      "decision_date": "2026-09-01",
+      "decided_by": "Anita Rao",
+      "reason_to_pursue": "Existing client; renewal or expansion",
+      "qualification_gaps": [],
+      "fit_score": 0.69
+    },
+    {
+      "bid_id": "BID-0608",
+      "opportunity_id": "OPP-24130",
+      "account_id": "ACC-1004",
+      "account": "Tailspin Airlines",
+      "rfx_type": "RFP",
+      "decision": "Go",
+      "decision_date": "2026-07-27",
+      "decided_by": "Anita Rao",
+      "reason_to_pursue": "Existing AWS estate; incumbent advantage in infrastructure",
+      "qualification_gaps": [],
+      "fit_score": 0.74
+    },
+    {
+      "bid_id": "BID-0597",
+      "opportunity_id": "OPP-24140",
+      "account_id": "ACC-1006",
+      "account": "Contoso Manufacturing",
+      "rfx_type": "RFP",
+      "decision": "Go",
+      "decision_date": "2026-05-18",
+      "decided_by": "Anita Rao",
+      "reason_to_pursue": "Existing client; renewal or expansion",
+      "qualification_gaps": [],
+      "fit_score": null
+    },
+    {
+      "bid_id": "BID-0601",
+      "opportunity_id": "OPP-24170",
+      "account_id": "ACC-1008",
+      "account": "Wingtip Logistics",
+      "rfx_type": "Proactive proposal",
+      "decision": "Go",
+      "decision_date": "2026-05-11",
+      "decided_by": "Anita Rao",
+      "reason_to_pursue": "Existing client; renewal or expansion",
+      "qualification_gaps": [],
+      "fit_score": null
+    },
+    {
+      "bid_id": "BID-0603",
+      "opportunity_id": "OPP-24180",
+      "account_id": "ACC-1009",
+      "account": "Relecloud",
+      "rfx_type": "Renewal proposal",
+      "decision": "Go",
+      "decision_date": "2026-08-03",
+      "decided_by": "Anita Rao",
+      "reason_to_pursue": "Existing client; renewal or expansion",
+      "qualification_gaps": [],
+      "fit_score": null
+    },
+    {
+      "bid_id": "BID-0611",
+      "opportunity_id": "OPP-24200",
+      "account_id": "ACC-1011",
+      "account": "Wide World Importers",
+      "rfx_type": "Renewal proposal",
+      "decision": "Go",
+      "decision_date": "2026-08-17",
+      "decided_by": "Anita Rao",
+      "reason_to_pursue": "Existing client; renewal or expansion",
+      "qualification_gaps": [
+        "Price gap vs Wipro ~18%"
+      ],
+      "fit_score": null
+    },
+    {
+      "bid_id": "BID-0619",
+      "opportunity_id": "OPP-24160",
+      "account_id": "ACC-1007",
+      "account": "Adventure Works Retail",
+      "rfx_type": "RFI",
+      "decision": "Go",
+      "decision_date": "2026-09-28",
+      "decided_by": "Anita Rao",
+      "reason_to_pursue": "ABM target account; retail commerce focus",
+      "qualification_gaps": [],
+      "fit_score": 0.63
+    },
+    {
+      "bid_id": "BID-0620",
+      "opportunity_id": "OPP-24210",
+      "account_id": "ACC-1012",
+      "account": "Trey Research",
+      "rfx_type": "RFI",
+      "decision": "Pending",
+      "decision_date": "2026-10-01",
+      "decided_by": "Anita Rao",
+      "reason_to_pursue": "Existing client; renewal or expansion",
+      "qualification_gaps": [
+        "GxP validation references limited to one client"
+      ],
+      "fit_score": 0.58
+    },
+    {
+      "bid_id": "BID-0592",
+      "opportunity_id": "OPP-24330",
+      "account_id": "ACC-1007",
+      "account": "Adventure Works Retail",
+      "rfx_type": "RFP",
+      "decision": "Go",
+      "decision_date": "2026-03-02",
+      "decided_by": "Anita Rao",
+      "reason_to_pursue": "Existing client; renewal or expansion",
+      "qualification_gaps": [],
+      "fit_score": null
+    },
+    {
+      "bid_id": "BID-0599",
+      "opportunity_id": "OPP-24350",
+      "account_id": "ACC-1009",
+      "account": "Relecloud",
+      "rfx_type": "RFP",
+      "decision": "Go",
+      "decision_date": "2026-05-04",
+      "decided_by": "Anita Rao",
+      "reason_to_pursue": "Existing client; renewal or expansion",
+      "qualification_gaps": [],
+      "fit_score": null
+    },
+    {
+      "bid_id": "BID-0588",
+      "opportunity_id": "OPP-24131",
+      "account_id": "ACC-1004",
+      "account": "Tailspin Airlines",
+      "rfx_type": "Proactive proposal",
+      "decision": "Go",
+      "decision_date": "2026-02-16",
+      "decided_by": "Anita Rao",
+      "reason_to_pursue": "Existing client; renewal or expansion",
+      "qualification_gaps": [],
+      "fit_score": null
+    },
+    {
+      "bid_id": "BID-0616",
+      "opportunity_id": null,
+      "account_id": null,
+      "account": "Southridge Video",
+      "rfx_type": "RFP",
+      "decision": "No-bid",
+      "decision_date": "2026-09-17",
+      "decided_by": "Anita Rao",
+      "reason_to_decline": "Salesforce Core is not a Visionet practice; RFP written around incumbent's accelerator",
+      "qualification_gaps": [
+        "No Salesforce partner status",
+        "no media references"
+      ],
+      "estimated_value": 1300000,
+      "fit_score": 0.31
+    },
+    {
+      "bid_id": "BID-0617",
+      "opportunity_id": null,
+      "account_id": null,
+      "account": "Margie's Travel",
+      "rfx_type": "RFP",
+      "decision": "No-bid",
+      "decision_date": "2026-09-24",
+      "decided_by": "Anita Rao",
+      "reason_to_decline": "Fixed price with uncapped liability and 4-week response window",
+      "qualification_gaps": [
+        "Mainframe CICS skills limited to 6 FTE",
+        "no airline PSS reference"
+      ],
+      "estimated_value": 4100000,
+      "fit_score": 0.42
+    },
+    {
+      "bid_id": "BID-0609",
+      "opportunity_id": null,
+      "account_id": null,
+      "account": "Bellows College",
+      "rfx_type": "RFI",
+      "decision": "No-bid",
+      "decision_date": "2026-08-06",
+      "decided_by": "Anita Rao",
+      "reason_to_decline": "Outside target industries; low strategic fit",
+      "qualification_gaps": [
+        "No higher-education references"
+      ],
+      "estimated_value": 600000,
+      "fit_score": 0.28
+    }
+  ]
+}

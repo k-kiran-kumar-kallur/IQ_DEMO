@@ -1,0 +1,149 @@
+{
+  "source": "SharePoint - Collateral library / reference programme",
+  "updated": "2026-10-02",
+  "proof_points": [
+    {
+      "id": "PP-001",
+      "client": "Wingtip Logistics",
+      "account_id": "ACC-1008",
+      "offering": "Advanced Analytics & ML",
+      "proof_point": "7.4% fuel cost reduction across 3,800 trucks",
+      "metric": "fuel_cost_change",
+      "value": -0.074,
+      "reference_status": "Referenceable",
+      "approved_uses": [
+        "case study",
+        "reference call",
+        "site visit",
+        "logo"
+      ],
+      "approved_by": "Mei Lin (Wingtip)",
+      "expires": "2027-06-30"
+    },
+    {
+      "id": "PP-002",
+      "client": "Wingtip Logistics",
+      "account_id": "ACC-1008",
+      "offering": "Advanced Analytics & ML",
+      "proof_point": "18% fewer unplanned breakdowns",
+      "metric": "unplanned_breakdowns_change",
+      "value": -0.18,
+      "reference_status": "Referenceable",
+      "approved_uses": [
+        "case study",
+        "reference call"
+      ],
+      "approved_by": "Mei Lin (Wingtip)",
+      "expires": "2027-06-30"
+    },
+    {
+      "id": "PP-003",
+      "client": "Tailspin Airlines",
+      "account_id": "ACC-1004",
+      "offering": "AWS Migration Factory",
+      "proof_point": "798 servers migrated in two on-time waves",
+      "metric": "servers_migrated",
+      "value": 798,
+      "reference_status": "Referenceable (infrastructure only)",
+      "approved_uses": [
+        "case study",
+        "logo"
+      ],
+      "approved_by": "Patrick Nguyen (Tailspin)",
+      "expires": "2027-03-31"
+    },
+    {
+      "id": "PP-004",
+      "client": "Litware Insurance",
+      "account_id": "ACC-1005",
+      "offering": "Intelligent Document Processing",
+      "proof_point": "94% straight-through FNOL document classification",
+      "metric": "stp_rate",
+      "value": 0.94,
+      "reference_status": "Logo only - quotes pending",
+      "approved_uses": [
+        "logo",
+        "anonymised metric"
+      ],
+      "approved_by": "Samuel Price (Litware)",
+      "expires": null
+    },
+    {
+      "id": "PP-005",
+      "client": "Woodgrove Bank",
+      "account_id": "ACC-1003",
+      "offering": "Cloud Data Platform (Azure Databricks)",
+      "proof_point": "Card-fraud features 4.2x faster in POC; 100% lineage for 12 regulatory elements",
+      "metric": "pipeline_speedup",
+      "value": 4.2,
+      "reference_status": "Anonymous only (request pending since 22 Sep)",
+      "approved_uses": [
+        "anonymised metric"
+      ],
+      "approved_by": null,
+      "expires": null
+    },
+    {
+      "id": "PP-006",
+      "client": "Northwind Traders",
+      "account_id": "ACC-1001",
+      "offering": "POS Modernisation",
+      "proof_point": "Checkout times down 18% in wave 1 stores",
+      "metric": "checkout_time_change",
+      "value": -0.18,
+      "reference_status": "Not referenceable - suspended during Atlas recovery",
+      "approved_uses": [],
+      "approved_by": null,
+      "expires": null,
+      "note": "Reference use suspended 29 Sep 2026 after escalation"
+    },
+    {
+      "id": "PP-007",
+      "client": "Relecloud",
+      "account_id": "ACC-1009",
+      "offering": "AIOps Managed Services",
+      "proof_point": "Mean time to resolve network incidents down 41%",
+      "metric": "mttr_change",
+      "value": -0.41,
+      "reference_status": "Referenceable",
+      "approved_uses": [
+        "reference call",
+        "logo"
+      ],
+      "approved_by": "Aaron Mitchell (Relecloud)",
+      "expires": "2026-11-30",
+      "note": "Tied to renewal - confirm after signature"
+    },
+    {
+      "id": "PP-008",
+      "client": "Halcyon Health",
+      "account_id": "ACC-1015",
+      "offering": "Microsoft Fabric Analytics",
+      "proof_point": "Claims reporting cycle from 9 days to 1 day",
+      "metric": "reporting_cycle_days",
+      "value": 1,
+      "reference_status": "Referenceable",
+      "approved_uses": [
+        "case study",
+        "reference call"
+      ],
+      "approved_by": "Derek Simmons (Halcyon)",
+      "expires": "2027-04-30"
+    },
+    {
+      "id": "PP-009",
+      "client": "Contoso Manufacturing",
+      "account_id": "ACC-1006",
+      "offering": "Application Managed Services (AMS)",
+      "proof_point": "MES availability 99.7% with 4% annual productivity credit",
+      "metric": "availability",
+      "value": 0.997,
+      "reference_status": "Referenceable (AMS only)",
+      "approved_uses": [
+        "reference call"
+      ],
+      "approved_by": "Paul Becker (Contoso)",
+      "expires": "2027-01-31"
+    }
+  ]
+}

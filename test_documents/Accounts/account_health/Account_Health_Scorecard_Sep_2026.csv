@@ -1,0 +1,14 @@
+account_id,account_name,industry,account_owner,csat_q3,csat_q2,csat_change,open_escalations,sla_attainment_pct,delivery_rag,revenue_ytd_vs_prior_ytd,expansion_signal,health_score_0_100,health_status,notes,as_of
+ACC-1001,Northwind Traders,Retail,Priya Raman,6.1,8.4,-2.3,3,97.8,Red,0.099,Loyalty analytics (stalled),34,Red,Atlas red; sponsor exited; Infosys threat,2026-09-30
+ACC-1002,Fabrikam Health,Healthcare,Priya Raman,8.6,8.4,0.2,0,99.1,Amber,2.06,Population health phase 2,71,Amber,PDP Clarity feed 6 weeks late,2026-09-30
+ACC-1003,Woodgrove Bank,BFSI,Marcus Bell,8.2,8.0,0.2,0,99.1,Green,0.244,Data platform; MXDR,68,Amber,New CDO; competitive RFP,2026-09-30
+ACC-1004,Tailspin Airlines,Travel & Transport,Sophie Turner,8.4,8.1,0.3,0,99.4,Green,0.149,Crew platform RFP,79,Green,,2026-09-30
+ACC-1005,Litware Insurance,BFSI,Marcus Bell,8.0,7.9,0.1,0,98.7,Green,0.163,Underwriting intake,74,Green,,2026-09-30
+ACC-1006,Contoso Manufacturing,Manufacturing,Sophie Turner,7.6,7.9,-0.3,1,98.9,Green,-0.069,SAP data migration,62,Amber,Lost Smart Factory bid in Aug,2026-09-30
+ACC-1007,Adventure Works Retail,Retail,James Patel,7.9,7.7,0.2,0,98.2,Green,0.186,Unified commerce RFP,70,Green,,2026-09-30
+ACC-1008,Wingtip Logistics,Logistics,Sophie Turner,9.1,8.8,0.3,0,99.6,Green,1.99,EU depots expansion,88,Green,Referenceable; success story,2026-09-30
+ACC-1009,Relecloud,Telecom,James Patel,8.3,8.2,0.1,1,99.3,Green,0.043,GenAI service desk,77,Green,Renewal in negotiation,2026-09-30
+ACC-1010,Lamna Healthcare,Healthcare,Hannah Lee,7.8,8.0,-0.2,0,99.0,Green,0.042,GenAI member copilot,69,Amber,Vendor breach (not Visionet),2026-09-30
+ACC-1011,Wide World Importers,Retail,James Patel,6.9,7.4,-0.5,2,97.1,Amber,-0.041,None,45,Red,CFO cost cut; Wipro undercutting,2026-09-30
+ACC-1012,Trey Research,Life Sciences,Hannah Lee,8.5,8.3,0.2,0,99.2,Green,0.457,GxP data lake,76,Green,,2026-09-30
+ACC-1015,Halcyon Health,Healthcare,Hannah Lee,8.7,8.5,0.2,0,99.4,Green,0.574,CR-0219 Fabric migration,81,Green,,2026-09-30

@@ -1,0 +1,36 @@
+From: Nikhil Joshi <nikhil.joshi@visionet.example>
+To: Priyanka Desai <priyanka.desai@fabrikamhealth.example>; James Whitaker <james.whitaker@fabrikamhealth.example>
+Cc: Priya Raman <priya.raman@visionet.example>; Arjun Mehta <arjun.mehta@visionet.example>; Mei Tanaka <mei.tanaka@visionet.example>
+Date: Fri, 2 Oct 2026 17:31:20 -0400
+Subject: Patient Data Platform - weekly status W40 - AMBER
+
+Hi Priyanka, James,
+
+Weekly status for the Patient Data Platform (PRG-2003), week 40.
+
+OVERALL: AMBER (unchanged since W37)
+
+PROJECT                                   STATUS   COMMENT
+Clinical data ingestion (Clarity->Fabric) AMBER    De-identification review with Rachel Stone completed 30 Sep.
+                                                   Production cutover re-planned from 2 Oct to 20 Nov.
+Quality measures reporting                GREEN    3 of 12 measures live; next 3 due 30 Oct.
+
+DONE THIS WEEK
+- Privacy office approved the de-identification design (Safe Harbor + expert determination for dates of service).
+- Clarity extract for encounters and diagnoses running nightly in test; 2.4M encounter rows reconciled to source.
+
+NEXT WEEK
+- Start performance test of the nightly Clarity load (target under 90 minutes).
+- Population health prototype: three measures on de-identified data for Dr. Moreno (due 30 Oct).
+
+RISKS / ISSUES
+- Clarity schema change in Epic's November upgrade could affect 6 tables. Asking Fabrikam IT for the release notes.
+- Two Fabrikam analysts still build measures in Tableau; agreed a Power BI migration plan at the 18 Sep exec meeting.
+
+BUDGET
+- Ingestion project at 79% of cost budget, 66% complete. EAC up $80K because of the privacy re-work.
+
+Thanks,
+Nikhil
+
+Nikhil Joshi | Delivery Manager, Fabrikam Patient Data Platform | Visionet

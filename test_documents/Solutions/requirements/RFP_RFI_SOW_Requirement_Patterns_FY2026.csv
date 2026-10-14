@@ -1,0 +1,19 @@
+pattern_id,category,requirement_pattern,occurrences_fy2026,document_types,seen_in_bids,standard_response,coverage
+RP-01,Security & compliance,SOC 2 Type II report from the last 12 months,17,RFP,BID-0612; BID-0614; BID-0618,Provide 2026 SOC 2 Type II report under NDA,Met
+RP-02,Security & compliance,Data residency in the US only; no offshore access to production PII,12,RFP; SOW,BID-0612; BID-0615; BID-0618,Offshore teams work on masked data; onshore production access only,Met
+RP-03,Delivery,Named key personnel with replacement approval rights,15,RFP; SOW,BID-0612; BID-0608; BID-0618,Named team in proposal; 30-day notice and client approval for changes,Met
+RP-04,Delivery,Full on-site team at client location,6,RFP,BID-0618; BID-0597,Hybrid model: on-site core + nearshore,Partial
+RP-05,Commercial,Fixed-price option for first release or phase,9,RFP,BID-0618; BID-0597; BID-0584,Fixed price per wave where design is complete,Partial
+RP-06,Commercial,Outcome-based or gain-share pricing option,4,RFP; RFI,BID-0597; BID-0619,"Template in development (deal desk, due 31 Oct)",Gap
+RP-07,Data,Automated data lineage for regulatory reporting,8,RFP; RFI,BID-0612; BID-0614,Unity Catalog lineage pack,Met
+RP-08,Data,Mock data conversions with financial reconciliation,7,RFP; SOW,BID-0618; BID-0541,Minimum two mock conversions; four for claims,Met
+RP-09,Non-functional,99.9% availability SLA with service credits,11,RFP; SOW,BID-0603; BID-0611; BID-0612,99.9% for platforms; 99.5% for AMS-supported apps,Met
+RP-10,Non-functional,Accessibility to WCAG 2.2 AA,5,RFP,BID-0618; BID-0619,Accessibility testing pack,Met
+RP-11,Industry,Siemens Opcenter MES integration experience,2,RFP,BID-0597,No reference yet,Gap
+RP-12,Industry,Telecom BSS product partnership,2,RFP,BID-0599,No BSS partnership,Gap
+RP-13,Partner,Hyperscaler or ISV top-tier partner status,6,RFP; RFI,BID-0569; BID-0614; BID-0620,Microsoft Solutions Partner (4 designations); Databricks/Snowflake Select (not Elite),Partial
+RP-14,Transition,90-day transition from incumbent with knowledge transfer acceptance,8,RFP; SOW,BID-0611; BID-0612; BID-0618,Standard transition playbook,Met
+RP-15,AI,Responsible AI policy and human review of model outputs,5,RFI; RFP,BID-0619; BID-0620; BID-0612,RAG Guardrails Kit; human-in-the-loop design,Met
+RP-16,Security & compliance,HIPAA BAA and de-identification process,6,RFP; SOW,BID-0552; BID-0615,Standard BAA; de-identification runbook,Met
+RP-17,Security & compliance,GxP computer system validation (CSV),3,RFI; SOW,BID-0578; BID-0620,GxP Validation Pack,Met
+RP-18,Commercial,Unlimited liability for data breaches,3,RFP,BID-0617; BID-0618,Cap at 2x annual fees; legal review,Gap

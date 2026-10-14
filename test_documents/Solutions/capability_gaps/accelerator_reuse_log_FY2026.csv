@@ -1,0 +1,11 @@
+date,asset,used_in,account,used_by,hours_saved_estimate,notes
+2026-02-20,Migration Factory Runbook,BID-0589,Alpine Ski House,Victor Hughes,60,Proposal plan
+2026-04-14,OMS Accelerator,BID-0594,Fourth Coffee,Ravi Shankar,120,MVP scope
+2026-06-05,Lakehouse Blueprint v4,BID-0601,Wingtip Logistics,Mei Tanaka,80,Phase 2 proposal
+2026-08-04,Lakehouse Blueprint v4,PRG-2004,Woodgrove Bank,Lucia Romero,160,POC build
+2026-08-20,Teradata Exit Toolkit,BID-0614,Meridian Bank,Mei Tanaka,90,Inventory estimate
+2026-09-10,Teradata Exit Toolkit,BID-0612,Woodgrove Bank,Mei Tanaka,90,Wave plan
+2026-09-12,Lakehouse Blueprint v4,BID-0614,Meridian Bank,Mei Tanaka,120,Architecture section
+2026-09-29,OMS Accelerator,BID-0619,Adventure Works Retail,Ravi Shankar,40,RFI answers
+2026-10-06,IDP-FNOL v3,BID-0618,Calder Insurance,Ravi Shankar,70,Solution section
+2026-10-06,Guidewire integration accelerators (61),BID-0618,Calder Insurance,Ravi Shankar,0,Referenced in proposal

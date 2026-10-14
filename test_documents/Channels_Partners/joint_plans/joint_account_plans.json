@@ -1,0 +1,224 @@
+{
+  "source": "SharePoint - Alliances / joint account plans",
+  "updated": "2026-10-02",
+  "plans": [
+    {
+      "partner_id": "PRT-01",
+      "partner": "Microsoft",
+      "account_id": "ACC-1001",
+      "account": "Northwind Traders",
+      "opportunity_id": "OPP-24102",
+      "play": "Microsoft Fabric Analytics",
+      "stage": "3 - Solution",
+      "tcv": 640000,
+      "registrations": [
+        "MSRF-3312090"
+      ],
+      "funding": [],
+      "partner_contact": "Jessica Wu",
+      "visionet_owner": "Elena Novak"
+    },
+    {
+      "partner_id": "PRT-01",
+      "partner": "Microsoft",
+      "account_id": "ACC-1002",
+      "account": "Fabrikam Health",
+      "opportunity_id": "OPP-24110",
+      "play": "Microsoft Fabric Analytics",
+      "stage": "3 - Solution",
+      "tcv": 1250000,
+      "registrations": [
+        "MSRF-3350288"
+      ],
+      "funding": [
+        "FND-910"
+      ],
+      "partner_contact": "Jessica Wu",
+      "visionet_owner": "Elena Novak"
+    },
+    {
+      "partner_id": "PRT-01",
+      "partner": "Microsoft",
+      "account_id": "ACC-1003",
+      "account": "Woodgrove Bank",
+      "opportunity_id": "OPP-24120",
+      "play": "Cloud Data Platform (Azure Databricks)",
+      "stage": "4 - Proposal",
+      "tcv": 3100000,
+      "registrations": [
+        "MSRF-3318842",
+        "DBX-REG-2274"
+      ],
+      "funding": [
+        "FND-901"
+      ],
+      "partner_contact": "Jessica Wu",
+      "visionet_owner": "Elena Novak"
+    },
+    {
+      "partner_id": "PRT-01",
+      "partner": "Microsoft",
+      "account_id": "ACC-1003",
+      "account": "Woodgrove Bank",
+      "opportunity_id": "OPP-24121",
+      "play": "Managed SOC (MXDR)",
+      "stage": "2 - Discover",
+      "tcv": 900000,
+      "registrations": [],
+      "funding": [],
+      "partner_contact": "Jessica Wu",
+      "visionet_owner": "Elena Novak"
+    },
+    {
+      "partner_id": "PRT-02",
+      "partner": "AWS",
+      "account_id": "ACC-1004",
+      "account": "Tailspin Airlines",
+      "opportunity_id": "OPP-24130",
+      "play": "Legacy to Cloud-Native",
+      "stage": "4 - Proposal",
+      "tcv": 2200000,
+      "registrations": [
+        "O7902211"
+      ],
+      "funding": [],
+      "partner_contact": "Ryan Cooper",
+      "visionet_owner": "Elena Novak"
+    },
+    {
+      "partner_id": "PRT-01",
+      "partner": "Microsoft",
+      "account_id": "ACC-1005",
+      "account": "Litware Insurance",
+      "opportunity_id": "OPP-24150",
+      "play": "Intelligent Document Processing",
+      "stage": "3 - Solution",
+      "tcv": 780000,
+      "registrations": [
+        "MSRF-3360031"
+      ],
+      "funding": [],
+      "partner_contact": "Jessica Wu",
+      "visionet_owner": "Elena Novak"
+    },
+    {
+      "partner_id": "PRT-03",
+      "partner": "Databricks",
+      "account_id": "ACC-1008",
+      "account": "Wingtip Logistics",
+      "opportunity_id": "OPP-24171",
+      "play": "Cloud Data Platform (Azure Databricks)",
+      "stage": "3 - Solution",
+      "tcv": 1200000,
+      "registrations": [
+        "DBX-REG-2291"
+      ],
+      "funding": [],
+      "partner_contact": "Laura Mendes",
+      "visionet_owner": "Kevin Shah"
+    },
+    {
+      "partner_id": "PRT-01",
+      "partner": "Microsoft",
+      "account_id": "ACC-1010",
+      "account": "Lamna Healthcare",
+      "opportunity_id": "OPP-24190",
+      "play": "Azure Landing Zone",
+      "stage": "4 - Proposal",
+      "tcv": 1500000,
+      "registrations": [
+        "MSRF-3329415"
+      ],
+      "funding": [
+        "FND-903"
+      ],
+      "partner_contact": "Jessica Wu",
+      "visionet_owner": "Elena Novak"
+    },
+    {
+      "partner_id": "PRT-02",
+      "partner": "AWS",
+      "account_id": "ACC-1012",
+      "account": "Trey Research",
+      "opportunity_id": "OPP-24210",
+      "play": "Snowflake Data Cloud",
+      "stage": "3 - Solution",
+      "tcv": 1400000,
+      "registrations": [
+        "O8012573",
+        "SNOW-DR-55120"
+      ],
+      "funding": [
+        "FND-904",
+        "FND-905"
+      ],
+      "partner_contact": "Ryan Cooper",
+      "visionet_owner": "Elena Novak"
+    },
+    {
+      "partner_id": "PRT-01",
+      "partner": "Microsoft",
+      "account_id": "ACC-1013",
+      "account": "Meridian Bank",
+      "opportunity_id": "OPP-24220",
+      "play": "Cloud Data Platform (Azure Databricks)",
+      "stage": "4 - Proposal",
+      "tcv": 2400000,
+      "registrations": [
+        "MSRF-3341107"
+      ],
+      "funding": [
+        "FND-902"
+      ],
+      "partner_contact": "Jessica Wu",
+      "visionet_owner": "Elena Novak"
+    },
+    {
+      "partner_id": "PRT-06",
+      "partner": "Guidewire",
+      "account_id": "ACC-1014",
+      "account": "Calder Insurance",
+      "opportunity_id": "OPP-24230",
+      "play": "Guidewire Implementation",
+      "stage": "3 - Solution",
+      "tcv": 5800000,
+      "registrations": [
+        "O8106640",
+        "GW-PC-0412"
+      ],
+      "funding": [
+        "FND-907"
+      ],
+      "partner_contact": "Andrew Price",
+      "visionet_owner": "Kevin Shah"
+    },
+    {
+      "partner_id": "PRT-01",
+      "partner": "Microsoft",
+      "account_id": "ACC-1015",
+      "account": "Halcyon Health",
+      "opportunity_id": "OPP-24240",
+      "play": "Microsoft Fabric Analytics",
+      "stage": "1 - Qualify",
+      "tcv": 450000,
+      "registrations": [],
+      "funding": [],
+      "partner_contact": "Jessica Wu",
+      "visionet_owner": "Elena Novak"
+    },
+    {
+      "partner_id": "PRT-01",
+      "partner": "Microsoft",
+      "account_id": "ACC-1010",
+      "account": "Lamna Healthcare",
+      "opportunity_id": "OPP-24260",
+      "play": "GenAI Copilot Accelerator",
+      "stage": "2 - Discover",
+      "tcv": 600000,
+      "registrations": [],
+      "funding": [],
+      "partner_contact": "Jessica Wu",
+      "visionet_owner": "Elena Novak"
+    }
+  ]
+}

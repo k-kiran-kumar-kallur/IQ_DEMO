@@ -1,0 +1,32 @@
+From: Kavya Iyer <kavya.iyer@visionet.example>
+To: Atlas Delivery Team <atlas-delivery@visionet.example>
+Cc: Arjun Mehta <arjun.mehta@visionet.example>; Sam Wright <sam.wright@visionet.example>; Priya Raman <priya.raman@visionet.example>
+Date: Sun, 27 Sep 2026 09:40:17 -0500
+Subject: INCIDENT REPORT - INC-48211 - Wave 2 POS outage, Sat 26 Sep (P1)
+
+Team,
+
+Summary of yesterday's P1 for the record. Full RCA to Northwind by Wednesday.
+
+WHAT HAPPENED
+- 11:52 CT: loyalty lookup service latency climbed above 8 seconds under Saturday load.
+- 12:05 CT: POS clients in wave 2 stores blocked tender while waiting for loyalty responses. 14 stores lost the ability to
+  take payments for between 40 minutes and 3 hours.
+- 2 stores (#4471 Memphis Midtown, #4520 Little Rock West) had no offline fallback configured and could not trade at all.
+- 15:02 CT: service restored after scaling the loyalty API and restarting the lookup cache.
+
+CONTRIBUTING CAUSES
+1. Synchronous loyalty lookup in the tender path (design decision from wave 1, never revisited).
+2. 2.3% duplicate member IDs from the loyalty migration cause repeated retries (I-033).
+3. Offline fallback config missing in 2 stores (deployment checklist gap).
+
+IMMEDIATE ACTIONS
+- Push offline fallback config to all 212 wave 2 stores (owner: store deployment team, due Tue 29 Sep).
+- Circuit breaker so a loyalty timeout never blocks tender (owner: POS dev lead, due Wed 30 Sep).
+- Accelerate de-dup job (owner: data team, prod target 13 Oct).
+
+CLIENT IMPACT
+- Lena Fischer (CIO) called Priya at 16:30. Expect a formal escalation Monday. Daniel Okafor's last day is Monday 28 Sep, so we
+  need a new escalation path on the Northwind side.
+
+Kavya

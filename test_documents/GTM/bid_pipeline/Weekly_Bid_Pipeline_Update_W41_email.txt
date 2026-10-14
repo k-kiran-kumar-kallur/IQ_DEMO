@@ -1,0 +1,47 @@
+From: Anita Rao <anita.rao@visionet.example>
+To: Laura Chen <laura.chen@visionet.example>; Marcus Bell <marcus.bell@visionet.example>; Ravi Shankar <ravi.shankar@visionet.example>
+Cc: GTM Bid Team <gtm-bids@visionet.example>; Daniel Cho <daniel.cho@visionet.example>
+Date: Mon, 5 Oct 2026 08:12:44 -0400
+Subject: Weekly bid pipeline - W41: Calder RFP in, Woodgrove BAFO, Tailspin decision 23 Oct
+
+Hi all,
+
+Bid pipeline as of this morning. 9 bids in flight worth $22.50M.
+
+NEW THIS WEEK
+- Calder Insurance claims modernisation RFP (BID-0618, ~$5.8M) landed at 09:12 today. 15-day window, submission 20 Oct.
+  186 requirements. I approved Go at hour 2 (fit 0.71). Guidewire confirmed joint pursuit. Kick-off at 11:00.
+- Trey Research GxP data lake RFI (BID-0620) received 1 Oct, qualifying. Decision on Go by Wednesday.
+
+DECISIONS AND RESUBMISSIONS
+- Woodgrove Bank (BID-0612): BAFO requested by 14 Oct. Brian Foster wants sharper pricing on waves 3-4 and named team
+  continuity from the POC. Pricing review Thursday.
+- Tailspin Airlines (BID-0608): orals went well on 30 Sep. Decision moved from 16 Oct to 23 Oct. Follow-up demo on the union
+  rules engine due 7 Oct (Victor).
+- Wide World Importers renewal (BID-0611): at risk. Wipro is ~18% under us. James is meeting Victor Grant (CFO) on 13 Oct.
+- Lamna Healthcare (BID-0615): submitted 2 Oct after the extension. AMM funding ($95K) confirmed, expires 30 Nov.
+
+ALL BIDS IN FLIGHT
+  BID-0608  Tailspin Airlines          $2.20M  sub 4 Sep  decision 23 Oct  Shortlisted - orals held 30 Sep
+  BID-0603  Relecloud                  $2.40M  sub 11 Sep  decision 13 Nov  Submitted - in negotiation
+  BID-0614  Meridian Bank              $2.40M  sub 18 Sep  decision 18 Dec  Shortlisted
+  BID-0611  Wide World Importers       $1.10M  sub 21 Sep  decision 30 Oct  Submitted - at risk
+  BID-0612  Woodgrove Bank             $3.10M  sub 25 Sep  decision 20 Nov  Submitted - BAFO requested
+  BID-0615  Lamna Healthcare           $1.50M  sub 2 Oct  decision 30 Nov  Submitted
+  BID-0619  Adventure Works Retail     $2.60M  sub 16 Oct  decision 6 Nov  In progress
+  BID-0618  Calder Insurance           $5.80M  sub 20 Oct  decision 4 Dec  In progress - drafting
+  BID-0620  Trey Research              $1.40M  sub 28 Oct  decision 20 Nov  Qualifying
+
+UPCOMING RFX (next 60 days)
+- Adventure Works unified commerce RFP (~$2.6M) mid-Nov - follow-on to our RFI (BID-0619, due 16 Oct)
+- Lamna GenAI member service RFI ~9 Nov
+- Fabrikam population health RFP ~30 Nov (may be sole-sourced)
+- Contoso SAP S/4 data migration RFP early Dec - Capgemini on site
+
+NO-BIDS LAST MONTH
+- Southridge Video (Salesforce CRM) and Margie's Travel (mainframe offload, uncapped liability). Bellows College RFI in Aug.
+
+Thanks,
+Anita
+
+Anita Rao | Bid Manager, GTM | Visionet

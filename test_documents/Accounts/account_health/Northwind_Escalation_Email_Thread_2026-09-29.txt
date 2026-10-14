@@ -1,0 +1,70 @@
+From: Lena Fischer <lena.fischer@northwindtraders.example>
+To: Priya Raman <priya.raman@visionet.example>
+Cc: Arjun Mehta <arjun.mehta@visionet.example>; Mark Ellison <mark.ellison@northwindtraders.example>
+Date: Tue, 29 Sep 2026 07:48:12 -0500
+Subject: ESCALATION - Saturday POS outages, wave 2 stores
+
+Priya,
+
+I need to formally escalate Saturday's incident. Fourteen wave 2 stores had no POS for up to three hours on our busiest day of
+the week. Two stores could not trade at all because offline mode was not configured. District managers were on the phone to me
+all afternoon.
+
+This is the third serious Atlas incident since August. With Daniel gone I do not have anyone on my side who can explain where this
+programme is heading, and Sofia starts on Thursday into this.
+
+I expect:
+1. Root cause and confirmation that offline fallback is configured in every wave 2 store - by end of day Wednesday.
+2. A written recovery plan, including a realistic date for wave 3, by Thursday 8 October.
+3. A named senior person from Visionet accountable for Atlas day to day.
+
+Our AMS renewal conversation will depend on how this is handled.
+
+Lena
+
+Lena Fischer | Chief Information Officer | Northwind Traders
+
+-----
+
+From: Priya Raman <priya.raman@visionet.example>
+To: Lena Fischer <lena.fischer@northwindtraders.example>
+Cc: Arjun Mehta <arjun.mehta@visionet.example>; Laura Chen <laura.chen@visionet.example>; Kavya Iyer <kavya.iyer@visionet.example>
+Date: Tue, 29 Sep 2026 09:15:40 -0500
+Subject: RE: ESCALATION - Saturday POS outages, wave 2 stores
+
+Lena,
+
+I'm sorry. Saturday should not have happened and we take full ownership.
+
+- Root cause: the loyalty lookup service timed out under weekend load and blocked tender. A circuit breaker is being deployed so a
+  loyalty timeout can never block a sale again. Arjun will confirm root cause in writing today.
+- Offline fallback: Kavya's team is pushing the configuration to all 212 wave 2 stores tonight and will confirm store by store
+  by tomorrow afternoon.
+- Accountability: Arjun Mehta, our Delivery Director, will lead Atlas personally from today, with Kavya as programme manager.
+- Recovery plan: you will have it by Thursday 8 October.
+
+Laura Chen, our CRO, has asked to join Thursday's sync to meet you and Sofia.
+
+Priya
+
+Priya Raman | Client Partner, Retail & Healthcare | Visionet
+
+-----
+
+From: Arjun Mehta <arjun.mehta@visionet.example>
+To: Lena Fischer <lena.fischer@northwindtraders.example>; Priya Raman <priya.raman@visionet.example>
+Cc: Mark Ellison <mark.ellison@northwindtraders.example>; Kavya Iyer <kavya.iyer@visionet.example>
+Date: Wed, 30 Sep 2026 16:52:03 -0500
+Subject: RE: ESCALATION - Saturday POS outages, wave 2 stores
+
+Lena,
+
+Confirmations as promised:
+- Offline fallback is configured and tested in all 212 wave 2 stores (store-by-store checklist attached: Atlas_W2_Offline_Checklist.xlsx).
+- Circuit breaker deployed to production at 14:10 CT today. Load test at 3x Saturday peak passed.
+- Root cause document attached (INC-48211 RCA). Contributing cause: 2.3% duplicate loyalty member IDs from the migration, which
+  increased lookup retries. De-duplication fix is in test.
+
+Arjun
+
+Arjun Mehta | Delivery Director | Visionet

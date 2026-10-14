@@ -1,0 +1,27 @@
+From: Sam Wright <sam.wright@visionet.example>
+To: Lisa Moreno <lisa.moreno@wideworldimporters.example>
+Cc: James Patel <james.patel@visionet.example>; Arjun Mehta <arjun.mehta@visionet.example>
+Date: Thu, 1 Oct 2026 11:06:55 -0400
+Subject: September SLA report - WMS support (CTR-7088) - SLA below target
+
+Hi Lisa,
+
+As required under CTR-7088, I am notifying you that September SLA attainment for WMS application support was 97.1% against the
+97.5% target.
+
+Cause: two P2 incidents on pick-face replenishment sync (9 Sep and 22 Sep) exceeded the 8-hour resolution target, by 3.5 hours
+and 6 hours respectively. Both trace to the Manhattan WMS 2019 interface queue, which degrades under peak volumes.
+
+Service credit: 2% of the September monthly fee, applied to the October invoice.
+
+Remediation (agreed on our call this morning):
+- Queue monitoring alert at 70% depth (live from 5 Oct).
+- Weekly interface health check until year end.
+- Options paper on the WMS upgrade, recognising it is not budgeted for FY27.
+
+I know the renewal discussion with Victor is on 13 October. We want to show September was an exception.
+
+Regards,
+Sam
+
+Sam Wright | Service Delivery Manager, Managed Services | Visionet

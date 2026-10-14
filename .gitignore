@@ -1,0 +1,12 @@
+# secrets and local data - never commit
+.env
+data/
+# python
+backend/.venv/
+__pycache__/
+*.pyc
+# node
+frontend/node_modules/
+frontend/dist/
+.DS_Store
+frontend/*.tsbuildinfo

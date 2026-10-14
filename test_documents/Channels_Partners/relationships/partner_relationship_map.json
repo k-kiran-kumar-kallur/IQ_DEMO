@@ -1,0 +1,239 @@
+{
+  "source": "Alliances team + Partner Center + AWS Partner Central",
+  "updated": "2026-10-05",
+  "partners": [
+    {
+      "partner_id": "PRT-01",
+      "partner": "Microsoft",
+      "type": "Hyperscaler",
+      "tier": "Solutions Partner (4 designations)",
+      "programme": "Microsoft AI Cloud Partner Program",
+      "programme_status": "Active - FY27 business plan agreed",
+      "visionet_owner": "Elena Novak",
+      "partner_owner": "Jessica Wu",
+      "partner_owner_title": "Partner Development Manager",
+      "field_contacts": [
+        {
+          "name": "Jessica Wu",
+          "role": "PDM"
+        },
+        {
+          "name": "Daniel Ortiz",
+          "role": "Banking account executive (Meridian, Woodgrove)"
+        },
+        {
+          "name": "Priya Natarajan",
+          "role": "Healthcare specialist (Fabrikam, Lamna, Halcyon)"
+        },
+        {
+          "name": "Tom Becker",
+          "role": "Data & AI technical specialist"
+        }
+      ],
+      "designations": [
+        {
+          "name": "Solutions Partner for Data & AI (Azure)",
+          "status": "Active"
+        },
+        {
+          "name": "Solutions Partner for Infrastructure (Azure)",
+          "status": "Active"
+        },
+        {
+          "name": "Solutions Partner for Digital & App Innovation (Azure)",
+          "status": "Active"
+        },
+        {
+          "name": "Solutions Partner for Security",
+          "status": "Active"
+        },
+        {
+          "name": "Specialization: Analytics on Microsoft Azure",
+          "status": "Active",
+          "renewal_due": "2027-01-31"
+        },
+        {
+          "name": "Specialization: AI Platform on Microsoft Azure",
+          "status": "In progress"
+        }
+      ],
+      "relationship_health": "Strong",
+      "open_opportunities": [
+        "OPP-24102",
+        "OPP-24110",
+        "OPP-24120",
+        "OPP-24121",
+        "OPP-24150",
+        "OPP-24190",
+        "OPP-24220",
+        "OPP-24240",
+        "OPP-24260"
+      ]
+    },
+    {
+      "partner_id": "PRT-02",
+      "partner": "AWS",
+      "type": "Hyperscaler",
+      "tier": "Advanced Tier Services Partner",
+      "programme": "AWS Partner Network",
+      "programme_status": "Active - Migration Competency renewal due Jan 2027",
+      "visionet_owner": "Elena Novak",
+      "partner_owner": "Ryan Cooper",
+      "partner_owner_title": "Partner Development Manager",
+      "field_contacts": [
+        {
+          "name": "Ryan Cooper",
+          "role": "PDM"
+        },
+        {
+          "name": "Alicia Gomez",
+          "role": "Insurance partner SA (Calder)"
+        },
+        {
+          "name": "Mark Hughes",
+          "role": "MAP specialist"
+        }
+      ],
+      "designations": [
+        {
+          "name": "Advanced Tier Services",
+          "status": "Active"
+        },
+        {
+          "name": "Migration Competency",
+          "status": "Active",
+          "renewal_due": "2027-01-15"
+        },
+        {
+          "name": "Data & Analytics Competency",
+          "status": "In progress"
+        }
+      ],
+      "relationship_health": "Good",
+      "open_opportunities": [
+        "OPP-24130",
+        "OPP-24210"
+      ]
+    },
+    {
+      "partner_id": "PRT-03",
+      "partner": "Databricks",
+      "type": "ISV - Data platform",
+      "tier": "Select",
+      "programme": "Databricks Consulting & SI Partner Program",
+      "programme_status": "Active - targeting Elite by FY27 H2",
+      "visionet_owner": "Kevin Shah",
+      "partner_owner": "Laura Mendes",
+      "partner_owner_title": "Partner Manager",
+      "field_contacts": [
+        {
+          "name": "Laura Mendes",
+          "role": "Partner manager"
+        },
+        {
+          "name": "Raj Patel",
+          "role": "Field engineer (Wingtip)"
+        }
+      ],
+      "designations": [
+        {
+          "name": "Select tier",
+          "status": "Active"
+        },
+        {
+          "name": "Elite tier",
+          "status": "Target FY27 H2"
+        }
+      ],
+      "relationship_health": "Good",
+      "open_opportunities": [
+        "OPP-24171"
+      ]
+    },
+    {
+      "partner_id": "PRT-04",
+      "partner": "Snowflake",
+      "type": "ISV - Data platform",
+      "tier": "Select",
+      "programme": "Snowflake Partner Network",
+      "programme_status": "Active",
+      "visionet_owner": "Kevin Shah",
+      "partner_owner": "Marco Bianchi",
+      "partner_owner_title": "Partner Sales Manager",
+      "field_contacts": [
+        {
+          "name": "Marco Bianchi",
+          "role": "Partner sales manager"
+        }
+      ],
+      "designations": [
+        {
+          "name": "Select tier",
+          "status": "Active"
+        },
+        {
+          "name": "Elite tier",
+          "status": "Gap (GAP-029)"
+        }
+      ],
+      "relationship_health": "Neutral",
+      "open_opportunities": []
+    },
+    {
+      "partner_id": "PRT-05",
+      "partner": "ServiceNow",
+      "type": "ISV - Workflow",
+      "tier": "Specialist",
+      "programme": "ServiceNow Partner Program",
+      "programme_status": "Active - low activity",
+      "visionet_owner": "Kevin Shah",
+      "partner_owner": "Hannah Cole",
+      "partner_owner_title": "Alliance Manager",
+      "field_contacts": [
+        {
+          "name": "Hannah Cole",
+          "role": "Alliance manager"
+        }
+      ],
+      "designations": [
+        {
+          "name": "Specialist",
+          "status": "Active"
+        }
+      ],
+      "relationship_health": "Weak - low activity",
+      "open_opportunities": []
+    },
+    {
+      "partner_id": "PRT-06",
+      "partner": "Guidewire",
+      "type": "ISV - Insurance core",
+      "tier": "PartnerConnect Consulting - Select",
+      "programme": "Guidewire PartnerConnect",
+      "programme_status": "Active - Calder pursuit is the first joint bid",
+      "visionet_owner": "Kevin Shah",
+      "partner_owner": "Andrew Price",
+      "partner_owner_title": "Alliance Director",
+      "field_contacts": [
+        {
+          "name": "Andrew Price",
+          "role": "Alliance director"
+        },
+        {
+          "name": "Nina Shah",
+          "role": "Claims solution consultant"
+        }
+      ],
+      "designations": [
+        {
+          "name": "PartnerConnect Consulting - Select",
+          "status": "Active"
+        }
+      ],
+      "relationship_health": "Building - first joint pursuit",
+      "open_opportunities": [
+        "OPP-24230"
+      ]
+    }
+  ]
+}

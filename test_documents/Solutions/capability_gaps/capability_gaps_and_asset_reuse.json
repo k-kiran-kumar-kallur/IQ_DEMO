@@ -1,0 +1,196 @@
+{
+  "source": "Solutions capability register (SharePoint list) + FocusNet bid links",
+  "updated": "2026-10-06",
+  "capability_gaps": [
+    {
+      "id": "GAP-031",
+      "capability": "Siemens Opcenter MES integration",
+      "flagged_in": [
+        "BID-0597"
+      ],
+      "account": "Contoso Manufacturing",
+      "impact": "Lost $1.9M bid; OT score 3.1/5",
+      "severity": "High",
+      "owner": "Mei Tanaka",
+      "remediation": "Partner with an Opcenter specialist; build reference on Contoso MES support",
+      "status": "Open",
+      "logged": "2026-08-27"
+    },
+    {
+      "id": "GAP-029",
+      "capability": "Snowflake Elite partner tier",
+      "flagged_in": [
+        "BID-0569",
+        "BID-0620"
+      ],
+      "account": "Relecloud; Trey Research",
+      "impact": "Lost $1.3M CDP bid to Elite partner",
+      "severity": "Medium",
+      "owner": "Kevin Shah",
+      "remediation": "Certify 25 more SnowPro consultants by Q2 FY27",
+      "status": "In progress",
+      "logged": "2025-09-12"
+    },
+    {
+      "id": "GAP-033",
+      "capability": "Telecom BSS product partnership",
+      "flagged_in": [
+        "BID-0599"
+      ],
+      "account": "Relecloud",
+      "impact": "Lost $1.6M OSS/BSS discovery",
+      "severity": "Medium",
+      "owner": "Ravi Shankar",
+      "remediation": "Evaluate partnership with a BSS vendor before Relecloud re-tender (Jan 2027)",
+      "status": "Open",
+      "logged": "2026-08-10"
+    },
+    {
+      "id": "GAP-035",
+      "capability": "Outcome-based pricing template",
+      "flagged_in": [
+        "BID-0597",
+        "BID-0611"
+      ],
+      "account": "Contoso Manufacturing; Wide World Importers",
+      "impact": "Client asked; nobody offered",
+      "severity": "High",
+      "owner": "Daniel Cho",
+      "remediation": "Deal desk template due 31 Oct 2026",
+      "status": "In progress",
+      "logged": "2026-09-04"
+    },
+    {
+      "id": "GAP-036",
+      "capability": "Full on-site delivery team in Hartford",
+      "flagged_in": [
+        "BID-0618"
+      ],
+      "account": "Calder Insurance",
+      "impact": "Requirement 052 partial",
+      "severity": "Low",
+      "owner": "Anita Rao",
+      "remediation": "Hybrid model with 9-person on-site core",
+      "status": "Accepted risk",
+      "logged": "2026-10-06"
+    },
+    {
+      "id": "GAP-037",
+      "capability": "Fixed-price contingency model for claims conversion",
+      "flagged_in": [
+        "BID-0618"
+      ],
+      "account": "Calder Insurance",
+      "impact": "Requirement 088 gap",
+      "severity": "High",
+      "owner": "Daniel Cho",
+      "remediation": "Deal desk to price release 1 fixed option by 14 Oct",
+      "status": "Open",
+      "logged": "2026-10-06"
+    },
+    {
+      "id": "GAP-038",
+      "capability": "Fiserv DNA real-time event connector",
+      "flagged_in": [
+        "BID-0612",
+        "BID-0614"
+      ],
+      "account": "Woodgrove Bank; Meridian Bank",
+      "impact": "3-4 weeks custom build per client",
+      "severity": "Medium",
+      "owner": "Mei Tanaka",
+      "remediation": "Build reusable connector in PRG-2004 POC",
+      "status": "In progress",
+      "logged": "2026-09-02"
+    }
+  ],
+  "asset_reuse": [
+    {
+      "asset": "Lakehouse Blueprint v4",
+      "type": "Reference architecture",
+      "reused_in": [
+        "BID-0549",
+        "BID-0612",
+        "BID-0614",
+        "PRG-2002",
+        "PRG-2004"
+      ],
+      "times_reused_fy2026": 4,
+      "est_hours_saved": 620
+    },
+    {
+      "asset": "Teradata Exit Toolkit",
+      "type": "Accelerator",
+      "reused_in": [
+        "BID-0612",
+        "BID-0614"
+      ],
+      "times_reused_fy2026": 2,
+      "est_hours_saved": 180
+    },
+    {
+      "asset": "IDP-FNOL v3",
+      "type": "Accelerator",
+      "reused_in": [
+        "BID-0582",
+        "OPP-24150",
+        "BID-0618"
+      ],
+      "times_reused_fy2026": 3,
+      "est_hours_saved": 410
+    },
+    {
+      "asset": "Migration Factory Runbook",
+      "type": "Playbook",
+      "reused_in": [
+        "BID-0557",
+        "BID-0588",
+        "BID-0589",
+        "OPP-24210"
+      ],
+      "times_reused_fy2026": 3,
+      "est_hours_saved": 300
+    },
+    {
+      "asset": "Payer Data Model",
+      "type": "Data model",
+      "reused_in": [
+        "BID-0546",
+        "OPP-24240"
+      ],
+      "times_reused_fy2026": 1,
+      "est_hours_saved": 140
+    },
+    {
+      "asset": "OMS Accelerator",
+      "type": "Accelerator",
+      "reused_in": [
+        "BID-0572",
+        "BID-0594",
+        "BID-0619"
+      ],
+      "times_reused_fy2026": 2,
+      "est_hours_saved": 360
+    },
+    {
+      "asset": "Guidewire integration accelerators (61)",
+      "type": "Accelerator library",
+      "reused_in": [
+        "BID-0618"
+      ],
+      "times_reused_fy2026": 1,
+      "est_hours_saved": 0,
+      "note": "Value realised only if Calder is won"
+    },
+    {
+      "asset": "RAG Guardrails Kit",
+      "type": "Accelerator",
+      "reused_in": [
+        "OPP-24260",
+        "PRG-2005"
+      ],
+      "times_reused_fy2026": 2,
+      "est_hours_saved": 90
+    }
+  ]
+}

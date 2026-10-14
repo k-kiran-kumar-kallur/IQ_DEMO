@@ -1,0 +1,22 @@
+From: Elena Novak <elena.novak@visionet.example>
+To: Hannah Lee <hannah.lee@visionet.example>
+Cc: Rohan Kapoor <rohan.kapoor@visionet.example>; Daniel Cho <daniel.cho@visionet.example>
+Date: Tue, 6 Oct 2026 10:04:51 -0400
+Subject: Action needed: $95K Azure Migrate & Modernize funding for Lamna expires 30 Nov
+
+Hannah,
+
+Flagging a lapse risk. The Azure Migrate & Modernize (AMM) funding for Lamna Healthcare (FND-903, approved 28 Aug, $95,000)
+is still unused and expires on 30 November - 53 days from today.
+
+The funding covers the assessment and pilot wave for the claims platform migration (OPP-24190 / BID-0615). If the RFP decision
+lands on 30 November as planned, we will not be able to start in time to claim it.
+
+Options:
+1. Ask Lamna to start the assessment now under a short letter of intent (Thomas Reed indicated he was open to this).
+2. Ask Microsoft (Jessica Wu) for a one-time extension to 31 January - possible but not guaranteed.
+
+Can we discuss at Thursday's pipeline call? Last quarter we let $40K of AWS POC credits lapse at Wide World; I don't want a repeat.
+
+Thanks,
+Elena

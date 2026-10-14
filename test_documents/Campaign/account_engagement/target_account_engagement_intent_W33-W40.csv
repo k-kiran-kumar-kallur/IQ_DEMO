@@ -1,0 +1,121 @@
+week_start,week,account_id,account_name,industry,web_visits,content_downloads,email_opens,email_clicks,ad_impressions,ad_clicks,webinar_attendees,intent_score_0_100,intent_stage,intent_topics
+2026-08-10,W33,ACC-1001,Northwind Traders,Retail,19,2,37,4,1244,7,0,48,Baseline,managed services RFP; POS support; loyalty
+2026-08-10,W33,ACC-1002,Fabrikam Health,Healthcare,14,1,22,0,1127,10,0,44,Baseline,population health; Microsoft Fabric
+2026-08-10,W33,ACC-1003,Woodgrove Bank,BFSI,26,1,27,4,830,7,0,75,Surging,lakehouse; BCBS 239; Azure Databricks
+2026-08-10,W33,ACC-1005,Litware Insurance,BFSI,23,4,52,5,1053,5,0,64,Rising,claims automation; document AI
+2026-08-10,W33,ACC-1006,Contoso Manufacturing,Manufacturing,15,2,41,0,401,14,0,34,Baseline,SAP S/4HANA migration; MES
+2026-08-10,W33,ACC-1007,Adventure Works Retail,Retail,18,3,71,4,1175,15,0,67,Rising,unified commerce; composable commerce; OMS
+2026-08-10,W33,ACC-1009,Relecloud,Telecom,20,1,46,7,1090,1,0,48,Baseline,AIOps; GenAI service desk
+2026-08-10,W33,ACC-1010,Lamna Healthcare,Healthcare,13,1,27,5,751,15,0,46,Baseline,Azure migration; GenAI customer service
+2026-08-10,W33,ACC-1011,Wide World Importers,Retail,14,2,38,4,1682,7,0,39,Baseline,AMS vendor consolidation; cost reduction
+2026-08-10,W33,ACC-1012,Trey Research,Life Sciences,19,1,26,7,837,8,0,49,Baseline,GxP data platform; AWS
+2026-08-10,W33,ACC-1013,Meridian Bank,BFSI,18,3,7,6,1235,7,0,72,Surging,Teradata migration; lakehouse; Unity Catalog
+2026-08-10,W33,ACC-1014,Calder Insurance,BFSI,14,1,37,1,1103,9,0,46,Baseline,Guidewire ClaimCenter; claims modernisation
+2026-08-10,W33,ACC-1015,Halcyon Health,Healthcare,15,1,53,4,1365,8,0,41,Baseline,Microsoft Fabric; claims analytics
+2026-08-10,W33,ACC-1016,Alpine Ski House,Hospitality,19,2,56,3,2053,9,0,45,Baseline,Azure cost optimisation
+2026-08-10,W33,ACC-1017,Fourth Coffee,Retail,19,2,35,4,1057,9,0,44,Baseline,mobile ordering; loyalty app
+2026-08-17,W34,ACC-1001,Northwind Traders,Retail,21,1,23,4,926,13,0,49,Baseline,managed services RFP; POS support; loyalty
+2026-08-17,W34,ACC-1002,Fabrikam Health,Healthcare,12,2,46,2,1271,8,0,43,Baseline,population health; Microsoft Fabric
+2026-08-17,W34,ACC-1003,Woodgrove Bank,BFSI,22,2,34,5,1499,11,3,65,Rising,lakehouse; BCBS 239; Azure Databricks
+2026-08-17,W34,ACC-1005,Litware Insurance,BFSI,19,2,32,3,1275,12,0,58,Rising,claims automation; document AI
+2026-08-17,W34,ACC-1006,Contoso Manufacturing,Manufacturing,19,1,42,1,920,6,0,54,Baseline,SAP S/4HANA migration; MES
+2026-08-17,W34,ACC-1007,Adventure Works Retail,Retail,22,1,49,5,1001,5,0,60,Rising,unified commerce; composable commerce; OMS
+2026-08-17,W34,ACC-1009,Relecloud,Telecom,14,2,39,2,1345,12,0,42,Baseline,AIOps; GenAI service desk
+2026-08-17,W34,ACC-1010,Lamna Healthcare,Healthcare,9,1,57,4,1164,10,0,41,Baseline,Azure migration; GenAI customer service
+2026-08-17,W34,ACC-1011,Wide World Importers,Retail,13,2,37,0,844,16,0,39,Baseline,AMS vendor consolidation; cost reduction
+2026-08-17,W34,ACC-1012,Trey Research,Life Sciences,13,0,69,5,1247,7,0,48,Baseline,GxP data platform; AWS
+2026-08-17,W34,ACC-1013,Meridian Bank,BFSI,29,3,40,7,565,12,2,80,Surging,Teradata migration; lakehouse; Unity Catalog
+2026-08-17,W34,ACC-1014,Calder Insurance,BFSI,16,1,53,5,918,6,0,51,Baseline,Guidewire ClaimCenter; claims modernisation
+2026-08-17,W34,ACC-1015,Halcyon Health,Healthcare,16,2,43,2,1169,4,0,47,Baseline,Microsoft Fabric; claims analytics
+2026-08-17,W34,ACC-1016,Alpine Ski House,Hospitality,19,1,59,4,1485,13,0,44,Baseline,Azure cost optimisation
+2026-08-17,W34,ACC-1017,Fourth Coffee,Retail,13,1,47,6,936,13,0,45,Baseline,mobile ordering; loyalty app
+2026-08-24,W35,ACC-1001,Northwind Traders,Retail,15,1,24,4,1161,9,0,52,Baseline,managed services RFP; POS support; loyalty
+2026-08-24,W35,ACC-1002,Fabrikam Health,Healthcare,10,1,30,3,1919,6,0,44,Baseline,population health; Microsoft Fabric
+2026-08-24,W35,ACC-1003,Woodgrove Bank,BFSI,24,2,46,3,1277,11,0,73,Surging,lakehouse; BCBS 239; Azure Databricks
+2026-08-24,W35,ACC-1005,Litware Insurance,BFSI,20,3,44,7,1368,8,0,70,Surging,claims automation; document AI
+2026-08-24,W35,ACC-1006,Contoso Manufacturing,Manufacturing,12,1,48,7,1285,5,0,53,Baseline,SAP S/4HANA migration; MES
+2026-08-24,W35,ACC-1007,Adventure Works Retail,Retail,28,2,57,7,1329,14,0,59,Rising,unified commerce; composable commerce; OMS
+2026-08-24,W35,ACC-1009,Relecloud,Telecom,14,2,45,4,1243,8,0,45,Baseline,AIOps; GenAI service desk
+2026-08-24,W35,ACC-1010,Lamna Healthcare,Healthcare,23,1,29,6,1413,5,0,49,Baseline,Azure migration; GenAI customer service
+2026-08-24,W35,ACC-1011,Wide World Importers,Retail,15,2,32,6,836,5,0,41,Baseline,AMS vendor consolidation; cost reduction
+2026-08-24,W35,ACC-1012,Trey Research,Life Sciences,12,1,33,1,1769,4,0,45,Baseline,GxP data platform; AWS
+2026-08-24,W35,ACC-1013,Meridian Bank,BFSI,29,1,38,7,553,7,0,74,Surging,Teradata migration; lakehouse; Unity Catalog
+2026-08-24,W35,ACC-1014,Calder Insurance,BFSI,21,2,51,6,1447,8,0,53,Baseline,Guidewire ClaimCenter; claims modernisation
+2026-08-24,W35,ACC-1015,Halcyon Health,Healthcare,17,2,54,4,954,9,0,44,Baseline,Microsoft Fabric; claims analytics
+2026-08-24,W35,ACC-1016,Alpine Ski House,Hospitality,17,1,66,3,1212,10,0,42,Baseline,Azure cost optimisation
+2026-08-24,W35,ACC-1017,Fourth Coffee,Retail,20,3,34,3,1352,3,0,41,Baseline,mobile ordering; loyalty app
+2026-08-31,W36,ACC-1001,Northwind Traders,Retail,22,4,46,5,1225,10,0,54,Baseline,managed services RFP; POS support; loyalty
+2026-08-31,W36,ACC-1002,Fabrikam Health,Healthcare,17,1,47,0,1562,12,0,46,Baseline,population health; Microsoft Fabric
+2026-08-31,W36,ACC-1003,Woodgrove Bank,BFSI,27,1,35,9,1731,8,0,74,Surging,lakehouse; BCBS 239; Azure Databricks
+2026-08-31,W36,ACC-1005,Litware Insurance,BFSI,18,3,34,6,1318,1,0,60,Rising,claims automation; document AI
+2026-08-31,W36,ACC-1006,Contoso Manufacturing,Manufacturing,16,3,57,1,1018,8,0,50,Baseline,SAP S/4HANA migration; MES
+2026-08-31,W36,ACC-1007,Adventure Works Retail,Retail,18,3,46,5,1041,11,0,61,Rising,unified commerce; composable commerce; OMS
+2026-08-31,W36,ACC-1009,Relecloud,Telecom,16,1,43,0,1462,5,0,45,Baseline,AIOps; GenAI service desk
+2026-08-31,W36,ACC-1010,Lamna Healthcare,Healthcare,16,2,47,7,1032,11,0,48,Baseline,Azure migration; GenAI customer service
+2026-08-31,W36,ACC-1011,Wide World Importers,Retail,18,3,49,4,872,10,0,46,Baseline,AMS vendor consolidation; cost reduction
+2026-08-31,W36,ACC-1012,Trey Research,Life Sciences,17,1,44,7,1184,9,0,43,Baseline,GxP data platform; AWS
+2026-08-31,W36,ACC-1013,Meridian Bank,BFSI,23,2,35,2,967,8,0,75,Surging,Teradata migration; lakehouse; Unity Catalog
+2026-08-31,W36,ACC-1014,Calder Insurance,BFSI,24,2,42,5,1352,8,0,63,Rising,Guidewire ClaimCenter; claims modernisation
+2026-08-31,W36,ACC-1015,Halcyon Health,Healthcare,16,2,36,4,1891,5,0,47,Baseline,Microsoft Fabric; claims analytics
+2026-08-31,W36,ACC-1016,Alpine Ski House,Hospitality,10,1,42,4,1375,2,0,40,Baseline,Azure cost optimisation
+2026-08-31,W36,ACC-1017,Fourth Coffee,Retail,25,4,37,4,1627,2,0,49,Baseline,mobile ordering; loyalty app
+2026-09-07,W37,ACC-1001,Northwind Traders,Retail,24,4,38,5,1422,8,0,49,Baseline,managed services RFP; POS support; loyalty
+2026-09-07,W37,ACC-1002,Fabrikam Health,Healthcare,12,1,64,2,917,8,0,42,Baseline,population health; Microsoft Fabric
+2026-09-07,W37,ACC-1003,Woodgrove Bank,BFSI,19,2,26,5,1008,1,0,72,Surging,lakehouse; BCBS 239; Azure Databricks
+2026-09-07,W37,ACC-1005,Litware Insurance,BFSI,14,2,37,7,1097,6,0,63,Rising,claims automation; document AI
+2026-09-07,W37,ACC-1006,Contoso Manufacturing,Manufacturing,21,3,47,3,837,13,0,42,Baseline,SAP S/4HANA migration; MES
+2026-09-07,W37,ACC-1007,Adventure Works Retail,Retail,22,4,43,4,615,10,0,69,Rising,unified commerce; composable commerce; OMS
+2026-09-07,W37,ACC-1009,Relecloud,Telecom,18,1,38,1,1238,4,0,50,Baseline,AIOps; GenAI service desk
+2026-09-07,W37,ACC-1010,Lamna Healthcare,Healthcare,19,1,29,1,1263,6,0,48,Baseline,Azure migration; GenAI customer service
+2026-09-07,W37,ACC-1011,Wide World Importers,Retail,13,1,28,6,1583,5,0,33,Baseline,AMS vendor consolidation; cost reduction
+2026-09-07,W37,ACC-1012,Trey Research,Life Sciences,16,0,57,1,833,9,0,41,Baseline,GxP data platform; AWS
+2026-09-07,W37,ACC-1013,Meridian Bank,BFSI,22,4,44,8,1374,3,0,76,Surging,Teradata migration; lakehouse; Unity Catalog
+2026-09-07,W37,ACC-1014,Calder Insurance,BFSI,27,1,46,5,1239,14,0,63,Rising,Guidewire ClaimCenter; claims modernisation
+2026-09-07,W37,ACC-1015,Halcyon Health,Healthcare,7,0,39,2,1765,16,0,34,Baseline,Microsoft Fabric; claims analytics
+2026-09-07,W37,ACC-1016,Alpine Ski House,Hospitality,14,1,32,3,991,10,0,51,Baseline,Azure cost optimisation
+2026-09-07,W37,ACC-1017,Fourth Coffee,Retail,19,3,42,1,829,5,0,42,Baseline,mobile ordering; loyalty app
+2026-09-14,W38,ACC-1001,Northwind Traders,Retail,21,1,53,6,1565,10,0,65,Rising,managed services RFP; POS support; loyalty
+2026-09-14,W38,ACC-1002,Fabrikam Health,Healthcare,18,2,37,6,1152,13,0,47,Baseline,population health; Microsoft Fabric
+2026-09-14,W38,ACC-1003,Woodgrove Bank,BFSI,22,2,33,5,907,11,3,61,Rising,lakehouse; BCBS 239; Azure Databricks
+2026-09-14,W38,ACC-1005,Litware Insurance,BFSI,23,1,33,2,1212,2,0,62,Rising,claims automation; document AI
+2026-09-14,W38,ACC-1006,Contoso Manufacturing,Manufacturing,9,1,35,0,1187,7,0,41,Baseline,SAP S/4HANA migration; MES
+2026-09-14,W38,ACC-1007,Adventure Works Retail,Retail,21,3,48,10,1239,17,0,65,Rising,unified commerce; composable commerce; OMS
+2026-09-14,W38,ACC-1009,Relecloud,Telecom,14,1,24,5,951,11,0,46,Baseline,AIOps; GenAI service desk
+2026-09-14,W38,ACC-1010,Lamna Healthcare,Healthcare,13,0,59,6,1018,6,0,43,Baseline,Azure migration; GenAI customer service
+2026-09-14,W38,ACC-1011,Wide World Importers,Retail,10,0,26,1,1070,5,0,40,Baseline,AMS vendor consolidation; cost reduction
+2026-09-14,W38,ACC-1012,Trey Research,Life Sciences,14,1,39,6,1249,7,0,52,Baseline,GxP data platform; AWS
+2026-09-14,W38,ACC-1013,Meridian Bank,BFSI,20,3,49,3,1329,7,4,77,Surging,Teradata migration; lakehouse; Unity Catalog
+2026-09-14,W38,ACC-1014,Calder Insurance,BFSI,21,1,43,4,1231,5,0,77,Surging,Guidewire ClaimCenter; claims modernisation
+2026-09-14,W38,ACC-1015,Halcyon Health,Healthcare,14,2,43,3,1146,11,0,42,Baseline,Microsoft Fabric; claims analytics
+2026-09-14,W38,ACC-1016,Alpine Ski House,Hospitality,12,1,36,5,1414,1,0,46,Baseline,Azure cost optimisation
+2026-09-14,W38,ACC-1017,Fourth Coffee,Retail,15,2,51,1,1138,0,0,48,Baseline,mobile ordering; loyalty app
+2026-09-21,W39,ACC-1001,Northwind Traders,Retail,18,1,45,3,1032,18,0,54,Baseline,managed services RFP; POS support; loyalty
+2026-09-21,W39,ACC-1002,Fabrikam Health,Healthcare,19,0,35,4,1096,14,0,42,Baseline,population health; Microsoft Fabric
+2026-09-21,W39,ACC-1003,Woodgrove Bank,BFSI,24,3,42,7,1480,3,0,66,Rising,lakehouse; BCBS 239; Azure Databricks
+2026-09-21,W39,ACC-1005,Litware Insurance,BFSI,18,3,52,4,1342,12,0,58,Rising,claims automation; document AI
+2026-09-21,W39,ACC-1006,Contoso Manufacturing,Manufacturing,10,1,38,0,1289,7,0,38,Baseline,SAP S/4HANA migration; MES
+2026-09-21,W39,ACC-1007,Adventure Works Retail,Retail,18,3,30,5,1222,16,0,64,Rising,unified commerce; composable commerce; OMS
+2026-09-21,W39,ACC-1009,Relecloud,Telecom,12,1,56,3,784,7,0,42,Baseline,AIOps; GenAI service desk
+2026-09-21,W39,ACC-1010,Lamna Healthcare,Healthcare,21,1,31,0,1393,12,0,46,Baseline,Azure migration; GenAI customer service
+2026-09-21,W39,ACC-1011,Wide World Importers,Retail,6,0,39,4,1349,16,0,40,Baseline,AMS vendor consolidation; cost reduction
+2026-09-21,W39,ACC-1012,Trey Research,Life Sciences,11,0,33,3,785,8,0,46,Baseline,GxP data platform; AWS
+2026-09-21,W39,ACC-1013,Meridian Bank,BFSI,25,3,48,12,1632,2,0,78,Surging,Teradata migration; lakehouse; Unity Catalog
+2026-09-21,W39,ACC-1014,Calder Insurance,BFSI,31,5,38,9,635,13,0,80,Surging,Guidewire ClaimCenter; claims modernisation
+2026-09-21,W39,ACC-1015,Halcyon Health,Healthcare,11,0,41,6,1061,10,0,48,Baseline,Microsoft Fabric; claims analytics
+2026-09-21,W39,ACC-1016,Alpine Ski House,Hospitality,15,1,28,4,1651,12,0,39,Baseline,Azure cost optimisation
+2026-09-21,W39,ACC-1017,Fourth Coffee,Retail,13,0,14,2,1080,8,0,41,Baseline,mobile ordering; loyalty app
+2026-09-28,W40,ACC-1001,Northwind Traders,Retail,18,2,44,7,1451,3,0,62,Rising,managed services RFP; POS support; loyalty
+2026-09-28,W40,ACC-1002,Fabrikam Health,Healthcare,16,2,44,2,1465,8,0,46,Baseline,population health; Microsoft Fabric
+2026-09-28,W40,ACC-1003,Woodgrove Bank,BFSI,14,2,43,3,1362,7,0,65,Rising,lakehouse; BCBS 239; Azure Databricks
+2026-09-28,W40,ACC-1005,Litware Insurance,BFSI,19,2,25,2,751,10,0,60,Rising,claims automation; document AI
+2026-09-28,W40,ACC-1006,Contoso Manufacturing,Manufacturing,16,1,39,7,1548,9,0,49,Baseline,SAP S/4HANA migration; MES
+2026-09-28,W40,ACC-1007,Adventure Works Retail,Retail,23,2,53,4,719,6,0,62,Rising,unified commerce; composable commerce; OMS
+2026-09-28,W40,ACC-1009,Relecloud,Telecom,14,1,46,1,900,3,0,39,Baseline,AIOps; GenAI service desk
+2026-09-28,W40,ACC-1010,Lamna Healthcare,Healthcare,11,1,42,5,1566,9,0,50,Baseline,Azure migration; GenAI customer service
+2026-09-28,W40,ACC-1011,Wide World Importers,Retail,8,1,31,0,825,5,0,40,Baseline,AMS vendor consolidation; cost reduction
+2026-09-28,W40,ACC-1012,Trey Research,Life Sciences,13,0,61,2,1374,8,0,47,Baseline,GxP data platform; AWS
+2026-09-28,W40,ACC-1013,Meridian Bank,BFSI,21,1,48,8,1314,9,0,75,Surging,Teradata migration; lakehouse; Unity Catalog
+2026-09-28,W40,ACC-1014,Calder Insurance,BFSI,23,2,40,1,1174,12,0,83,Surging,Guidewire ClaimCenter; claims modernisation
+2026-09-28,W40,ACC-1015,Halcyon Health,Healthcare,18,2,30,3,1063,3,0,52,Baseline,Microsoft Fabric; claims analytics
+2026-09-28,W40,ACC-1016,Alpine Ski House,Hospitality,14,0,53,3,1162,9,0,42,Baseline,Azure cost optimisation
+2026-09-28,W40,ACC-1017,Fourth Coffee,Retail,15,0,33,3,1051,8,0,42,Baseline,mobile ordering; loyalty app

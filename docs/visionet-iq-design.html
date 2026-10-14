@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Visionet IQ — The agentic enterprise, measured</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F1F3F2; --surface:#FFFFFF; --sunk:#E8EBEA; --ink:#141C26; --muted:#58636F; --faint:#8A949F; --line:#D6DBDF;
+  --rail:#0F1620; --rail-ink:#C9D2DC; --rail-mute:#7E8B99; --rail-line:#222C38; --rail-hi:#1B2635;
+  --signal:#2B57E8; --signal-soft:#E4EAFD; --alert:#B07405; --alert-soft:#FAF0DA;
+  --guard:#1D7A59; --guard-soft:#DCF1E7; --risk:#B03C2A; --risk-soft:#F7E1DC;
+  --v-rev:#2B57E8; --v-cap:#6C95F1; --v-risk:#1D7A59; --v-cost:#B03C2A;
+  --h1:#E8EBEA; --h2:#D0DBF8; --h3:#9CB2F2; --h4:#567CEC; --h5:#1F43BF;
+  --font:"Schibsted Grotesk","Segoe UI",system-ui,-apple-system,Arial,sans-serif;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#0E1319; --surface:#161D26; --sunk:#1D2630; --ink:#E6EBF0; --muted:#9AA6B3; --faint:#6D7986; --line:#283340;
+    --rail:#0A0F15; --rail-ink:#C9D2DC; --rail-mute:#6F7C8A; --rail-line:#1C2530; --rail-hi:#18212C;
+    --signal:#7E9CFF; --signal-soft:#1B2747; --alert:#E5B24B; --alert-soft:#382B12;
+    --guard:#4DC096; --guard-soft:#143429; --risk:#EF8571; --risk-soft:#3B1D18;
+    --v-rev:#7E9CFF; --v-cap:#4A6BC9; --v-risk:#4DC096; --v-cost:#EF8571;
+    --h1:#1D2630; --h2:#1E2C51; --h3:#2D4895; --h4:#4E73DA; --h5:#8AA7FF;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0E1319; --surface:#161D26; --sunk:#1D2630; --ink:#E6EBF0; --muted:#9AA6B3; --faint:#6D7986; --line:#283340;
+  --rail:#0A0F15; --rail-ink:#C9D2DC; --rail-mute:#6F7C8A; --rail-line:#1C2530; --rail-hi:#18212C;
+  --signal:#7E9CFF; --signal-soft:#1B2747; --alert:#E5B24B; --alert-soft:#382B12;
+  --guard:#4DC096; --guard-soft:#143429; --risk:#EF8571; --risk-soft:#3B1D18;
+  --v-rev:#7E9CFF; --v-cap:#4A6BC9; --v-risk:#4DC096; --v-cost:#EF8571;
+  --h1:#1D2630; --h2:#1E2C51; --h3:#2D4895; --h4:#4E73DA; --h5:#8AA7FF;
+}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--font);font-size:15px;line-height:1.45;-webkit-font-smoothing:antialiased;font-variant-numeric:tabular-nums}
+button{font:inherit;color:inherit;cursor:pointer}
+:focus-visible{outline:2px solid var(--signal);outline-offset:2px;border-radius:4px}
+img,svg{max-width:100%}
+
+/* ---------- rail ---------- */
+.app{display:grid;grid-template-columns:248px minmax(0,1fr);min-height:100vh}
+.side{position:sticky;top:0;align-self:start;height:100vh;display:flex;flex-direction:column;background:var(--rail);color:var(--rail-ink);padding:1.2rem .8rem;overflow-y:auto}
+.brand{display:flex;align-items:center;gap:.7rem;padding:.1rem .5rem 1.1rem}
+.mark{width:34px;height:34px;flex:none}
+.word{font-size:1.18rem;font-weight:800;letter-spacing:-.02em;color:#fff;line-height:1}
+.word i{font-style:normal;color:#7E9CFF}
+.tenant{font-size:.74rem;color:var(--rail-mute);margin-top:.25rem}
+.navgrp{font-size:.7rem;color:var(--rail-mute);font-weight:600;padding:.95rem .7rem .3rem}
+.nav{display:flex;flex-direction:column;gap:1px}
+.nav button{display:flex;align-items:center;gap:.7rem;width:100%;text-align:left;background:none;border:0;padding:.5rem .7rem;border-radius:7px;color:var(--rail-ink);font-weight:500;font-size:.93rem}
+.nav button svg{width:18px;height:18px;flex:none;opacity:.8}
+.nav button:hover{background:var(--rail-hi);color:#fff}
+.nav button[aria-current="page"]{background:#1E2D4D;color:#fff;font-weight:600;box-shadow:inset 3px 0 0 #7E9CFF}
+.nav button[aria-current="page"] svg{opacity:1;color:#9DB4FF}
+.nav .count{margin-left:auto;font-size:.7rem;font-weight:700;background:#7E9CFF;color:#0F1620;border-radius:99px;padding:0 .45rem;min-width:1.4rem;text-align:center}
+.side .foot{margin-top:auto;padding:.9rem .6rem 0;border-top:1px solid var(--rail-line);font-size:.78rem;color:var(--rail-mute)}
+.live{display:flex;align-items:center;gap:.5rem;color:#4DC096;font-weight:600;margin-bottom:.25rem}
+.dot{width:8px;height:8px;border-radius:50%;background:#4DC096;box-shadow:0 0 0 3px rgba(77,192,150,.22);flex:none}
+@media (prefers-reduced-motion: no-preference){.live .dot{animation:pulse 2.4s infinite}}
+@keyframes pulse{50%{box-shadow:0 0 0 6px rgba(77,192,150,0)}}
+
+/* ---------- top ---------- */
+.main{min-width:0;display:flex;flex-direction:column}
+.top{position:sticky;top:0;z-index:5;display:flex;align-items:center;gap:1rem;padding:.75rem 1.75rem;background:color-mix(in srgb,var(--paper) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.ask{flex:1;max-width:540px;display:flex;align-items:center;gap:.6rem;background:var(--surface);border:1px solid var(--line);border-radius:9px;padding:.55rem .8rem;color:var(--faint);text-align:left;white-space:nowrap;overflow:hidden}
+.ask svg{width:16px;height:16px;flex:none}
+.ask kbd{margin-left:auto;font-family:inherit;font-size:.72rem;border:1px solid var(--line);border-radius:4px;padding:0 .35rem;color:var(--muted)}
+.persona{margin-left:auto;display:flex;align-items:center;gap:.55rem;font-size:.85rem}
+.persona select{font:inherit;background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:7px;padding:.35rem .5rem}
+.avatar{width:32px;height:32px;border-radius:50%;background:var(--ink);color:var(--paper);display:grid;place-items:center;font-weight:700;font-size:.78rem;flex:none}
+.themebtn{background:none;border:1px solid var(--line);border-radius:7px;padding:.35rem .5rem;color:var(--muted)}
+.present{display:inline-flex;align-items:center;gap:.4rem;border:0;background:var(--ink);color:var(--paper);border-radius:7px;padding:.42rem .8rem;font-weight:600;font-size:.85rem;white-space:nowrap}
+.present svg{width:14px;height:14px}
+.demo{font-size:.7rem;font-weight:600;color:var(--alert);background:var(--alert-soft);border-radius:99px;padding:.15rem .55rem;white-space:nowrap}
+
+.view{display:none;padding:1.75rem 1.75rem 5rem;max-width:1280px}
+.view.on{display:block}
+@media (prefers-reduced-motion: no-preference){.view.on{animation:rise .35s ease-out}}
+@keyframes rise{from{opacity:0;transform:translateY(6px)}}
+.vh{display:flex;align-items:flex-end;justify-content:space-between;gap:1rem;flex-wrap:wrap;margin-bottom:1.4rem}
+.vh h1{font-size:1.8rem;font-weight:800;letter-spacing:-.025em;margin:0;line-height:1.12}
+.vh p{margin:.35rem 0 0;color:var(--muted);max-width:72ch}
+.eyebrow{font-size:.82rem;color:var(--muted);margin:0 0 .3rem}
+h2.sec{font-size:1.05rem;font-weight:700;margin:2rem 0 .8rem}
+
+/* ---------- atoms ---------- */
+.iq{display:inline-flex;align-items:center;font-size:.72rem;font-weight:600;border:1px solid var(--line);border-radius:4px;padding:.05rem .38rem;color:var(--muted);background:var(--surface);white-space:nowrap}
+.sev{display:inline-flex;align-items:center;gap:.35rem;font-size:.77rem;font-weight:600;padding:.12rem .5rem;border-radius:99px;white-space:nowrap}
+.sev.r{background:var(--risk-soft);color:var(--risk)} .sev.a{background:var(--alert-soft);color:var(--alert)} .sev.g{background:var(--guard-soft);color:var(--guard)} .sev.b{background:var(--signal-soft);color:var(--signal)} .sev.n{background:var(--sunk);color:var(--muted)}
+.btn{border:1px solid var(--line);background:var(--surface);border-radius:7px;padding:.42rem .8rem;font-size:.85rem;font-weight:500}
+.btn:hover{border-color:var(--muted)}
+.btn.p{background:var(--signal);border-color:var(--signal);color:#fff;font-weight:600}
+.btn.q{border-color:transparent;background:none;color:var(--muted)}
+.btn.q:hover{color:var(--ink)}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:12px}
+.ph{display:flex;justify-content:space-between;align-items:center;gap:.75rem;padding:.85rem 1rem;border-bottom:1px solid var(--line)}
+.ph h2{font-size:.98rem;margin:0;font-weight:650}
+.ph span{font-size:.8rem;color:var(--muted)}
+.ev{font-size:.8rem;color:var(--muted)}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.lvl{display:inline-block;font-size:.72rem;font-weight:700;border-radius:4px;padding:.1rem .4rem;background:var(--sunk);color:var(--ink);white-space:nowrap}
+.tabs{display:inline-flex;background:var(--sunk);border-radius:9px;padding:3px;gap:2px}
+.tabs button{border:0;background:none;padding:.4rem .9rem;border-radius:7px;font-size:.86rem;font-weight:600;color:var(--muted)}
+.tabs button[aria-selected="true"]{background:var(--surface);color:var(--ink);box-shadow:0 1px 2px rgba(0,0,0,.08)}
+table.list{width:100%;border-collapse:collapse;font-size:.88rem;min-width:640px}
+table.list th{text-align:left;font-weight:600;font-size:.77rem;color:var(--muted);padding:.6rem .8rem;border-bottom:1px solid var(--line)}
+table.list td{padding:.7rem .8rem;border-bottom:1px solid var(--line);vertical-align:middle}
+table.list tbody tr:last-child td{border-bottom:0}
+table.list tbody tr.click{cursor:pointer}
+table.list tbody tr.click:hover td{background:var(--sunk)}
+table.list .t{font-weight:600}
+table.list .num{text-align:right}
+.bar{display:inline-block;width:64px;height:6px;border-radius:3px;background:var(--sunk);overflow:hidden;vertical-align:middle;margin-right:.45rem}
+.bar i{display:block;height:100%;border-radius:3px}
+.toast{position:fixed;left:50%;bottom:calc(1.2rem + env(safe-area-inset-bottom,0px));transform:translateX(-50%) translateY(20px);opacity:0;background:var(--ink);color:var(--paper);padding:.6rem 1rem;border-radius:8px;font-size:.88rem;transition:all .2s;pointer-events:none;z-index:60}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+.privacy{display:flex;gap:.55rem;align-items:flex-start;font-size:.82rem;color:var(--guard);background:var(--guard-soft);border-radius:8px;padding:.65rem .8rem;margin-top:1rem}
+.privacy svg{width:16px;height:16px;flex:none;margin-top:1px}
+
+/* ---------- COMMAND ---------- */
+.statement{font-size:clamp(1.7rem,3.3vw,2.6rem);line-height:1.14;font-weight:800;letter-spacing:-.03em;max-width:28ch;margin:.2rem 0 1.4rem}
+.statement em{font-style:normal;color:var(--signal)}
+.statement .soft{color:var(--muted);font-weight:500}
+.equation{display:grid;grid-template-columns:repeat(4,minmax(0,1fr)) auto minmax(0,1.2fr);border:1px solid var(--line);border-radius:12px;background:var(--surface);overflow:hidden}
+.term{padding:1rem 1.1rem;border-right:1px solid var(--line);position:relative}
+.term span{display:block;font-size:.78rem;color:var(--muted);font-weight:500}
+.term b{display:block;font-size:1.5rem;font-weight:800;letter-spacing:-.02em;margin:.15rem 0}
+.term small{font-size:.74rem;color:var(--muted);display:block;line-height:1.35}
+.term .op{position:absolute;right:-.62rem;top:50%;transform:translateY(-50%);width:1.2rem;height:1.2rem;border-radius:50%;background:var(--surface);border:1px solid var(--line);display:grid;place-items:center;font-size:.8rem;font-weight:700;color:var(--muted);z-index:2}
+.sw{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:.35rem;vertical-align:0}
+.eq-eq{display:grid;place-items:center;padding:0 .6rem;font-size:1.4rem;font-weight:800;color:var(--muted);border-right:1px solid var(--line)}
+.term.net{background:var(--rail);color:#fff;border-right:0}
+.term.net span,.term.net small{color:#9AA6B3}
+.term.net b{font-size:2.1rem;color:#fff}
+.trust{display:flex;flex-wrap:wrap;gap:.9rem;font-size:.78rem;color:var(--muted);margin:.6rem 0 0;align-items:center}
+.trust i{font-style:normal;font-weight:600}
+.cmdgrid{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:1.25rem;margin-top:1.5rem}
+#valuechart{display:block;width:100%;height:auto}
+#valuechart .ax{font-size:10.5px;fill:var(--faint)}
+#valuechart .gl{stroke:var(--line);stroke-width:1}
+#valuechart .costl{fill:none;stroke:var(--v-cost);stroke-width:2;stroke-dasharray:4 3}
+.legend{display:flex;gap:1rem;flex-wrap:wrap;font-size:.78rem;color:var(--muted);padding:0 1rem .9rem}
+.legend span::before{content:"";display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:.35rem;vertical-align:-1px;background:var(--c)}
+.pulse3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}
+.p3{padding:1rem;border-right:1px solid var(--line)}
+.p3:last-child{border-right:0}
+.p3 span{display:block;font-size:.78rem;color:var(--muted)}
+.p3 b{display:block;font-size:1.6rem;font-weight:800;letter-spacing:-.02em;margin-top:.1rem}
+.p3 small{font-size:.76rem;color:var(--muted)}
+.gauge{height:8px;border-radius:4px;background:var(--sunk);position:relative;margin:.6rem 0 .3rem}
+.gauge i{position:absolute;inset:0 auto 0 0;border-radius:4px;background:var(--signal)}
+.gauge u{position:absolute;top:-4px;width:2px;height:16px;background:var(--ink)}
+.decide ul{list-style:none;margin:0;padding:0}
+.decide li{padding:.8rem 1rem;border-bottom:1px solid var(--line);font-size:.88rem;display:flex;gap:.75rem;align-items:flex-start}
+.decide li:last-child{border-bottom:0}
+.decide .n{font-weight:800;color:var(--faint);min-width:1rem}
+.feed{list-style:none;margin:0;padding:0;max-height:300px;overflow:hidden;position:relative}
+.feed li{display:grid;grid-template-columns:3.4rem auto minmax(0,1fr);gap:.6rem;align-items:baseline;padding:.6rem 1rem;border-bottom:1px solid var(--line);font-size:.86rem}
+.feed time{font-size:.76rem;color:var(--faint)}
+@media (prefers-reduced-motion: no-preference){.feed li.new{animation:feedin .5s ease-out}}
+@keyframes feedin{from{background:var(--signal-soft)}}
+.mm ul{list-style:none;margin:0;padding:0}
+.mm li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:.2rem 1rem;padding:.75rem 1rem;border-bottom:1px solid var(--line);font-size:.87rem}
+.mm li:last-child{border-bottom:0}
+.prog{grid-column:1/-1;height:5px;border-radius:3px;background:var(--sunk);overflow:hidden}
+.prog i{display:block;height:100%;background:var(--signal)}
+.bigrow{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:1.25rem;margin-top:1.25rem}
+/* ---------- VALUE ---------- */
+.lvlbar{display:flex;align-items:center;gap:1rem;flex-wrap:wrap;margin-bottom:1.25rem}
+.crumbs{font-size:.86rem;color:var(--muted)} .crumbs b{color:var(--ink)}
+.spark path{fill:none;stroke:var(--signal);stroke-width:1.6}
+.wfl ul{list-style:none;margin:0;padding:0}
+.wfl li{display:grid;grid-template-columns:minmax(0,1.4fr) 110px 130px 80px;gap:.75rem;align-items:center;padding:.65rem 1rem;border-bottom:1px solid var(--line);font-size:.86rem}
+.wfl li.h{font-size:.76rem;color:var(--muted);font-weight:600}
+.wfl li:last-child{border-bottom:0}
+.me{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:1.25rem;align-items:start}
+.me-hero{padding:1.3rem}
+.me-hero p.big{font-size:1.4rem;font-weight:750;letter-spacing:-.02em;line-height:1.28;margin:0 0 1rem;max-width:34ch}
+.me-hero p.big em{font-style:normal;color:var(--signal)}
+.me-stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid var(--line)}
+.me-stats div{padding:.85rem 1rem;border-right:1px solid var(--line)}
+.me-stats div:last-child{border-right:0}
+.me-stats span{display:block;font-size:.76rem;color:var(--muted)}
+.me-stats b{display:block;font-size:1.25rem;font-weight:800;margin-top:.1rem}
+.team ul{list-style:none;margin:0;padding:0}
+.team li{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:.75rem;align-items:center;padding:.7rem 1rem;border-bottom:1px solid var(--line);font-size:.86rem}
+.team li:last-child{border-bottom:0}
+.bot{width:30px;height:30px;border-radius:8px;background:var(--signal-soft);color:var(--signal);display:grid;place-items:center;font-size:.66rem;font-weight:800}
+
+/* ---------- AUTONOMY ---------- */
+.ladder5{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--surface);margin-bottom:1.25rem}
+.ladder5 div{padding:.75rem .85rem;border-right:1px solid var(--line);font-size:.8rem;color:var(--muted)}
+.ladder5 div:last-child{border-right:0}
+.ladder5 b{display:flex;align-items:center;gap:.45rem;color:var(--ink);font-size:.9rem;margin-bottom:.2rem}
+.ladder5 i{display:inline-block;width:14px;height:14px;border-radius:3px}
+.heat{width:100%;border-collapse:separate;border-spacing:4px;min-width:720px;table-layout:fixed}
+.heat thead th:first-child{width:110px}
+.heat th{font-size:.78rem;font-weight:600;color:var(--muted);text-align:left;padding:.2rem .4rem}
+.heat th.fn{font-size:.88rem;color:var(--ink);white-space:nowrap}
+.heat td{height:54px;border-radius:7px;position:relative;cursor:pointer;padding:0;transition:transform .1s}
+.heat td:hover{transform:scale(1.03)}
+.heat td.sel{outline:2px solid var(--ink);outline-offset:1px}
+.heat td .lv{position:absolute;left:.55rem;top:.4rem;font-weight:800;font-size:.95rem}
+.heat td .tg{position:absolute;right:.5rem;bottom:.35rem;font-size:.7rem;font-weight:600;opacity:.85}
+.heat td.c1{background:var(--h1);color:var(--ink)} .heat td.c2{background:var(--h2);color:var(--ink)} .heat td.c3{background:var(--h3);color:var(--ink)} .heat td.c4{background:var(--h4);color:#fff} .heat td.c5{background:var(--h5);color:#fff}
+.heat td.cap::after{content:"";position:absolute;inset:0;border-radius:7px;background:repeating-linear-gradient(135deg,transparent 0 6px,rgba(0,0,0,.06) 6px 8px)}
+.autogrid{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:1.25rem;align-items:start}
+.celldetail{padding:1rem;font-size:.88rem}
+.celldetail h3{font-size:1.02rem;margin:.2rem 0 .5rem}
+.gates{list-style:none;padding:0;margin:.6rem 0 .9rem}
+.gates li{display:flex;justify-content:space-between;gap:.75rem;padding:.45rem 0;border-top:1px solid var(--line);font-size:.84rem}
+
+/* ---------- OUTCOMES ---------- */
+.waves{display:flex;gap:.4rem;flex-wrap:wrap;margin-bottom:1rem}
+.waves .btn[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.ogrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:.85rem}
+.oc{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:.95rem 1rem .85rem;text-align:left;display:flex;flex-direction:column;gap:.45rem;min-height:178px;position:relative}
+.oc:hover{border-color:var(--signal)}
+.oc[aria-pressed="true"]{border-color:var(--signal);box-shadow:0 0 0 1px var(--signal)}
+.oc .num{font-size:.74rem;font-weight:700;color:var(--faint)}
+.oc h3{margin:0;font-size:1.02rem;letter-spacing:-.01em;padding-right:4.5rem}
+.oc q{font-size:.88rem;color:var(--ink)}
+.oc .m{font-size:.76rem;color:var(--muted);margin-top:auto}
+.oc .st{position:absolute;right:.85rem;top:.85rem}
+.odetail{margin-top:1.25rem}
+.odgrid{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr)}
+.odgrid > div{padding:1.1rem 1.2rem}
+.odgrid > div + div{border-left:1px solid var(--line)}
+.odgrid h3{font-size:1.3rem;margin:.5rem 0 .4rem;letter-spacing:-.015em}
+.odgrid p{margin:0 0 .9rem;max-width:62ch}
+.kv{display:grid;grid-template-columns:auto 1fr;gap:.45rem .9rem;font-size:.86rem;margin:0}
+.kv dt{color:var(--muted)} .kv dd{margin:0;font-weight:500}
+
+/* ---------- MISSIONS ---------- */
+.mlist{display:grid;gap:1rem}
+.mission{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr) minmax(0,.9fr);background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.mission > div{padding:1rem 1.1rem}
+.mission > div + div{border-left:1px solid var(--line)}
+.mission h3{margin:0 0 .25rem;font-size:1.1rem}
+.mission .owner{font-size:.82rem;color:var(--muted);margin-bottom:.7rem}
+.mission .big{font-size:1.5rem;font-weight:800;letter-spacing:-.02em}
+.lab{font-size:.76rem;color:var(--muted);display:block;margin-bottom:.15rem}
+.squad{display:flex;flex-wrap:wrap;gap:.3rem;margin-top:.35rem}
+.mprog{height:8px;border-radius:4px;background:var(--sunk);overflow:hidden;margin:.45rem 0 .3rem}
+.mprog i{display:block;height:100%;background:var(--signal)}
+
+/* ---------- MY DAY ---------- */
+.day{display:grid;grid-template-columns:minmax(0,1fr) 350px;gap:1.5rem}
+.slept{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden;margin-bottom:1.25rem}
+.slept div{padding:.85rem 1rem;border-right:1px solid var(--line)}
+.slept div:last-child{border-right:0}
+.slept b{display:block;font-size:1.5rem;font-weight:800;letter-spacing:-.02em}
+.slept span{font-size:.8rem;color:var(--muted)}
+.recs{list-style:none;margin:0;padding:0}
+.rec{display:grid;grid-template-columns:2.2rem minmax(0,1fr);gap:.4rem 1rem;padding:1.1rem 0;border-top:1px solid var(--line)}
+.rec:last-child{border-bottom:1px solid var(--line)}
+.rec .n{font-size:1.5rem;font-weight:800;color:var(--faint);line-height:1}
+.rec .hd{display:flex;flex-wrap:wrap;align-items:center;gap:.45rem;margin-bottom:.35rem}
+.rec h3{font-size:1.08rem;margin:0 0 .3rem;font-weight:650}
+.rec p{margin:0 0 .5rem;max-width:70ch}
+.rec .acts{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.6rem}
+.rec.done{opacity:.45}
+.vtag{font-size:.76rem;font-weight:600;color:var(--guard)}
+.aside-stack{display:flex;flex-direction:column;gap:1.25rem}
+.mtg ul{list-style:none;margin:0;padding:0}
+.mtg li{display:grid;grid-template-columns:3.2rem minmax(0,1fr);gap:.7rem;padding:.75rem 1rem;border-bottom:1px solid var(--line);font-size:.86rem}
+.mtg li:last-child{border-bottom:0}
+.mtg time{font-weight:700;font-size:.82rem}
+.mtg .ready{color:var(--guard);font-size:.76rem;font-weight:600}
+.handled ul{list-style:none;margin:0;padding:0}
+.handled li{display:flex;justify-content:space-between;gap:.75rem;align-items:center;padding:.6rem 1rem;border-bottom:1px solid var(--line);font-size:.85rem}
+.handled li:last-child{border-bottom:0}
+.handled li.undone{opacity:.45;text-decoration:line-through}
+.commit li{display:flex;gap:.6rem;align-items:flex-start}
+.commit input{margin-top:.2rem;accent-color:var(--signal)}
+
+/* ---------- ACCOUNT ---------- */
+.acct-head{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:1rem;align-items:end;margin-bottom:1.25rem}
+.acct-head h1{font-size:2rem;margin:0;letter-spacing:-.025em}
+.acct-head .sub{color:var(--muted);margin-top:.25rem}
+.facts{display:flex;flex-wrap:wrap;border:1px solid var(--line);border-radius:12px;background:var(--surface);margin-bottom:1.25rem;overflow:hidden}
+.fact{flex:1 1 140px;padding:.8rem 1rem;border-right:1px solid var(--line)}
+.fact:last-child{border-right:0}
+.fact span{display:block;font-size:.78rem;color:var(--muted)}
+.fact b{display:block;font-size:1.2rem;font-weight:750;margin-top:.1rem}
+.fact b.r{color:var(--risk)} .fact b.g{color:var(--guard)}
+.lanes-wrap{padding:1rem 1rem .5rem}
+#lanes{display:block;width:100%;min-width:760px;height:auto}
+#lanes .lane-l{font-size:12px;font-weight:600;fill:var(--ink)}
+#lanes .lane-s{font-size:10.5px;fill:var(--muted)}
+#lanes .lane-bg{fill:var(--paper)}
+#lanes .grid{stroke:var(--line);stroke-width:1}
+#lanes .wk{font-size:10.5px;fill:var(--faint)}
+#lanes .sd{cursor:pointer;stroke:var(--surface);stroke-width:2}
+#lanes .sd:hover,#lanes .sd.sel{stroke:var(--ink)}
+#lanes .thread{fill:none;stroke:var(--signal);stroke-width:1.8;stroke-dasharray:600;stroke-dashoffset:600}
+#lanes.go .thread{animation:draw 1.2s .3s ease-out forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+@media (prefers-reduced-motion: reduce){#lanes .thread{stroke-dasharray:none;stroke-dashoffset:0;animation:none!important}}
+#lanes .fusion-bg{fill:var(--signal-soft)}
+#lanes .fz{fill:var(--signal)}
+#lanes .fz-t{fill:#fff;font-size:11px;font-weight:700}
+#lanes .today-l{stroke:var(--ink);stroke-width:1;stroke-dasharray:3 3}
+#lanes .today-t{font-size:10.5px;fill:var(--ink);font-weight:600}
+.lane-pick{min-height:3.2rem;padding:.75rem 1rem;border-top:1px solid var(--line);font-size:.88rem;display:flex;gap:.7rem;align-items:flex-start}
+.a360{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.25rem;margin-top:1.25rem}
+.rows{list-style:none;margin:0;padding:0}
+.rows li{padding:.7rem 1rem;border-bottom:1px solid var(--line);font-size:.87rem;display:flex;justify-content:space-between;gap:.75rem}
+.rows li:last-child{border-bottom:0}
+.rows li span{color:var(--muted);font-size:.8rem}
+.rel{font-size:.75rem;font-weight:600}
+.strike{text-decoration:line-through;color:var(--faint)}
+
+/* ---------- DEAL WAR ROOM ---------- */
+.war{display:grid;grid-template-columns:300px minmax(0,1fr);gap:1.25rem;align-items:start}
+.odds{padding:1.2rem;text-align:left}
+.odds .ring{position:relative;width:180px;height:180px;margin:.3rem auto .8rem}
+.odds .ring svg{width:180px;height:180px;transform:rotate(-90deg)}
+.odds .ring .bg{fill:none;stroke:var(--sunk);stroke-width:14}
+.odds .ring .fg{fill:none;stroke:var(--signal);stroke-width:14;stroke-linecap:round;transition:stroke-dashoffset .8s ease-out}
+.odds .ring .pct{position:absolute;inset:0;display:grid;place-items:center;text-align:center}
+.odds .ring .pct b{font-size:2.8rem;font-weight:900;letter-spacing:-.04em;line-height:1}
+.odds .ring .pct span{display:block;font-size:.76rem;color:var(--muted)}
+.odds .delta{font-size:.86rem;text-align:center;color:var(--muted)}
+.odds .delta b{color:var(--guard)}
+.drivers ul{list-style:none;margin:0;padding:0}
+.drivers li{display:grid;grid-template-columns:minmax(0,1fr) 180px 3rem;gap:.8rem;align-items:center;padding:.6rem 1rem;border-bottom:1px solid var(--line);font-size:.86rem}
+.drivers li:last-child{border-bottom:0}
+.dbar{position:relative;height:10px;background:var(--sunk);border-radius:5px}
+.dbar::before{content:"";position:absolute;left:50%;top:-3px;bottom:-3px;width:1px;background:var(--faint)}
+.dbar i{position:absolute;top:0;bottom:0;border-radius:5px}
+.dv{font-weight:700;text-align:right}
+.movers ul{list-style:none;margin:0;padding:0}
+.movers li{display:grid;grid-template-columns:3.4rem minmax(0,1fr) auto;gap:.8rem;align-items:center;padding:.8rem 1rem;border-bottom:1px solid var(--line);font-size:.88rem}
+.movers li:last-child{border-bottom:0}
+.movers .pp{font-size:1.15rem;font-weight:800;color:var(--guard)}
+.movers li.done{opacity:.5}
+.committee{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:0}
+.cm{padding:.9rem 1rem;border-right:1px solid var(--line);font-size:.84rem}
+.cm:last-child{border-right:0}
+.cm .av{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;font-weight:800;font-size:.8rem;margin-bottom:.5rem;border:2px solid var(--line);background:var(--sunk)}
+.cm .av.s{border-color:var(--guard);background:var(--guard-soft);color:var(--guard)}
+.cm .av.w{border-color:var(--alert);background:var(--alert-soft);color:var(--alert)}
+.cm .av.x{border-color:var(--risk);background:var(--risk-soft);color:var(--risk);border-style:dashed}
+.cm b{display:block}
+.cm span{display:block;color:var(--muted);font-size:.78rem}
+.wargrid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:1.25rem;margin-top:1.25rem}
+
+/* ---------- BID STUDIO ---------- */
+.clock{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:1.25rem;align-items:center;padding:1.1rem 1.2rem}
+.clock .hrs{font-size:2.4rem;font-weight:900;letter-spacing:-.04em;line-height:1}
+.clock .hrs small{font-size:.9rem;color:var(--muted);font-weight:600;letter-spacing:0}
+.stages{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px}
+.stage{font-size:.74rem;font-weight:600;color:var(--muted)}
+.stage i{display:block;height:8px;border-radius:4px;background:var(--sunk);margin-bottom:.35rem;position:relative;overflow:hidden}
+.stage.done i{background:var(--signal)}
+.stage.now i::after{content:"";position:absolute;inset:0 auto 0 0;width:var(--p);background:var(--signal)}
+.stage.now{color:var(--ink)}
+.stage.human i{outline:2px dashed var(--alert);outline-offset:1px}
+.bidgrid{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:1.25rem;margin-top:1.25rem;align-items:start}
+.gonogo{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid var(--line)}
+.gonogo div{padding:.8rem 1rem;border-right:1px solid var(--line);font-size:.8rem;color:var(--muted)}
+.gonogo div:last-child{border-right:0}
+.gonogo b{display:block;font-size:1.15rem;color:var(--ink)}
+.log ul{list-style:none;margin:0;padding:0;max-height:440px;overflow:auto}
+.log li{display:grid;grid-template-columns:3rem auto minmax(0,1fr);gap:.55rem;padding:.6rem 1rem;border-bottom:1px solid var(--line);font-size:.84rem;align-items:baseline}
+.log time{color:var(--faint);font-size:.76rem}
+.log li.hum{background:var(--alert-soft)}
+
+/* ---------- ASK + AGENTS ---------- */
+.askv{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:1.25rem;align-items:start}
+.thread-c{display:flex;flex-direction:column;gap:1rem}
+.msg{max-width:78ch}
+.msg.u{align-self:flex-end;background:var(--ink);color:var(--paper);padding:.7rem .95rem;border-radius:12px 12px 2px 12px}
+.msg.a{background:var(--surface);border:1px solid var(--line);border-radius:12px 12px 12px 2px;padding:1rem 1.1rem}
+.msg.a p{margin:0 0 .6rem}
+.msg.a ul{margin:.2rem 0 .7rem;padding-left:1.15rem}
+.cite{display:inline-grid;place-items:center;min-width:1.15rem;height:1.15rem;font-size:.68rem;font-weight:700;border-radius:4px;background:var(--signal-soft);color:var(--signal);vertical-align:1px;margin-left:2px;border:0;padding:0 .2rem}
+.composer{display:flex;gap:.5rem;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:.5rem;margin-top:1rem}
+.composer input{flex:1;border:0;background:none;font:inherit;color:var(--ink);padding:.4rem .5rem;min-width:0}
+.composer input:focus{outline:none}
+.srcs{list-style:none;margin:0;padding:0;counter-reset:s}
+.srcs li{counter-increment:s;display:grid;grid-template-columns:1.4rem 1fr;gap:.4rem;padding:.7rem 1rem;border-bottom:1px solid var(--line);font-size:.83rem}
+.srcs li:last-child{border-bottom:0}
+.srcs li::before{content:counter(s);font-size:.7rem;font-weight:700;background:var(--signal-soft);color:var(--signal);border-radius:4px;height:1.15rem;display:grid;place-items:center}
+.srcs li.hl{background:var(--signal-soft)}
+.srcs span{display:block;color:var(--muted);font-size:.76rem}
+.switch{position:relative;width:36px;height:20px;border-radius:99px;border:0;background:var(--guard);padding:0;flex:none}
+.switch::after{content:"";position:absolute;top:2px;left:18px;width:16px;height:16px;border-radius:50%;background:#fff;transition:left .15s}
+.switch[aria-checked="false"]{background:var(--faint)}
+.switch[aria-checked="false"]::after{left:2px}
+tr.off td{color:var(--faint)}
+.kill{display:flex;justify-content:space-between;align-items:center;gap:1rem;padding:1rem;border:1px solid var(--risk);background:var(--risk-soft);border-radius:12px;margin-top:1.25rem;flex-wrap:wrap}
+.kill b{color:var(--risk)}
+.kill .btn{border-color:var(--risk);color:var(--risk);font-weight:600}
+.blocks .bl{padding:.75rem 1rem;border-bottom:1px solid var(--line);font-size:.85rem;display:grid;grid-template-columns:auto 1fr;gap:.2rem .7rem}
+.blocks .bl:last-child{border-bottom:0}
+.blocks time{color:var(--muted);font-size:.78rem;grid-row:span 2}
+
+/* ---------- TOUR ---------- */
+.tour{position:fixed;left:50%;bottom:calc(1.25rem + env(safe-area-inset-bottom,0px));transform:translateX(-50%);width:min(620px,calc(100vw - 2rem));background:var(--rail);color:#fff;border-radius:14px;padding:1.1rem 1.2rem 1rem;box-shadow:0 18px 50px rgba(0,0,0,.35);z-index:70;display:none}
+.tour.on{display:block}
+@media (min-width:821px){.tour{left:calc(50% + 124px)}}
+.tour .step{font-size:.74rem;color:#7E9CFF;font-weight:700;margin-bottom:.25rem}
+.tour h3{margin:0 0 .35rem;font-size:1.2rem;letter-spacing:-.015em}
+.tour p{margin:0 0 .9rem;color:#C9D2DC;font-size:.93rem}
+.tour .row{display:flex;gap:.5rem;align-items:center}
+.tour .dots{display:flex;gap:4px;margin-right:auto}
+.tour .dots i{width:16px;height:4px;border-radius:2px;background:#2A3646}
+.tour .dots i.on{background:#7E9CFF}
+.tour button{border:1px solid #2A3646;background:none;color:#fff;border-radius:7px;padding:.4rem .85rem;font-size:.85rem;font-weight:600}
+.tour button.nx{background:#7E9CFF;border-color:#7E9CFF;color:#0F1620}
+.spot{outline:3px solid #7E9CFF!important;outline-offset:4px;border-radius:12px;position:relative;z-index:2}
+@media (prefers-reduced-motion: no-preference){.spot{animation:glow 1.6s ease-in-out 2}}
+@keyframes glow{50%{outline-offset:8px}}
+
+/* ---------- responsive ---------- */
+@media (max-width:1180px){
+  .cmdgrid,.me,.autogrid,.day,.askv,.war,.bidgrid,.bigrow,.wargrid{grid-template-columns:minmax(0,1fr)}
+  .equation{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .eq-eq{display:none} .term{border-bottom:1px solid var(--line)} .term .op{display:none} .term.net{grid-column:1/-1}
+  .a360{grid-template-columns:minmax(0,1fr)}
+  .mission{grid-template-columns:minmax(0,1fr)} .mission > div + div{border-left:0;border-top:1px solid var(--line)}
+  .odgrid{grid-template-columns:minmax(0,1fr)} .odgrid > div + div{border-left:0;border-top:1px solid var(--line)}
+  .ladder5{grid-template-columns:repeat(2,minmax(0,1fr))} .ladder5 div{border-bottom:1px solid var(--line)}
+  .committee{grid-template-columns:repeat(2,minmax(0,1fr))} .cm{border-bottom:1px solid var(--line)}
+}
+@media (max-width:820px){
+  .app{grid-template-columns:minmax(0,1fr)}
+  .side{position:fixed;inset:auto 0 0 0;top:auto;height:auto;z-index:20;flex-direction:row;padding:.35rem .4rem calc(.35rem + env(safe-area-inset-bottom,0px));overflow-x:auto;overflow-y:hidden}
+  .brand,.side .foot,.navgrp{display:none}
+  .navwrap{display:flex} .nav{flex-direction:row;gap:0}
+  .nav button{flex-direction:column;gap:.15rem;font-size:.64rem;padding:.4rem .55rem;width:auto;align-items:center;position:relative;white-space:nowrap}
+  .nav button[aria-current="page"]{box-shadow:inset 0 2px 0 #7E9CFF}
+  .nav .count{position:absolute;top:0;right:2px;margin:0;font-size:.58rem;min-width:1rem}
+  .top{padding:.6rem 1rem;top:env(safe-area-inset-top,0px)}
+  .persona select,.persona .who,.ask kbd,.demo,.present span{display:none}
+  .view{padding:1.25rem 1rem 7rem}
+  .pulse3,.me-stats,.slept,.gonogo{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .p3:nth-child(2),.me-stats div:nth-child(2),.slept div:nth-child(2),.gonogo div:nth-child(2){border-right:0}
+  .wfl li{grid-template-columns:minmax(0,1fr) 80px 90px} .wfl li > :nth-child(4){display:none}
+  .drivers li{grid-template-columns:minmax(0,1fr) 90px 2.6rem}
+  .clock{grid-template-columns:minmax(0,1fr)} .stages{grid-template-columns:repeat(4,minmax(0,1fr))}
+  .acct-head{grid-template-columns:minmax(0,1fr)}
+  .tour{bottom:calc(5rem + env(safe-area-inset-bottom,0px))}
+}
+</style>
+</head>
+<body>
+<div class="app">
+<aside class="side">
+  <div class="brand">
+    <svg class="mark" viewBox="0 0 34 34" aria-hidden="true"><rect width="34" height="34" rx="9" fill="#2B57E8"/><path d="M7 9.5c6 0 8 7.5 13.5 7.5M7 17h13.5M7 24.5c6 0 8-7.5 13.5-7.5" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" opacity=".9"/><circle cx="24.5" cy="17" r="3.6" fill="#fff"/></svg>
+    <div><div class="word">Visionet <i>IQ</i></div><div class="tenant">Visionet, customer zero</div></div>
+  </div>
+  <div class="navwrap">
+  <div class="navgrp">Lead</div>
+  <nav class="nav" aria-label="Lead">
+    <button data-v="command"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 20h18M6 16V9M11 16V5M16 16v-4M20 16V8"/></svg>Command</button>
+    <button data-v="missions"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="1" fill="currentColor"/></svg>Missions</button>
+    <button data-v="value"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 18 9 12l4 3 7-9M15 6h5v5"/></svg>Value</button>
+    <button data-v="autonomy"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1" fill="currentColor"/></svg>Autonomy</button>
+  </nav>
+  <div class="navgrp">Work</div>
+  <nav class="nav" aria-label="Work">
+    <button data-v="day"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>My day<span class="count">3</span></button>
+    <button data-v="outcomes"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M9 9v11"/></svg>Outcomes</button>
+    <button data-v="account"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="8" r="3.5"/><path d="M5 20c1-4 4-6 7-6s6 2 7 6"/></svg>Account 360</button>
+    <button data-v="deal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 12 18 7"/><circle cx="12" cy="12" r="1.5" fill="currentColor"/></svg>Deal war room</button>
+    <button data-v="bid"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 3h9l4 4v14H6z"/><path d="M15 3v4h4M9 12h7M9 16h5"/></svg>Bid studio</button>
+    <button data-v="ask"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 5h16v11H9l-5 4z"/></svg>Ask IQ</button>
+  </nav>
+  <div class="navgrp">Govern</div>
+  <nav class="nav" aria-label="Govern">
+    <button data-v="agents"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3 4 6v6c0 4.5 3.4 8 8 9 4.6-1 8-4.5 8-9V6z"/><path d="m9 12 2 2 4-4"/></svg>Agent workforce</button>
+  </nav>
+  </div>
+  <div class="foot"><div class="live"><span class="dot"></span>214 agents on duty</div>Value ledger updated 07:45</div>
+</aside>
+
+<div class="main">
+<header class="top">
+  <button class="ask" data-go="ask" aria-label="Ask Visionet IQ"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>Ask about any account, deal, mission or metric<kbd>/</kbd></button>
+  <div class="persona">
+    <span class="demo">Illustrative data</span>
+    <span class="who" style="color:var(--muted)">Viewing as</span>
+    <select id="persona" aria-label="Persona"><option value="ceo">CEO</option><option value="cro">Chief Revenue Officer</option><option value="ao">Account owner</option><option value="eng">Delivery engineer</option><option value="gov">AI governance lead</option></select>
+    <button class="themebtn" id="theme" aria-label="Toggle dark mode">◐</button>
+    <button class="present" id="present" aria-label="Start presentation tour"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M7 4v16l13-8z"/></svg><span>Present</span></button>
+    <div class="avatar" id="av" aria-hidden="true">CE</div>
+  </div>
+</header>
+
+<!-- COMMAND -->
+<section class="view" id="v-command" aria-labelledby="h-cmd">
+  <div class="vh"><p class="eyebrow" style="margin:0">Q4 2026 to date, week 6 of 13</p>
+    <div class="tabs" role="tablist" aria-label="Period"><button role="tab" aria-selected="false">Week</button><button role="tab" aria-selected="true">Quarter</button><button role="tab" aria-selected="false">Year</button></div></div>
+  <h1 id="h-cmd" class="statement">Visionet IQ has returned <em>$3.84M</em> of net value this quarter, <span class="soft">with agents now doing 38% of the work across seven functions.</span></h1>
+  <div class="equation" id="t-eq">
+    <div class="term"><span><i class="sw" style="background:var(--v-rev)"></i>Revenue attributed</span><b>$2.31M</b><small>Renewals protected and pipeline influenced, at evidence-weighted share</small><span class="op">+</span></div>
+    <div class="term"><span><i class="sw" style="background:var(--v-cap)"></i>Capacity returned</span><b>$1.03M</b><small>11,420 hours at loaded cost</small><span class="op">+</span></div>
+    <div class="term"><span><i class="sw" style="background:var(--v-risk)"></i>Risk avoided</span><b>$0.64M</b><small>Lapsed funds, unbilled work and penalties prevented</small><span class="op">−</span></div>
+    <div class="term"><span><i class="sw" style="background:var(--v-cost)"></i>AI cost</span><b>$0.14M</b><small>Models, credits, platform and run</small></div>
+    <div class="eq-eq">=</div>
+    <div class="term net"><span>Net AI value</span><b>$3.84M</b><small>27× return on AI cost, up 41% on last quarter</small></div>
+  </div>
+  <div class="trust"><span><i style="color:var(--guard)">Measured</i> 46%</span><span><i style="color:var(--signal)">Attributed</i> 39%</span><span><i style="color:var(--alert)">Estimated</i> 15%</span><span>Counting rules approved by Finance on 2 Sep 2026</span><button class="btn q" data-go="value" style="padding:0;font-size:.78rem">Open the ledger</button></div>
+  <div class="cmdgrid">
+    <div class="panel"><div class="ph"><h2>Value throughput</h2><span>$K per week, last 13 weeks</span></div>
+      <div style="padding:1rem 1rem .4rem"><svg id="valuechart" viewBox="0 0 640 230" role="img" aria-label="Weekly AI value by stream, rising over 13 weeks"></svg></div>
+      <div class="legend"><span style="--c:var(--v-rev)">Revenue</span><span style="--c:var(--v-cap)">Capacity</span><span style="--c:var(--v-risk)">Risk avoided</span><span style="--c:var(--v-cost)">AI cost (dashed)</span></div></div>
+    <div class="panel" id="t-pulse"><div class="ph"><h2>Transformation pulse</h2><button class="btn q" data-go="autonomy" style="font-size:.8rem">Autonomy map</button></div>
+      <div class="pulse3">
+        <div class="p3"><span>Autonomy index</span><b>2.6</b><small>of 5, target 3.5 by Q2</small><div class="gauge"><i style="width:52%"></i><u style="left:70%"></u></div></div>
+        <div class="p3"><span>Agent share of work</span><b>38%</b><small>up from 21% in Q3</small></div>
+        <div class="p3"><span>Trust rate</span><b>84%</b><small>recommendations accepted</small></div>
+      </div>
+      <div class="decide" style="border-top:1px solid var(--line)"><div class="ph"><h2>Decisions for leadership</h2><span>3 open</span></div><ul>
+        <li><span class="n">1</span><div>Promote <b>stalled-deal follow-up</b> in Sales to L4. 16 days live, 89% trust, zero violations.<div style="margin-top:.45rem;display:flex;gap:.4rem"><button class="btn p" data-toast="Promotion approved and logged">Approve</button><button class="btn q" data-go="autonomy">Review</button></div></div></li>
+        <li><span class="n">2</span><div>Standardise delivery status reports. Delivery autonomy is stuck at 1.9 because agents can't read four different templates.</div></li>
+        <li><span class="n">3</span><div>Move $120K of Q1 campaign budget to BFSI, where agent-sourced pipeline converts 2.3× better.</div></li></ul></div></div>
+  </div>
+  <div class="bigrow">
+    <div class="panel"><div class="ph"><h2>Agents at work right now</h2><span class="live" style="margin:0;font-size:.78rem"><span class="dot"></span>Live</span></div><ul class="feed" id="feed"></ul></div>
+    <div class="panel mm"><div class="ph"><h2>Missions in flight</h2><button class="btn q" data-go="missions" style="font-size:.8rem">All missions</button></div><ul id="mmini"></ul></div>
+  </div>
+</section>
+
+<!-- MISSIONS -->
+<section class="view" id="v-missions" aria-labelledby="h-mis">
+  <div class="vh"><div><h1 id="h-mis">Missions</h1><p>Leaders set the outcome. Visionet IQ assembles a squad of agents across IQs to pursue it, and reports progress and value against the goal rather than activity.</p></div>
+    <button class="btn p" data-toast="Mission builder: goal, owner, guardrails, budget, squad">New mission</button></div>
+  <div class="mlist" id="mlist"></div>
+</section>
+
+<!-- VALUE -->
+<section class="view" id="v-value" aria-labelledby="h-val">
+  <div class="vh"><div><h1 id="h-val">Value</h1><p>One ledger, three altitudes. Every agent action that changes an outcome writes a value event with evidence, so the organisation, function and individual views always reconcile.</p></div></div>
+  <div class="lvlbar"><div class="tabs" role="tablist" aria-label="Level" id="lvltabs"><button role="tab" aria-selected="true" data-l="org">Organisation</button><button role="tab" aria-selected="false" data-l="fn">Function</button><button role="tab" aria-selected="false" data-l="me">Me</button></div><span class="crumbs" id="crumbs"><b>Visionet</b></span></div>
+  <div id="lv-org"><div class="panel scroll"><table class="list"><thead><tr><th>Function</th><th class="num">Net value</th><th>Share</th><th class="num">Hours returned</th><th>Autonomy</th><th class="num">Agent share</th><th class="num">Trust</th><th>13-week trend</th></tr></thead><tbody id="fnrows"></tbody></table></div>
+    <p class="ev" style="margin-top:.6rem">Next wave: Finance, Talent and IT. Select a function to drill in.</p></div>
+  <div id="lv-fn" hidden><div class="panel"><div class="ph"><h2 id="fn-title">Sales</h2><span id="fn-sub"></span></div><div class="wfl"><ul id="wfrows"></ul></div></div>
+    <h2 class="sec">People in this function</h2>
+    <div class="panel scroll"><table class="list"><thead><tr><th>Person</th><th class="num">Value from their agent team</th><th class="num">Hours returned</th><th>Delegation level</th><th class="num">Acted on</th></tr></thead><tbody id="pplrows"></tbody></table></div>
+    <p class="ev" style="margin-top:.6rem">Managers see this for their own team only. There is no organisation-wide ranking of individuals, by design.</p></div>
+  <div id="lv-me" hidden>
+    <div class="me">
+      <div class="panel"><div class="me-hero"><p class="big">Your agent team helped you protect <em>$6.8M</em> in renewals, influence <em>$1.2M</em> of pipeline, and handed you back <em>46 hours</em> this quarter.</p>
+        <div style="display:flex;gap:.4rem;flex-wrap:wrap"><span class="sev b">Agent leader level: Delegator</span><span class="sev n">Up from Collaborator in August</span></div></div>
+        <div class="me-stats"><div><span>Value attributed</span><b>$412K</b></div><div><span>Acted on</span><b>31 of 38</b></div><div><span>Time to act</span><b>5.2 h</b></div><div><span>Meetings prepped</span><b>27</b></div></div></div>
+      <div class="panel"><div class="ph"><h2>Your agent team</h2><span>6 agents work for you</span></div><div class="team"><ul>
+        <li><div class="bot">ACC</div><div><b>Meeting prep and follow-up</b><br><span class="ev">27 briefs, 41 follow-ups</span></div><span class="lvl">L4</span></li>
+        <li><div class="bot">SAL</div><div><b>Pipeline hygiene</b><br><span class="ev">Updates FocusNet after calls</span></div><span class="lvl">L4</span></li>
+        <li><div class="bot">SAL</div><div><b>Renewal watch</b><br><span class="ev">5 accounts in window</span></div><span class="lvl">L3</span></li>
+        <li><div class="bot">SOL</div><div><b>Proposal drafting</b><br><span class="ev">2 drafts, 1 shipped</span></div><span class="lvl">L3</span></li>
+        <li><div class="bot">PTR</div><div><b>Partner registrations</b><br><span class="ev">3 tracked</span></div><span class="lvl">L2</span></li></ul></div>
+        <div style="border-top:1px solid var(--line);padding:1rem;font-size:.88rem"><b style="display:block;margin-bottom:.25rem">Suggested next delegation</b>You approved 19 of 20 partner-registration reminders unchanged. Let that agent send them on its own (L4)?<div style="margin-top:.5rem;display:flex;gap:.4rem"><button class="btn p" data-toast="Delegation raised to L4">Delegate</button><button class="btn q">Not yet</button></div></div></div>
+    </div>
+    <div class="privacy"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg><span>This page is yours. Your manager sees your outcomes and team totals, never your prompts, questions or dismissed items. Individual value is used for coaching and recognition, not ranking.</span></div>
+  </div>
+</section>
+
+<!-- AUTONOMY -->
+<section class="view" id="v-autonomy" aria-labelledby="h-aut">
+  <div class="vh"><div><h1 id="h-aut">Autonomy map</h1><p>Where Visionet's work sits on the autonomy ladder today, where each function is heading, and what must be proven before an agent moves up.</p></div>
+    <div class="tabs" role="tablist" aria-label="Show" id="auttabs"><button role="tab" aria-selected="true" data-a="now">Today</button><button role="tab" aria-selected="false" data-a="target">Q2 2027 target</button></div></div>
+  <div class="ladder5">
+    <div><b><i style="background:var(--h1);border:1px solid var(--line)"></i>L1 Operator</b>Human works. Agent helps on request.</div>
+    <div><b><i style="background:var(--h2)"></i>L2 Collaborator</b>Human and agent share the work.</div>
+    <div><b><i style="background:var(--h3)"></i>L3 Consultant</b>Agent leads, consults the human.</div>
+    <div><b><i style="background:var(--h4)"></i>L4 Approver</b>Agent acts. Human approves exceptions.</div>
+    <div><b><i style="background:var(--h5)"></i>L5 Observer</b>Agent acts. Human monitors.</div>
+  </div>
+  <div class="autogrid">
+    <div class="panel scroll" style="padding:.75rem" id="t-heat"><table class="heat" id="heat" aria-label="Autonomy level by function and stage of work"></table>
+      <p class="ev" style="margin:.5rem .4rem 0">Hatched cells are capped by policy: pricing, commercial commitments and client promises stay with people.</p></div>
+    <div class="panel" id="celldetail"></div>
+  </div>
+</section>
+<!-- MY DAY -->
+<section class="view" id="v-day" aria-labelledby="h-day">
+  <div class="vh"><div><p class="eyebrow">Tuesday 6 October</p><h1 id="h-day">Good morning, Priya</h1><p>Your chief of staff worked overnight. Three things need you; everything else is handled or prepped.</p></div></div>
+  <div class="slept" id="t-slept">
+    <div><b>14</b><span>actions handled while you slept</span></div>
+    <div><b>6</b><span>CRM updates written for you</span></div>
+    <div><b>4</b><span>meetings prepped for today</span></div>
+    <div><b>1.6 h</b><span>of admin you won't do today</span></div>
+  </div>
+  <div class="day">
+    <div>
+      <ol class="recs">
+        <li class="rec"><div class="n">1</div><div>
+          <div class="hd"><span class="sev r">Renewal at risk</span><span class="iq">Sales</span><span class="iq">Delivery</span><span class="iq">Accounts</span><span class="vtag">$4.2M at stake</span></div>
+          <h3>Northwind Retail renews in 118 days, and three signals point the wrong way</h3>
+          <p>Project Atlas turned red, CSAT fell from 8.4 to 6.1, and the VP who sponsored the last renewal left on 28 September. A recovery plan is drafted.</p>
+          <div class="acts"><button class="btn p" data-toast="Recovery plan opened">Open recovery plan</button><button class="btn" data-go="account">View account</button><button class="btn q" data-dismiss="Snoozed for 7 days">Snooze</button></div></div></li>
+        <li class="rec"><div class="n">2</div><div>
+          <div class="hd"><span class="sev a">Expansion</span><span class="iq">Delivery</span><span class="iq">Sales</span><span class="vtag">$380K–$520K</span></div>
+          <h3>Halcyon Health asked for a data-platform change. A draft opportunity is ready</h3>
+          <p>CR-0219 asks for a Fabric migration of their claims data mart. No open opportunity covers it.</p>
+          <div class="acts"><button class="btn p" data-toast="Opportunity created in FocusNet">Approve opportunity</button><button class="btn">Edit</button><button class="btn q" data-dismiss="Dismissed">Not now</button></div></div></li>
+        <li class="rec"><div class="n">3</div><div>
+          <div class="hd"><span class="sev b">Win odds</span><span class="iq">Sales</span><span class="iq">Accounts</span><span class="vtag">+9 pts available</span></div>
+          <h3>Meridian Bank: getting to the CFO is the biggest move you can make this week</h3>
+          <p>Win odds are 58%. The CFO signs off above $2M and nobody at Visionet has met them. Lena Park, their CIO, can introduce you.</p>
+          <div class="acts"><button class="btn p" data-go="deal">Open war room</button><button class="btn" data-toast="Intro request drafted">Draft intro request</button></div></div></li>
+      </ol>
+    </div>
+    <div class="aside-stack">
+      <div class="panel mtg"><div class="ph"><h2>Today's meetings</h2><span>All prepped</span></div><ul>
+        <li><time>09:30</time><div><b>Northwind weekly</b><br><span class="ready">Brief ready</span> <span class="ev">Atlas recovery, new VP intro</span></div></li>
+        <li><time>11:00</time><div><b>Meridian architecture workshop</b><br><span class="ready">Brief and case study ready</span></div></li>
+        <li><time>14:00</time><div><b>1:1 with Arjun</b><br><span class="ready">Agenda drafted</span> <span class="ev">from his last 3 commitments</span></div></li>
+        <li><time>16:30</time><div><b>Calder bid review</b><br><span class="ready">Bid at hour 19 of 48</span></div></li></ul></div>
+      <div class="panel handled"><div class="ph"><h2>Handled for you</h2><span>Undo any</span></div><ul id="handled">
+        <li><span>FocusNet: Meridian stage moved to Proposal</span><button class="btn q" data-undo>Undo</button></li>
+        <li><span>Follow-up sent to Halcyon PM after Monday's call</span><button class="btn q" data-undo>Undo</button></li>
+        <li><span>Timesheet drafted from your calendar</span><button class="btn q" data-undo>Undo</button></li>
+        <li><span>Partner registration reminder sent to Alliances</span><button class="btn q" data-undo>Undo</button></li></ul></div>
+      <div class="panel"><div class="ph"><h2>Promises you made</h2><span>From your meetings</span></div>
+        <ul class="rows commit">
+          <li><label><input type="checkbox"> Send Atlas recovery plan to Lena <span style="display:block">Due Thursday</span></label></li>
+          <li><label><input type="checkbox"> Share Fabric case study with Halcyon <span style="display:block">Due Friday</span></label></li></ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- OUTCOMES -->
+<section class="view" id="v-outcomes" aria-labelledby="h-out">
+  <div class="vh"><div><h1 id="h-out">Outcomes</h1><p>Twenty outcomes that agents deliver end to end. Each fuses several IQs, produces something you can count, and climbs the autonomy ladder as it earns trust.</p></div></div>
+  <div class="waves" role="group" aria-label="Filter by wave" id="wavef"><button class="btn" aria-pressed="true" data-w="all">All 20</button><button class="btn" aria-pressed="false" data-w="Wave 1">Wave 1</button><button class="btn" aria-pressed="false" data-w="Wave 2">Wave 2</button></div>
+  <div class="ogrid" id="ogrid"></div>
+  <div class="panel odetail" id="odetail" aria-live="polite"></div>
+</section>
+
+<!-- ACCOUNT 360 -->
+<section class="view" id="v-account" aria-labelledby="h-acct">
+  <div class="acct-head"><div><p class="eyebrow">Account 360</p><h1 id="h-acct">Northwind Retail</h1><div class="sub">Retail, North America. Owner Priya Raman. Client since 2019.</div></div>
+    <div style="display:flex;gap:.4rem;flex-wrap:wrap"><button class="btn" data-toast="Client view: what Northwind's CIO would see">Client view</button><button class="btn p" data-toast="QBR deck being built from delivery evidence">Build QBR</button></div></div>
+  <div class="facts"><div class="fact"><span>Health</span><b class="r">34 / 100</b></div><div class="fact"><span>Annual revenue</span><b>$4.2M</b></div><div class="fact"><span>Renewal</span><b>1 Feb 2027</b></div><div class="fact"><span>Open pipeline</span><b>$1.1M</b></div><div class="fact"><span>AI value on account</span><b class="g">$186K</b></div></div>
+  <div class="panel" id="t-lanes"><div class="ph"><h2>Signal lanes</h2><span>12 weeks across all seven IQs. Select a point.</span></div>
+    <div class="lanes-wrap scroll"><svg id="lanes" viewBox="0 0 980 410" role="img" aria-label="Signals across seven IQs, three of them fused into a renewal-at-risk recommendation"></svg></div>
+    <div class="lane-pick" id="lanepick"><span class="ev">Three threads converge in week 41: the renewal window, Atlas turning red and the sponsor leaving. Fusion turned that into today's recommendation.</span></div></div>
+  <div class="a360">
+    <div class="panel"><div class="ph"><h2>Stakeholders</h2><span>Accounts IQ</span></div><ul class="rows">
+      <li><div><b class="strike">Daniel Okafor</b><br><span>VP Technology, left 28 Sep</span></div><span class="rel" style="color:var(--risk)">Champion lost</span></li>
+      <li><div><b>Lena Fischer</b><br><span>CIO</span></div><span class="rel" style="color:var(--alert)">Warm</span></li>
+      <li><div><b>Sofia Lindqvist</b><br><span>New VP Technology</span></div><span class="rel" style="color:var(--muted)">No contact</span></li></ul></div>
+    <div class="panel"><div class="ph"><h2>Delivery</h2><span>Delivery IQ</span></div><ul class="rows">
+      <li><div><b>Project Atlas</b><br><span>POS modernisation</span></div><span class="sev r">Red</span></li>
+      <li><div><b>Managed AMS</b><br><span>SLA 97.8%</span></div><span class="sev g">Green</span></li></ul></div>
+    <div class="panel"><div class="ph"><h2>Opportunities</h2><span>Sales IQ</span></div><ul class="rows">
+      <li><div><b>FY27 renewal</b><br><span>Stage 2, $4.2M</span></div><span class="rel" style="color:var(--risk)">At risk</span></li>
+      <li><div><b>Loyalty analytics</b><br><span>Stage 3, $640K</span></div><span class="rel" style="color:var(--alert)">Stalled</span></li></ul></div>
+  </div>
+</section>
+
+<!-- DEAL WAR ROOM -->
+<section class="view" id="v-deal" aria-labelledby="h-deal">
+  <div class="acct-head"><div><p class="eyebrow">Deal war room</p><h1 id="h-deal">Meridian Bank, cloud data platform</h1><div class="sub">$2.4M total contract value. Stage 4, Proposal. Expected close 18 December.</div></div>
+    <div style="display:flex;gap:.4rem;flex-wrap:wrap"><button class="btn" data-go="bid">Proposal status</button><button class="btn p" data-toast="Pursuit team notified">Rally pursuit team</button></div></div>
+  <div class="war">
+    <div class="panel odds" id="t-odds"><div class="ring"><svg viewBox="0 0 180 180"><circle class="bg" cx="90" cy="90" r="74"/><circle class="fg" id="oddsring" cx="90" cy="90" r="74" stroke-dasharray="465" stroke-dashoffset="465"/></svg><div class="pct"><div><b id="oddsnum">58%</b><span>win odds</span></div></div></div>
+      <p class="delta">Up <b>+11 pts</b> in 3 weeks. Similar deals at this stage close at 41%.</p>
+      <svg viewBox="0 0 260 50" style="width:100%;height:auto" aria-label="Win odds trend rising from 39 to 58 percent"><polyline points="0,40 30,38 60,36 90,39 120,32 150,30 180,27 210,22 240,19 260,18" fill="none" stroke="var(--signal)" stroke-width="2"/><text x="0" y="50" font-size="9" fill="var(--faint)">Aug</text><text x="236" y="50" font-size="9" fill="var(--faint)">Today</text></svg></div>
+    <div class="panel drivers"><div class="ph"><h2>What's driving the odds</h2><span>Evidence from 5 IQs</span></div><ul id="drivers"></ul></div>
+  </div>
+  <div class="wargrid">
+    <div class="panel movers"><div class="ph"><h2>Moves that change the odds</h2><span>Ranked by impact</span></div><ul id="movers"></ul></div>
+    <div class="panel"><div class="ph"><h2>Competitive picture</h2><span>Market radar</span></div><ul class="rows">
+      <li><div><b>Incumbent holds the data warehouse</b><br><span>Contract ends June 2027. Renewal talks not started.</span></div><span class="rel" style="color:var(--risk)">Threat</span></li>
+      <li><div><b>Meridian hired a new Head of Data from a cloud-first bank</b><br><span>Signals appetite for modern platforms</span></div><span class="rel" style="color:var(--guard)">Opening</span></li>
+      <li><div><b>Azure migration funds available</b><br><span>Up to $150K partner-funded proof of value</span></div><span class="rel" style="color:var(--guard)">Lever</span></li></ul></div>
+  </div>
+  <div class="panel" style="margin-top:1.25rem"><div class="ph"><h2>Buying committee</h2><span>Coverage 3 of 5</span></div><div class="committee">
+    <div class="cm"><div class="av s">CIO</div><b>Lena Park</b><span>Champion</span><span>Met 4 times, positive</span></div>
+    <div class="cm"><div class="av w">HD</div><b>Omar Reyes</b><span>Head of Data, evaluator</span><span>Met once, warm</span></div>
+    <div class="cm"><div class="av x">CFO</div><b>Grace Liu</b><span>Economic buyer</span><span>Never met</span></div>
+    <div class="cm"><div class="av x">SEC</div><b>Ivan Petrov</b><span>CISO, gatekeeper</span><span>Not engaged</span></div>
+    <div class="cm"><div class="av w">PR</div><b>Procurement</b><span>Process owner</span><span>Vendor form sent</span></div></div></div>
+</section>
+
+<!-- BID STUDIO -->
+<section class="view" id="v-bid" aria-labelledby="h-bid">
+  <div class="acct-head"><div><p class="eyebrow">Bid studio</p><h1 id="h-bid">Calder Insurance, claims modernisation</h1><div class="sub">RFP received Monday 09:12. Submission due 20 October. Bid owner Anita Rao.</div></div>
+    <div style="display:flex;gap:.4rem;flex-wrap:wrap"><button class="btn" data-toast="Draft opened in Word">Open draft</button><button class="btn p" data-toast="Review session booked for 16:30">Book review</button></div></div>
+  <div class="panel clock" id="t-clock">
+    <div class="hrs">19<small> / 48 hours</small></div>
+    <div class="stages">
+      <div class="stage done"><i></i>Intake</div>
+      <div class="stage done human"><i></i>Go/no-go</div>
+      <div class="stage done"><i></i>Compliance</div>
+      <div class="stage now" style="--p:64%"><i></i>Draft 64%</div>
+      <div class="stage"><i></i>Solution and staffing</div>
+      <div class="stage human"><i></i>Pricing</div>
+      <div class="stage human"><i></i>Final review</div>
+    </div>
+    <span class="sev g">On track</span>
+  </div>
+  <p class="ev" style="margin:.5rem 0 0">Dashed outlines are human checkpoints. Agents never submit, price or commit on their own.</p>
+  <div class="bidgrid">
+    <div>
+      <div class="panel"><div class="ph"><h2>Go/no-go: Go</h2><span>Approved by Anita Rao, hour 2</span></div>
+        <div class="gonogo"><div><b>0.71</b>fit score</div><div><b>3</b>similar wins</div><div><b>92%</b>requirements met</div><div><b>Yes</b>staffable by Jan</div></div></div>
+      <div class="panel scroll" style="margin-top:1.25rem"><div class="ph"><h2>Compliance matrix</h2><span>186 requirements</span></div>
+        <table class="list"><thead><tr><th>Req.</th><th>Requirement</th><th>Status</th><th>Evidence</th></tr></thead><tbody>
+          <tr><td>014</td><td>Integrate with Guidewire ClaimCenter</td><td><span class="sev g">Met</span></td><td class="ev">2 case studies, 1 accelerator</td></tr>
+          <tr><td>037</td><td>SOC 2 Type II</td><td><span class="sev g">Met</span></td><td class="ev">2026 report</td></tr>
+          <tr><td>052</td><td>On-site team in Hartford</td><td><span class="sev a">Partial</span></td><td class="ev">Hybrid model proposed</td></tr>
+          <tr><td>088</td><td>Fixed-price option for phase 1</td><td><span class="sev r">Gap</span></td><td class="ev">Sent to deal desk</td></tr>
+          <tr><td>121</td><td>Accessibility, WCAG 2.2 AA</td><td><span class="sev g">Met</span></td><td class="ev">Testing pack</td></tr></tbody></table></div>
+    </div>
+    <div class="panel log"><div class="ph"><h2>Bid squad activity</h2><span>5 agents, 3 people</span></div><ul>
+      <li><time>H19</time><span class="iq">SOL</span><span>Drafted section 4.2 from two winning insurance responses</span></li>
+      <li><time>H18</time><span class="iq">DLV</span><span>Matched 11 named people with Guidewire experience, 8 free by January</span></li>
+      <li class="hum"><time>H17</time><span class="iq">Anita</span><span>Asked for a stronger claims-fraud angle</span></li>
+      <li><time>H16</time><span class="iq">PTR</span><span>Found an AWS migration incentive worth up to $120K</span></li>
+      <li><time>H9</time><span class="iq">GTM</span><span>Compliance matrix built: 186 requirements, 15 gaps flagged</span></li>
+      <li class="hum"><time>H2</time><span class="iq">Anita</span><span>Approved the go decision</span></li>
+      <li><time>H1</time><span class="iq">GTM</span><span>Go/no-go brief from 3 similar bids and win history</span></li></ul></div>
+  </div>
+</section>
+
+<!-- ASK -->
+<section class="view" id="v-ask" aria-labelledby="h-ask">
+  <div class="vh"><div><h1 id="h-ask">Ask Visionet IQ</h1><p>Answers come only from sources you're allowed to see, and every claim links to its evidence.</p></div></div>
+  <div class="askv"><div>
+    <div class="thread-c" id="thread">
+      <div class="msg u">Which function gave us the best return on AI this quarter, and what's holding Delivery back?</div>
+      <div class="msg a"><p><b>Sales leads on absolute value ($1.0M net), but Partners has the best return per dollar of AI cost.</b> Partner agents run cheaply on structured data, and registrations have already reached L4.<button class="cite" data-s="1">1</button></p>
+        <p>Delivery is at autonomy 1.9 for two reasons:</p>
+        <ul><li>Status reports use four templates, so the Delivery agent misreads RAG status in about one in five.<button class="cite" data-s="2">2</button></li>
+        <li>Change-request alerts fire too often on fixed-price work, so project managers dismiss them.<button class="cite" data-s="3">3</button></li></ul>
+        <p>Standardising the status template is the single biggest unlock.</p></div>
+    </div>
+    <div class="composer"><input id="askin" placeholder="Ask a follow-up" aria-label="Ask a follow-up"><button class="btn p" id="asksend">Ask</button></div></div>
+    <div class="panel"><div class="ph"><h2>Sources</h2><span>3</span></div><ol class="srcs" id="srcs">
+      <li><div>Value ledger, Q4 to date<span>Visionet IQ</span></div></li><li><div>Delivery agent evaluation, week 40<span>Agent workforce</span></div></li><li><div>Signal feedback log, Delivery<span>Signal Board</span></div></li></ol></div></div>
+</section>
+
+<!-- AGENTS -->
+<section class="view" id="v-agents" aria-labelledby="h-ag">
+  <div class="vh"><div><h1 id="h-ag">Agent workforce</h1><p>Agents are managed like colleagues: a job, a human manager, an earned level, a performance record, and a switch to stop them.</p></div><span class="sev g"><span class="dot" style="background:var(--guard)"></span>All guardrails passing</span></div>
+  <div class="panel scroll" id="t-agents"><table class="list"><thead><tr><th>Agent and job</th><th>Manager</th><th>Level</th><th class="num">Value this quarter</th><th class="num">Cost</th><th>Trust</th><th>Review</th><th>On</th></tr></thead><tbody id="agentrows"></tbody></table></div>
+  <div class="bigrow">
+    <div class="panel blocks"><div class="ph"><h2>Stopped by Guardian</h2><span>Before reaching anyone</span></div>
+      <div class="bl"><time>08:02</time><b>Cross-client data</b><span class="ev">A Calder draft quoted another client's rate card. Replaced with an anonymised range.</span></div>
+      <div class="bl"><time>06:48</time><b>Instruction hidden in a document</b><span class="ev">An RFP appendix tried to redirect the agent. Text quarantined, bid owner told.</span></div>
+      <div class="bl"><time>Mon</time><b>Missing evidence</b><span class="ev">A signal cited a transcript the recipient can't access. Not surfaced.</span></div></div>
+    <div class="panel"><div class="ph"><h2>Ready for promotion</h2><span>Needs owner sign-off</span></div>
+      <div style="padding:1rem;font-size:.88rem"><b>Stalled-deal follow-up, Sales</b>: L3 to L4<div style="display:flex;gap:.35rem;flex-wrap:wrap;margin:.5rem 0 .7rem"><span class="sev g">16 days live</span><span class="sev g">89% trust</span><span class="sev g">0 violations</span></div><button class="btn p" data-toast="Sign-off requested">Request sign-off</button></div></div>
+  </div>
+  <div class="kill"><div><b>Pause all agents</b><div class="ev">Stops every run within a minute. Signals and the value ledger are kept.</div></div><button class="btn" data-toast="Prototype: this needs a second confirmation">Pause all agents</button></div>
+</section>
+</div>
+</div>
+
+<div class="tour" id="tour" role="dialog" aria-label="Product tour" aria-live="polite">
+  <div class="step" id="tstep"></div><h3 id="ttitle"></h3><p id="ttext"></p>
+  <div class="row"><div class="dots" id="tdots"></div><button id="tprev">Back</button><button class="nx" id="tnext">Next</button><button id="tend" aria-label="End tour">End</button></div>
+</div>
+<div class="toast" id="toast" role="status"></div>
+<script>
+(function(){
+const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelectorAll(s)];
+const RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const toastEl=$('#toast');let tt;
+function toast(m){toastEl.textContent=m;toastEl.classList.add('show');clearTimeout(tt);tt=setTimeout(()=>toastEl.classList.remove('show'),2300)}
+const money=k=>k>=1000?'$'+(k/1000).toFixed(2)+'M':'$'+Math.round(k)+'K';
+
+function go(v,opt){
+  $$('.view').forEach(x=>x.classList.toggle('on',x.id==='v-'+v));
+  $$('.nav button').forEach(b=>b.setAttribute('aria-current',b.dataset.v===v?'page':'false'));
+  window.scrollTo(0,0);
+  if(v==='account'){const l=$('#lanes');l.classList.remove('go');requestAnimationFrame(()=>requestAnimationFrame(()=>l.classList.add('go')))}
+  if(v==='deal')animateOdds();
+  if(v==='value'&&opt)setLevel(opt);
+  try{sessionStorage.setItem('viq-view',v)}catch(e){}
+}
+$$('.nav button').forEach(b=>b.addEventListener('click',()=>go(b.dataset.v)));
+document.addEventListener('click',e=>{
+  const g=e.target.closest('[data-go]');if(g){go(g.dataset.go,g.dataset.lvl);return}
+  const t=e.target.closest('[data-toast]');if(t)toast(t.dataset.toast);
+  const d=e.target.closest('[data-dismiss]');if(d){d.closest('.rec').classList.add('done');toast(d.dataset.dismiss)}
+  const u=e.target.closest('[data-undo]');if(u){const li=u.closest('li');li.classList.toggle('undone');u.textContent=li.classList.contains('undone')?'Redo':'Undo';toast(li.classList.contains('undone')?'Undone. The agent learns from this.':'Restored')}
+  const c=e.target.closest('.cite');if(c)$$('#srcs li').forEach((li,i)=>li.classList.toggle('hl',String(i+1)===c.dataset.s));
+});
+document.addEventListener('keydown',e=>{
+  if(e.key==='/'&&!/INPUT|SELECT|TEXTAREA/.test(document.activeElement.tagName)){e.preventDefault();go('ask');setTimeout(()=>$('#askin').focus(),50)}
+  if($('#tour').classList.contains('on')){if(e.key==='ArrowRight')step(1);if(e.key==='ArrowLeft')step(-1);if(e.key==='Escape')endTour()}
+});
+$('#asksend').addEventListener('click',()=>{const v=$('#askin').value.trim();if(!v)return;const m=document.createElement('div');m.className='msg u';m.textContent=v;$('#thread').appendChild(m);const a=document.createElement('div');a.className='msg a';a.innerHTML='<p class="ev">In the built product, Visionet IQ answers here from permitted sources, with citations.</p>';$('#thread').appendChild(a);$('#askin').value=''});
+$('#askin').addEventListener('keydown',e=>{if(e.key==='Enter')$('#asksend').click()});
+$('#theme').addEventListener('click',()=>{const r=document.documentElement;const dark=r.dataset.theme?r.dataset.theme==='dark':matchMedia('(prefers-color-scheme: dark)').matches;r.dataset.theme=dark?'light':'dark'});
+const P={ceo:['command','CE','Good morning'],cro:['missions','CR'],ao:['day','PR','Good morning, Priya'],eng:['day','SK','Good morning, Sameer'],gov:['agents','GL']};
+$('#persona').addEventListener('change',e=>{const p=P[e.target.value];$('#av').textContent=p[1];if(p[2]&&e.target.value!=='ceo')$('#h-day').textContent=p[2];go(p[0]);toast('Viewing as '+e.target.selectedOptions[0].text)});
+
+/* value chart */
+(function(){const rev=[60,82,95,118,140,152,171,188,196,214,228,241,262],cap=[38,44,52,60,66,71,78,82,86,90,95,99,104],rk=[12,18,22,30,34,38,44,48,52,56,58,62,66],cost=[6,7,8,9,9,10,10,11,11,12,12,13,13];
+const W=640,H=230,l=40,r=8,t=10,b=24,n=13,max=450,bw=(W-l-r)/n,y=v=>t+(H-t-b)*(1-v/max);let s='';
+[0,100,200,300,400].forEach(v=>{s+=`<line class="gl" x1="${l}" x2="${W-r}" y1="${y(v)}" y2="${y(v)}"/><text class="ax" x="${l-6}" y="${y(v)+3}" text-anchor="end">${v}</text>`});
+for(let i=0;i<n;i++){const x=l+i*bw+bw*.18,w=bw*.64;let base=0;[[rev[i],'--v-rev'],[cap[i],'--v-cap'],[rk[i],'--v-risk']].forEach(([v,c])=>{s+=`<rect x="${x}" y="${y(base+v)}" width="${w}" height="${y(base)-y(base+v)}" fill="var(${c})" rx="1.5"/>`;base+=v});if(i%2===0)s+=`<text class="ax" x="${x+w/2}" y="${H-8}" text-anchor="middle">W${29+i}</text>`}
+s+=`<path class="costl" d="${cost.map((v,i)=>(i?'L':'M')+(l+i*bw+bw/2)+','+y(v*4)).join(' ')}"/>`;$('#valuechart').innerHTML=s})();
+
+/* live feed */
+const FEED=[['ACC','Prepped 4 meetings for Priya Raman'],['SAL','Logged Meridian call notes to FocusNet'],['PTR','Extended AWS registration for Ostara, saving $38K in incentives'],['DLV','Flagged Nova sprint 14 as likely to slip'],['GTM','Built compliance matrix for Calder: 186 requirements'],['CMP','Spotted a new CIO at Harbor Mutual, an ICP account'],['SOL','Matched 3 win themes to the Calder RFP'],['SAL','Drafted renewal plan for Ostara, 180 days out'],['ACC','Sent follow-up to Halcyon PM after the call'],['GDN','Blocked a cross-client rate card in a draft'],['DLV','Drafted change order for unbilled Atlas work: $42K'],['CMP','Champion moved to Brightline Bank, warm intro drafted']];
+let fi=0;const feed=$('#feed');const now=new Date(2026,9,6,7,45);
+function addFeed(first){const f=FEED[fi%FEED.length];fi++;const li=document.createElement('li');if(!first)li.className='new';const tm=new Date(now.getTime()+fi*60000*3);li.innerHTML=`<time>${String(tm.getHours()).padStart(2,'0')}:${String(tm.getMinutes()).padStart(2,'0')}</time><span class="iq">${f[0]}</span><span>${f[1]}</span>`;feed.prepend(li);while(feed.children.length>7)feed.lastChild.remove()}
+for(let i=0;i<6;i++)addFeed(true);
+if(!RM)setInterval(()=>{if($('#v-command').classList.contains('on'))addFeed()},3200);
+
+/* missions */
+const M=[{t:'Defend H2 renewals',o:'Chief Revenue Officer',goal:'Retain $38.4M renewing before June',now:'$29.6M secured',pct:77,val:'$1.42M',lvl:'L3',sq:['Sales','Delivery','Accounts','Fusion'],note:'9 at-risk renewals, 5 recovered, 4 in active recovery'},
+{t:'Lift bid win rate from 28% to 35%',o:'Head of GTM',goal:'35% win rate on qualified bids',now:'31% over the last 60 days',pct:43,val:'$0.61M',lvl:'L3',sq:['GTM','Solutions','Partners','Delivery'],note:'14 bids in flight; 3 no-bid calls saved 410 presales hours'},
+{t:'Partner-sourced pipeline of $15M',o:'Head of Alliances',goal:'$15M partner-sourced pipeline',now:'$9.3M',pct:62,val:'$0.38M',lvl:'L4',sq:['Partners','Campaign','Sales'],note:'$410K of partner funds claimed that would have lapsed'},
+{t:'Land 6 new BFSI logos',o:'BFSI practice head',goal:'6 new logos by March',now:'2 won, 4 in late stage',pct:33,val:'$0.27M',lvl:'L2',sq:['Campaign','Accounts','Solutions'],note:'Champion follow found 11 warm contacts at target banks'}];
+$('#mmini').innerHTML=M.map(m=>`<li><div><b>${m.t}</b> <span class="ev">${m.o}</span></div><span class="ev">${m.val}</span><div class="prog"><i style="width:${m.pct}%"></i></div></li>`).join('');
+$('#mlist').innerHTML=M.map((m,i)=>`<article class="mission"${i===0?' id="t-mission"':''}><div><h3>${m.t}</h3><div class="owner">Owner: ${m.o}</div><span class="lab">Goal</span>${m.goal}<div class="mprog"><i style="width:${m.pct}%"></i></div><span class="ev">${m.now}. ${m.note}.</span></div>
+<div><span class="lab">Agent squad</span><div class="squad">${m.sq.map(s=>`<span class="iq">${s}</span>`).join('')}</div><span class="lab" style="margin-top:.85rem">Operating at</span><span class="lvl">${m.lvl}</span></div>
+<div><span class="lab">Value to date</span><span class="big">${m.val}</span><div style="margin-top:.7rem"><button class="btn" data-toast="Mission room: plan, squad activity, decisions, value">Open mission</button></div></div></article>`).join('');
+
+/* value */
+const F=[['Sales',1004,2210,2.3,31,89,[3,4,4,5,6,6,7,8,8,9,9,10,11]],['Accounts',916,1740,2.4,35,88,[2,3,4,4,5,6,6,7,8,8,9,9,10]],['GTM',742,2380,2.7,44,86,[2,2,3,4,4,5,5,6,6,7,7,8,8]],['Solutions',431,1610,2.6,41,82,[1,2,2,3,3,3,4,4,4,5,5,5,6]],['Campaign',388,1960,2.9,52,79,[2,2,2,3,3,3,3,4,4,4,4,5,5]],['Partners',214,520,2.8,47,91,[1,1,1,2,2,2,2,2,3,3,3,3,3]],['Delivery',145,1000,1.9,22,84,[1,1,1,1,1,2,2,2,2,2,2,2,2]]];
+const tot=F.reduce((a,f)=>a+f[1],0);
+const spark=a=>{const mx=Math.max(...a);return `<svg class="spark" width="90" height="22" viewBox="0 0 90 22"><path d="${a.map((v,i)=>(i?'L':'M')+(i*7.2+2)+','+(20-v/mx*17)).join(' ')}"/></svg>`};
+$('#fnrows').innerHTML=F.map((f,i)=>`<tr class="click" tabindex="0" data-f="${i}"><td class="t">${f[0]}</td><td class="num"><b>${money(f[1])}</b></td><td><span class="bar"><i style="width:${Math.min(100,f[1]/tot*100/0.3)}%;background:var(--signal)"></i></span>${Math.round(f[1]/tot*100)}%</td><td class="num">${f[2].toLocaleString()}</td><td><span class="bar"><i style="width:${f[3]/5*100}%;background:var(--h4)"></i></span>${f[3].toFixed(1)}</td><td class="num">${f[4]}%</td><td class="num">${f[5]}%</td><td>${spark(f[6])}</td></tr>`).join('')+`<tr><td class="t">Visionet total</td><td class="num"><b>${money(tot)}</b></td><td></td><td class="num">${F.reduce((a,f)=>a+f[2],0).toLocaleString()}</td><td>2.6</td><td class="num">38%</td><td class="num">84%</td><td></td></tr>`;
+const WF={Sales:[['Renewal risk watch','$412K','L3','92%'],['Stalled-deal follow-up','$198K','L3, ready for L4','89%'],['Pipeline hygiene after calls','$164K','L4','95%'],['Forecast variance explainer','$121K','L2','81%'],['Expansion from change requests','$109K','L3','78%']]};
+function showFn(i){const f=F[i];$('#fn-title').textContent=f[0];$('#fn-sub').textContent=`${money(f[1])} net, autonomy ${f[3].toFixed(1)}, ${f[4]}% agent share`;
+  const rows=WF[f[0]]||[['Signal detection',money(f[1]*.45),'L4','90%'],['Recommendation drafting',money(f[1]*.35),'L3','84%'],['Action execution',money(f[1]*.2),'L2','80%']];
+  $('#wfrows').innerHTML='<li class="h"><span>Workflow</span><span>Value</span><span>Level</span><span>Trust</span></li>'+rows.map(r=>`<li><b>${r[0]}</b><span>${r[1]}</span><span><span class="lvl">${r[2]}</span></span><span>${r[3]}</span></li>`).join('');
+  $('#pplrows').innerHTML=[['Priya Raman','$412K','46','L3 Delegator','82%'],['Arjun Mehta','$288K','39','L3 Delegator','79%'],['Kavya Nair','$174K','51','L4 Supervisor','91%'],['Tom Becker','$96K','18','L2 Collaborator','64%']].map(p=>`<tr><td class="t">${p[0]}</td><td class="num">${p[1]}</td><td class="num">${p[2]}</td><td><span class="lvl">${p[3]}</span></td><td class="num">${p[4]}</td></tr>`).join('');
+  $('#crumbs').innerHTML=`Visionet / <b>${f[0]}</b>`;setLevel('fn',true)}
+$('#fnrows').addEventListener('click',e=>{const r=e.target.closest('tr[data-f]');if(r)showFn(+r.dataset.f)});
+$('#fnrows').addEventListener('keydown',e=>{if(e.key==='Enter'){const r=e.target.closest('tr[data-f]');if(r)showFn(+r.dataset.f)}});
+function setLevel(l,keep){$$('#lvltabs button').forEach(b=>b.setAttribute('aria-selected',b.dataset.l===l));['org','fn','me'].forEach(k=>$('#lv-'+k).hidden=k!==l);if(!keep){if(l==='fn')return showFn(0);$('#crumbs').innerHTML=l==='org'?'<b>Visionet</b>':'Visionet / Sales / <b>Priya Raman</b>'}}
+$('#lvltabs').addEventListener('click',e=>{const b=e.target.closest('[data-l]');if(b)setLevel(b.dataset.l)});
+
+/* autonomy */
+const stages=['Sense','Diagnose','Prepare','Decide','Act'];
+const AU={GTM:[[4,3,3,2,1],[5,4,4,2,3]],Campaign:[[4,3,3,2,2],[5,4,4,3,4]],Accounts:[[4,3,2,1,1],[5,4,3,2,2]],Sales:[[4,3,3,1,2],[5,4,4,2,3]],Solutions:[[3,3,3,1,1],[4,4,4,2,2]],Partners:[[4,3,3,2,3],[5,4,4,3,4]],Delivery:[[3,2,2,1,1],[4,4,3,2,2]]};
+const EX={Sense:'Spots changes in systems, documents, meetings and the market',Diagnose:'Explains why it matters by combining signals across IQs',Prepare:'Drafts the plan, brief, proposal or record update',Decide:'Chooses the course of action',Act:'Executes in FocusNet, HubSpot, Teams or email'};
+const NM=['','Operator','Collaborator','Consultant','Approver','Observer'];
+let mode='now',selCell=['Sales','Act'];
+function drawHeat(){const k=mode==='now'?0:1;let h='<thead><tr><th></th>'+stages.map(s=>`<th>${s}</th>`).join('')+'</tr></thead><tbody>';
+  Object.entries(AU).forEach(([fn,v])=>{h+=`<tr><th class="fn">${fn}</th>`+stages.map((s,i)=>{const lv=v[k][i],tg=v[1][i];return `<td tabindex="0" class="c${lv}${s==='Decide'?' cap':''}${selCell[0]===fn&&selCell[1]===s?' sel':''}" data-fn="${fn}" data-s="${s}" aria-label="${fn} ${s}: level ${lv}"><span class="lv">L${lv}</span>${mode==='now'&&tg>lv?`<span class="tg">to L${tg}</span>`:''}</td>`}).join('')+'</tr>'});
+  $('#heat').innerHTML=h+'</tbody>';drawCell()}
+function drawCell(){const [fn,s]=selCell,i=stages.indexOf(s),n=AU[fn][0][i],tg=AU[fn][1][i];
+  $('#celldetail').innerHTML=`<div class="ph"><h2>${fn}, ${s}</h2><span class="lvl">L${n} to L${tg}</span></div><div class="celldetail"><p class="ev" style="margin:0 0 .4rem">${EX[s]}</p><h3>Today ${NM[n]}. Target ${NM[tg]}.</h3>
+  ${tg>n?`<b style="font-size:.84rem">Promotion gates</b><ul class="gates"><li><span>Days live at current level</span><b style="color:var(--guard)">16 (needs 14)</b></li><li><span>Trust rate (needs 85%)</span><b style="color:${n>=3?'var(--guard)':'var(--alert)'}">${n>=3?'89%':'78%'}</b></li><li><span>Policy violations</span><b style="color:var(--guard)">0</b></li><li><span>Owner sign-off</span><b>${n>=3?'Pending':'Not requested'}</b></li></ul><button class="btn p" data-toast="Sign-off requested from the ${fn} IQ owner">Request promotion</button>`:'<p class="ev">Already at target.</p>'}
+  ${s==='Decide'?'<p class="ev" style="margin-top:.8rem">Decide is capped by policy for pricing and client commitments. Agents recommend; people decide.</p>':''}</div>`}
+$('#heat').addEventListener('click',e=>{const c=e.target.closest('td[data-fn]');if(c){selCell=[c.dataset.fn,c.dataset.s];drawHeat()}});
+$('#heat').addEventListener('keydown',e=>{if(e.key==='Enter'){const c=e.target.closest('td[data-fn]');if(c){selCell=[c.dataset.fn,c.dataset.s];drawHeat()}}});
+$('#auttabs').addEventListener('click',e=>{const b=e.target.closest('[data-a]');if(!b)return;mode=b.dataset.a;$$('#auttabs button').forEach(x=>x.setAttribute('aria-selected',x===b));drawHeat()});
+drawHeat();
+
+/* outcomes */
+const O=[
+['Zero data entry','Wave 1','Why is anyone still typing into the CRM?','FocusNet, timesheets and project records update themselves from calendars, meetings and email; people just confirm. Every other outcome gets more accurate because of it.',['Accounts','Sales','Delivery'],['L3','L4'],'Admin hours per person, data completeness','day'],
+['A chief of staff for everyone','Wave 1','What do I need to know and do before every meeting today?','Every employee gets meeting briefs, follow-ups drafted and sent, commitments tracked and reminders before anything slips.',['All seven IQs'],['L3','L4'],'Hours returned per person, commitments kept','day'],
+['Account 360','Wave 1','What is really happening on this account?','One living picture of every client: signals from all IQs on one timeline, relationships, delivery health and white space, with the next best moves.',['Accounts','Sales','Delivery','Partners'],['L2','L3','L4'],'Renewal rate, expansion revenue per account','account'],
+['Zero-surprise renewals','Wave 1','Which renewals are at risk, and is a plan already moving?','180 days before every renewal, a programme starts on its own: health check, sponsor map, value-delivered summary and a drafted renewal proposal by day 90.',['Sales','Delivery','Accounts'],['L3','L4'],'Gross revenue retention, renewals closed before expiry','account'],
+['Every client ask becomes revenue','Wave 1','What did clients ask for this week that we haven\'t sold?','Asks in meetings, change requests and tickets become drafted opportunities and outline scope within 24 hours, ready to approve.',['Delivery','Accounts','Sales'],['L3','L4'],'Expansion revenue, unbilled work captured','day'],
+['Deal war room','Wave 1','Will we win this deal, and what would change the odds?','Live win odds for every pursuit with the evidence behind them, buying-committee coverage, competitor moves and the three actions most likely to raise the odds.',['Sales','Accounts','Solutions','Partners','GTM'],['L2','L3','L4'],'Win rate, cycle time, slipped deals','deal'],
+['The 48-hour bid','Wave 1','Can we produce a compliant, winning draft in hours?','RFP in, go/no-go in 2 hours, compliance matrix, first draft from winning themes, staffing view and pricing guardrails within 48 hours. People review and decide.',['GTM','Solutions','Partners','Delivery'],['L2','L3','L4'],'Bid turnaround, presales hours per bid, win rate','bid'],
+['Market and trigger radar','Wave 1','What changed in our markets that we should act on today?','M&A, breaches, new executives, regulation and moved champions become a tailored point of view and drafted outreach by the next morning.',['Campaign','Accounts','Solutions'],['L3','L4','L5'],'Trigger-to-touch time, pipeline from triggers'],
+['No partner money left behind','Wave 1','Which partner funds and registrations are about to lapse?','Microsoft, AWS and Salesforce funds, registrations and co-sell eligibility are tracked, and claims are prepared before anything expires.',['Partners','Sales'],['L3','L4','L5'],'Partner funds claimed vs available'],
+['Executive chief of staff','Wave 1','What does leadership need to decide this week?','A weekly leadership narrative from the Signal Board and value ledger, plus a decision log that chases owners until decisions close.',['All seven IQs'],['L3','L4'],'Decision cycle time, decisions closed','command'],
+['Capacity and demand twin','Wave 2','Can we staff what we are about to win?','Turns weighted pipeline into future skill demand, compares it with bench and roll-offs, and reserves people, flags hires and starts upskilling before contracts are signed.',['Sales','Delivery','GTM','Talent'],['L2','L3','L4'],'Time to staff, bench cost'],
+['Margin guardian','Wave 2','Where are we leaking margin on live projects?','Catches unbilled scope, rate drift and overruns as they happen, and drafts the change order or recovery action.',['Delivery','Solutions','Finance'],['L3','L4'],'Margin variance, unbilled value recovered'],
+['Red projects caught early','Wave 2','Which projects will turn red before they do?','Reads status reports, Jira, timesheets and meeting tone to predict trouble weeks early, with a recovery plan already drafted.',['Delivery','Accounts'],['L3','L4'],'Weeks of early warning, escalations avoided'],
+['Contract promises never missed','Wave 2','Are we about to breach an SLA or obligation?','Extracts every SLA, obligation and notice period from contracts and warns before a breach, not after.',['Delivery','Sales','Legal'],['L4','L5'],'SLA breaches, penalties avoided'],
+['Forecast truth','Wave 2','What will we actually book, and why does it differ from the call?','An evidence-based forecast beside the submitted one, with every variance explained.',['Sales','Accounts','Delivery'],['L2','L3'],'Forecast accuracy, late-quarter surprises'],
+['Deal desk in minutes','Wave 2','Can I offer this price, and who needs to approve?','Checks discounts against margin rules, past deals and partner incentives, approves within policy, and routes the rest with the case already made.',['Sales','Solutions','Finance'],['L3','L4'],'Approval cycle time, discount leakage'],
+['Every loss makes the next bid better','Wave 2','Why do we lose, and is it changing?','Collects win/loss evidence, spots repeated causes and updates themes, pricing guidance and qualification rules.',['GTM','Solutions','Sales'],['L3','L4'],'Win-rate trend, repeat loss reasons'],
+['Talent marketplace and expertise graph','Wave 2','Who has done exactly this before, and who is free?','Maps people to the deals they won and projects they delivered, then matches them to bids, projects, mentors and learning.',['Delivery','Solutions','GTM','Talent'],['L3','L4'],'Bench time, time to assemble teams'],
+['Cash comes in faster','Wave 2','What can we invoice today?','Raises invoices on milestone acceptance, spots disputes early and chases payment with relationship context.',['Delivery','Finance','Accounts'],['L3','L4'],'Days to collect, billing cycle time'],
+['The client value story','Wave 2','What did we actually deliver for this client?','Turns delivery evidence into a client-ready QBR in the client\'s business language, before anyone asks.',['Delivery','Accounts','Solutions'],['L3','L4'],'QBR prep time, CSAT, renewal rate','account']];
+let osel=0,wf='all';
+function drawO(){const list=O.map((o,i)=>({o,i})).filter(x=>wf==='all'||x.o[1]===wf);
+  $('#ogrid').innerHTML=list.map(({o,i})=>`<button class="oc" data-o="${i}" aria-pressed="${i===osel}"><span class="num">${String(i+1).padStart(2,'0')}</span><span class="st sev ${o[1]==='Wave 1'?'b':'n'}">${o[1]}</span><h3>${o[0]}</h3><q>${o[2]}</q><span class="m">${o[6]}</span></button>`).join('');
+  const o=O[osel];$('#odetail').innerHTML=`<div class="odgrid"><div><span class="sev ${o[1]==='Wave 1'?'b':'n'}">${o[1]}</span><h3>${o[0]}</h3><p>${o[3]}</p>${o[7]?`<button class="btn p" data-go="${o[7]}">See it in the product</button>`:'<button class="btn" data-toast="Outcome brief: users, signals, guardrails, value template">Read outcome brief</button>'}</div>
+  <div><dl class="kv"><dt>Question it answers</dt><dd>${o[2]}</dd><dt>IQs fused</dt><dd>${o[4].join(', ')}</dd><dt>Autonomy path</dt><dd>${o[5].map(p=>`<span class="lvl">${p}</span>`).join(' then ')}</dd><dt>Value measured by</dt><dd>${o[6]}</dd></dl></div></div>`}
+$('#ogrid').addEventListener('click',e=>{const b=e.target.closest('[data-o]');if(b){osel=+b.dataset.o;drawO();$('#odetail').scrollIntoView({behavior:RM?'auto':'smooth',block:'nearest'})}});
+$('#wavef').addEventListener('click',e=>{const b=e.target.closest('[data-w]');if(!b)return;wf=b.dataset.w;$$('#wavef button').forEach(x=>x.setAttribute('aria-pressed',x===b));drawO()});
+drawO();
+
+/* lanes */
+const lanes=[['GTM','bids, win/loss'],['Campaign','leads, intent'],['Accounts','meetings, people'],['Sales','pipeline, renewals'],['Solutions','themes, pricing'],['Partners','deal reg, funds'],['Delivery','RAG, CSAT, CRs']];
+const L=150,R=930,top=26,lh=44,wks=12,xw=(R-L)/wks,X=w=>L+(w-.5)*xw,Y=i=>top+i*lh+lh/2;
+const pts=[{l:4,w:2.2,s:'g',t:'Case study approved: POS stabilisation'},{l:2,w:3,s:'g',t:'QBR held: CIO asked for a single accountable lead'},{l:1,w:4.4,s:'b',t:'Store-ops webinar: 3 Northwind attendees'},{l:6,w:5.5,s:'a',t:'Atlas moved to amber'},{l:3,w:6.6,s:'a',t:'Renewal window opened',f:1},{l:2,w:7.3,s:'a',t:'Meeting recap: downtime raised again'},{l:3,w:8.3,s:'a',t:'Loyalty analytics deal stalled'},{l:6,w:9.2,s:'r',t:'Atlas turned red',f:1},{l:6,w:9.6,s:'r',t:'CSAT fell from 8.4 to 6.1'},{l:2,w:9.8,s:'r',t:'Executive sponsor left',f:1},{l:5,w:10.4,s:'g',t:'Azure modernisation funds available'},{l:0,w:11.2,s:'b',t:'No open bids on this account'}];
+const col={r:'var(--risk)',a:'var(--alert)',g:'var(--guard)',b:'var(--signal)'};
+const fy=top+7*lh+34,fx=X(11.4);let h='';
+lanes.forEach((ln,i)=>{if(i%2===0)h+=`<rect class="lane-bg" x="${L}" y="${top+i*lh}" width="${R-L}" height="${lh}"/>`;h+=`<text class="lane-l" x="0" y="${Y(i)-2}">${ln[0]}</text><text class="lane-s" x="0" y="${Y(i)+12}">${ln[1]}</text>`});
+for(let w=0;w<=wks;w++){const x=L+w*xw;h+=`<line class="grid" x1="${x}" y1="${top}" x2="${x}" y2="${top+7*lh}"/>`;if(w<wks)h+=`<text class="wk" x="${x+xw/2}" y="${top-8}" text-anchor="middle">Wk ${30+w}</text>`}
+h+=`<rect class="fusion-bg" x="${L}" y="${fy-18}" width="${R-L}" height="36" rx="6"/><text class="lane-l" x="0" y="${fy-2}">Fusion</text><text class="lane-s" x="0" y="${fy+12}">combined scenarios</text>`;
+pts.filter(p=>p.f).forEach(p=>{const x1=X(p.w),y1=Y(p.l);h+=`<path class="thread" d="M${x1},${y1} C${x1},${fy-10} ${fx-60},${fy} ${fx-48},${fy}"/>`});
+const tx=X(11.6);h+=`<line class="today-l" x1="${tx}" y1="${top-2}" x2="${tx}" y2="${fy+22}"/><text class="today-t" x="${tx+4}" y="${fy+34}">Today</text>`;
+pts.forEach((p,i)=>{h+=`<circle class="sd" data-p="${i}" tabindex="0" role="button" aria-label="${p.t}" cx="${X(p.w)}" cy="${Y(p.l)}" r="${p.s==='r'?8:6.5}" fill="${col[p.s]}"/>`});
+h+=`<g data-fz tabindex="0" role="button" aria-label="Renewal at risk" style="cursor:pointer"><rect class="fz" x="${fx-48}" y="${fy-13}" width="128" height="26" rx="13"/><text class="fz-t" x="${fx+16}" y="${fy+4}" text-anchor="middle">Renewal at risk</text></g>`;
+const svg=$('#lanes');svg.innerHTML=h;
+function pick(i){$$('#lanes .sd').forEach(c=>c.classList.toggle('sel',+c.dataset.p===i));const p=pts[i];$('#lanepick').innerHTML=`<span class="iq">${lanes[p.l][0]}</span><span>${p.t}${p.f?' <span class="sev b">Feeds Renewal at risk</span>':''}</span>`}
+svg.addEventListener('click',e=>{const c=e.target.closest('.sd');if(c)pick(+c.dataset.p);if(e.target.closest('[data-fz]'))go('day')});
+svg.addEventListener('keydown',e=>{if(e.key==='Enter'){const c=e.target.closest('.sd');if(c)pick(+c.dataset.p)}});
+
+/* deal */
+const DR=[['Two partner-funded proof points match their use case',12,'Solutions, Partners'],['CIO met four times, sentiment positive',8,'Accounts'],['New Head of Data favours modern platforms',5,'Market radar'],['Nobody has met the CFO, who signs above $2M',-14,'Accounts'],['Incumbent holds the data warehouse contract',-9,'Market radar'],['Security review not started; 3 weeks of lead time',-6,'Delivery']];
+$('#drivers').innerHTML=DR.map(d=>{const w=Math.abs(d[1])/14*50;const pos=d[1]>0;return `<li><div><b style="font-weight:600">${d[0]}</b><br><span class="ev">${d[2]}</span></div><div class="dbar"><i style="${pos?`left:50%;width:${w}%;background:var(--guard)`:`right:50%;width:${w}%;background:var(--risk)`}"></i></div><span class="dv" style="color:${pos?'var(--guard)':'var(--risk)'}">${pos?'+':''}${d[1]}</span></li>`}).join('');
+const MV=[[9,'Get a CFO meeting through Lena Park\'s introduction','Intro drafted'],[5,'Start the security questionnaire now from last year\'s pack','Pack pre-filled'],[4,'Bring the Halcyon Fabric case study to Thursday\'s workshop','Slides ready']];
+$('#movers').innerHTML=MV.map((m,i)=>`<li><span class="pp">+${m[0]}</span><div><b style="font-weight:600">${m[1]}</b><br><span class="ev">${m[2]}</span></div><button class="btn${i===0?' p':''}" data-mv="${i}">Do it</button></li>`).join('');
+let odds=58;
+$('#movers').addEventListener('click',e=>{const b=e.target.closest('[data-mv]');if(!b||b.disabled)return;const m=MV[+b.dataset.mv];b.disabled=true;b.textContent='Started';b.closest('li').classList.add('done');odds+=m[0];animateOdds(true);toast(`Projected win odds now ${odds}% once this lands`)});
+function animateOdds(){const c=2*Math.PI*74;const ring=$('#oddsring');ring.style.strokeDasharray=c;if(RM){ring.style.strokeDashoffset=c*(1-odds/100);$('#oddsnum').textContent=odds+'%';return}
+  ring.style.strokeDashoffset=c;requestAnimationFrame(()=>requestAnimationFrame(()=>{ring.style.strokeDashoffset=c*(1-odds/100)}));
+  const start=performance.now(),from=Math.max(0,odds-20);(function tick(t){const k=Math.min(1,(t-start)/800);$('#oddsnum').textContent=Math.round(from+(odds-from)*k)+'%';if(k<1)requestAnimationFrame(tick)})(start)}
+
+/* agents */
+const A=[['Renewal watch','Sales IQ','Rahul S.','L3',412,9,92,'Due 20 Oct'],['Pipeline hygiene','Sales IQ','Rahul S.','L4',164,4,95,'Passed 30 Sep'],['Meeting intelligence','Accounts IQ','Priya R.','L4',388,14,88,'Passed 2 Oct'],['Bid builder','GTM IQ','Anita R.','L3',296,8,86,'Due 15 Oct'],['Win-theme matcher','Solutions IQ','Vikram P.','L3',241,6,82,'Due 22 Oct'],['Trigger radar','Campaign IQ','Karan M.','L3',188,5,79,'Needs attention'],['Registration keeper','Partners IQ','Neha J.','L4',214,2,91,'Passed 28 Sep'],['Project health reader','Delivery IQ','Meera K.','L2',145,5,71,'Needs attention'],['Fusion','Shared','Solution architect','L3',0,18,83,'Due 18 Oct'],['Guardian','Shared','Governance lead','L5',640,7,null,'Passed 1 Oct']];
+$('#agentrows').innerHTML=A.map(a=>{const tr=a[6],c=tr==null?'':tr>=85?'var(--guard)':tr>=80?'var(--signal)':'var(--alert)',rv=a[7].startsWith('Needs')?'a':a[7].startsWith('Passed')?'g':'n';
+  return `<tr><td><b class="t">${a[0]}</b><br><span class="ev">${a[1]}</span></td><td>${a[2]}</td><td><span class="lvl">${a[3]}</span></td><td class="num">${a[4]?money(a[4]):'<span class="ev">Shared</span>'}</td><td class="num">$${a[5]}K</td><td>${tr==null?'<span class="ev">n/a</span>':`<span class="bar"><i style="width:${tr}%;background:${c}"></i></span>${tr}%`}</td><td><span class="sev ${rv}">${a[7]}</span></td><td><button class="switch" role="switch" aria-checked="true" aria-label="${a[0]} running"></button></td></tr>`}).join('');
+$('#agentrows').addEventListener('click',e=>{const s=e.target.closest('.switch');if(!s)return;const on=s.getAttribute('aria-checked')==='true';s.setAttribute('aria-checked',!on);s.closest('tr').classList.toggle('off',on);toast((on?'Paused ':'Resumed ')+s.closest('tr').querySelector('.t').textContent)});
+
+/* tour */
+const T=[
+['command','#t-eq','The value equation','Every agent action that changes an outcome writes a value event. Revenue, capacity and risk avoided, minus AI cost, equals net value. Finance approved the counting rules, and each figure is labelled measured, attributed or estimated.'],
+['command','#feed','An always-on workforce','214 agents work across seven functions, around the clock. Every action is logged, explainable and reversible.'],
+['missions','#t-mission','Missions, not dashboards','Leaders set an outcome, such as defending $38.4M of renewals. Visionet IQ assembles a squad of agents across functions and reports value against the goal.'],
+['autonomy','#t-heat','Autonomy is earned, not granted','Each function and stage of work sits on a five-level ladder. Agents move up only after proving trust, and pricing and client commitments stay with people by policy.'],
+['day','#t-slept','A chief of staff for every employee','While Priya slept, agents handled 14 tasks, updated the CRM and prepped four meetings. Everything they did can be undone.'],
+['account','#t-lanes','Intelligence that combines','Three signals from three different functions converged on one account. No single system could see this; Visionet IQ fused them into one recommendation.'],
+['deal','#t-odds','Every deal, a war room','Live win odds with the evidence behind them, and the moves most likely to change the outcome. Try a move and watch the odds update.'],
+['bid','#t-clock','The 48-hour bid','From RFP to a compliant first draft in 48 hours. Agents build; people decide at every checkpoint.'],
+['value','#lvltabs','Value at every altitude','The same ledger rolls up from each person to each function to the whole company, with privacy built in for individuals.'],
+['agents','#t-agents','Governed like a workforce','Every agent has a job, a manager, a level, a performance record and an off switch. This is how Visionet runs it on itself, and how we run it for clients.']];
+let ti=0;
+function showStep(){const [v,sel,title,text]=T[ti];go(v);$$('.spot').forEach(x=>x.classList.remove('spot'));
+  setTimeout(()=>{const el=$(sel);if(el){el.classList.add('spot');el.scrollIntoView({behavior:RM?'auto':'smooth',block:'center'})}},120);
+  $('#tstep').textContent=`${ti+1} of ${T.length}`;$('#ttitle').textContent=title;$('#ttext').textContent=text;
+  $('#tdots').innerHTML=T.map((_,i)=>`<i class="${i<=ti?'on':''}"></i>`).join('');$('#tprev').disabled=ti===0;$('#tnext').textContent=ti===T.length-1?'Finish':'Next'}
+function step(d){ti+=d;if(ti>=T.length)return endTour();if(ti<0)ti=0;showStep()}
+function endTour(){$('#tour').classList.remove('on');$$('.spot').forEach(x=>x.classList.remove('spot'))}
+$('#present').addEventListener('click',()=>{ti=0;$('#tour').classList.add('on');showStep()});
+$('#tnext').addEventListener('click',()=>step(1));$('#tprev').addEventListener('click',()=>step(-1));$('#tend').addEventListener('click',endTour);
+
+let start='command';try{start=sessionStorage.getItem('viq-view')||'command'}catch(e){}
+go(start);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+MICROSOFT PDM MONTHLY SYNC - NOTES
+Thursday 24 September 2026, 15:00-15:50 ET (Teams)
+Microsoft: Jessica Wu (PDM), Daniel Ortiz (Banking AE), Priya Natarajan (Healthcare specialist)
+Visionet: Elena Novak (Alliances), Marcus Bell (BFSI), Hannah Lee (Healthcare & Life Sciences)
+
+1. Co-sell pipeline
+- Registered co-sell pipeline now ~$9.7M against the FY27 goal of $12M. Woodgrove (MSRF-3318842) and Meridian (MSRF-3341107) are
+  the two largest. Daniel confirmed Microsoft's banking team rates Meridian as a top-5 Azure data win for the Southeast.
+- Jessica flagged the Northwind Loyalty referral (MSRF-3312090): no update since August, expires 20 Oct. Elena to confirm with
+  Priya whether to extend or close. (Context: Northwind is in Atlas recovery mode.)
+
+2. Funding
+- Meridian Azure Innovate request (FND-902, $150K) is in Microsoft review; Jessica expects a decision by 15 Oct.
+- Woodgrove ECIF ($120K): $84K used. Claim pack due by 31 Dec.
+- Lamna AMM ($95K) approved but unused; expires 30 Nov. Priya N. suggested starting assessment under an LOI.
+- Fabrikam ECIF ($60K) for population health design sprint - Elena to submit by 1 Oct (done, FND-910).
+
+3. Specializations and skills
+- Analytics on Azure specialization renewal due 31 Jan 2027. Need two new customer evidence cases. Candidates: Woodgrove POC
+  (needs customer consent) and Halcyon Health CR-0219 (Fabric).
+- Fabric DP-700 certifications at 34 vs 60 target. Microsoft offered 40 free exam vouchers before 31 Dec.
+
+4. Field priorities
+- Healthcare: Fabric for payers ahead of CMS interoperability deadline (Jan 2027). Priya N. wants a joint Fabric webinar with Halcyon.
+- Banking: warehouse modernisation; Microsoft will co-fund a Teradata exit assessment offer if we package it (fixed fee).
+
+ACTIONS
+- Elena: decision on Northwind referral by 9 Oct.
+- Marcus: Meridian CFO introduction plan - Daniel Ortiz knows Grace Liu from a previous Microsoft engagement.
+- Hannah: LOI conversation with Thomas Reed (Lamna) on AMM-funded assessment.
+- Mei Tanaka (via Elena): package "Teradata exit assessment" fixed-fee offer for Microsoft co-funding.

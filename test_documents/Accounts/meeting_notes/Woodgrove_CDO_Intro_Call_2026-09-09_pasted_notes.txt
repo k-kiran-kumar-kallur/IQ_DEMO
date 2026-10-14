@@ -1,0 +1,23 @@
+[Pasted from Zoom transcript - shared by Rachel Adeyemi after the call. Speaker labels added by Marcus Bell.]
+
+Woodgrove Bank - intro call with new CDO
+9 Sep 2026, 11:00 ET, 35 min
+Present: Catherine Hughes (CDO), Rachel Adeyemi (Head of Data Engineering), Marcus Bell, Lucia Romero (Visionet)
+
+Catherine: I've been here five weeks. My mandate from Michael is simple. Three warehouses become one by end of 2028, and I have to
+show BCBS 239 lineage to the regulator before that.
+Marcus: The POC on payments and cards is about halfway. Lucia can walk through it.
+Lucia: Card fraud feature pipeline is running in eleven minutes against forty-six today. Lineage is automated for the twelve
+regulatory elements in scope. Close-out is 13 November.
+Catherine: That's good. I'll be honest, at my last bank we used Accenture for this. They'll be in the RFP. I don't have a
+preference yet, I care about the team.
+Rachel: The POC team has been excellent. I want continuity if we go ahead.
+Catherine: Then put names in the proposal. And price the later waves sharply, procurement will push on that. Brian Foster runs
+the sourcing process.
+Marcus: Understood. Anything you need from us before the RFP response?
+Catherine: A view of how you'd handle the CISO review. Nadia is cautious about anything new in the cloud.
+
+Action items (Marcus):
+- Named team continuity in RFP response (Lucia + 3 POC engineers)
+- Security design pack for Nadia Petrova before BAFO
+- Invite Catherine to speak or attend webinar session 3 on 16 Sep (she attended)

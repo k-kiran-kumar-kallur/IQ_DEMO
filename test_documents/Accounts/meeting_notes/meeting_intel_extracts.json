@@ -1,0 +1,215 @@
+{
+  "source": "Enterprise IQ - Capture meeting intel",
+  "generated": "2026-10-07T07:00:00Z",
+  "records": [
+    {
+      "meeting_id": "MTG-INT-20261001-NW",
+      "account_id": "ACC-1001",
+      "account": "Northwind Traders",
+      "date": "2026-10-01",
+      "source": "Copilot transcript",
+      "attendees": [
+        "Lena Fischer",
+        "Sofia Lindqvist",
+        "Mark Ellison",
+        "Priya Raman",
+        "Arjun Mehta",
+        "Kavya Iyer"
+      ],
+      "priorities": [
+        "Stabilise wave 2 POS before holiday peak",
+        "Fix loyalty duplicate member IDs",
+        "Written recovery plan"
+      ],
+      "pain_points": [
+        "14 stores lost POS on 26 Sep",
+        "2.3% duplicate member IDs (~258K records)",
+        "Sponsor exit"
+      ],
+      "budget": "Q4 discretionary IT spend frozen by CFO Robert Lang",
+      "timelines": [
+        "Recovery plan 8 Oct 2026",
+        "Wave 3 frozen until 15 Jan 2027",
+        "AMS renewal Feb 2027"
+      ],
+      "commitments": [
+        "Recovery plan by 8 Oct (Arjun Mehta)",
+        "Offline fallback config on all 212 wave 2 stores (done)"
+      ],
+      "competitors": [
+        "Infosys"
+      ],
+      "next_steps": [
+        "1:1 + store visit with Sofia Lindqvist, week of 12 Oct",
+        "De-duplication job in production by 13 Oct"
+      ],
+      "sentiment": "Negative",
+      "stakeholder_changes": [
+        {
+          "name": "Sofia Lindqvist",
+          "change": "Appointed VP Technology 1 Oct 2026"
+        }
+      ],
+      "proposed_changes": [
+        {
+          "object": "OPP-24101",
+          "field": "risk",
+          "from": "Medium",
+          "to": "High",
+          "reason": "Infosys requested AMS meeting; Atlas red",
+          "approval": "Pending - Sales Ops / Finance"
+        },
+        {
+          "object": "OPP-24103",
+          "field": "close_date",
+          "from": "2026-12-15",
+          "to": "2027-01-29",
+          "reason": "CFO spend freeze until January",
+          "approval": "Pending - Sales Ops / Finance"
+        }
+      ],
+      "captured_by": "Priya Raman",
+      "extractor": "meeting-intel-extractor v1.3"
+    },
+    {
+      "meeting_id": "MTG-INT-20260918-FAB",
+      "account_id": "ACC-1002",
+      "account": "Fabrikam Health",
+      "date": "2026-09-18",
+      "source": "Meeting notes (Word)",
+      "attendees": [
+        "James Whitaker",
+        "Dr. Alicia Moreno",
+        "Priyanka Desai",
+        "Priya Raman",
+        "Nikhil Joshi",
+        "Mei Tanaka"
+      ],
+      "priorities": [
+        "CMS interoperability FHIR APIs by Jan 2027",
+        "Population health analytics for VBC contracts (Jul 2027)",
+        "Clarity feed to production"
+      ],
+      "pain_points": [
+        "Clarity feed 6 weeks late",
+        "Duplicate measure builds across Tableau and Power BI"
+      ],
+      "budget": "$1.2M approved in FY27 capital plan for analytics",
+      "timelines": [
+        "Phase 2 decision end Jan 2027",
+        "AMS renewal before 15 Dec 2026"
+      ],
+      "commitments": [
+        "Prototype of three quality measures by 30 Oct",
+        "ECIF application (done)"
+      ],
+      "competitors": [
+        "Deloitte"
+      ],
+      "next_steps": [
+        "FHIR accelerator briefing 15 Oct"
+      ],
+      "sentiment": "Positive",
+      "proposed_changes": [
+        {
+          "object": "OPP-24110",
+          "field": "probability",
+          "from": 0.45,
+          "to": 0.5,
+          "reason": "Budget confirmed",
+          "approval": "Approved by Daniel Cho 21 Sep"
+        }
+      ],
+      "captured_by": "Priya Raman",
+      "extractor": "meeting-intel-extractor v1.3"
+    },
+    {
+      "meeting_id": "MTG-INT-20260812-MER",
+      "account_id": "ACC-1013",
+      "account": "Meridian Bank",
+      "date": "2026-08-12",
+      "source": "Copilot transcript",
+      "attendees": [
+        "Lena Park",
+        "Omar Reyes",
+        "Marcus Bell",
+        "Mei Tanaka",
+        "Jessica Wu (Microsoft)"
+      ],
+      "priorities": [
+        "Exit Teradata (~380 TB) before June 2027",
+        "Automated regulatory lineage",
+        "Fresher fraud data"
+      ],
+      "pain_points": [
+        "Lineage in spreadsheets; examiners noticed",
+        "Fraud models train on 2-day-old data"
+      ],
+      "budget": "Board-approved July 2026; CFO approves above $2M",
+      "timelines": [
+        "RFP mid-Aug",
+        "Decision by end 2026",
+        "Start Jan 2027"
+      ],
+      "commitments": [
+        "Microsoft Azure Innovate funding up to ~$150K once registered"
+      ],
+      "competitors": [
+        "Accenture",
+        "Cognizant (incumbent)"
+      ],
+      "next_steps": [
+        "Request CFO introduction after proposal",
+        "Engage CISO Ivan Petrov"
+      ],
+      "sentiment": "Positive",
+      "proposed_changes": [],
+      "captured_by": "Marcus Bell",
+      "extractor": "meeting-intel-extractor v1.3"
+    },
+    {
+      "meeting_id": "MTG-INT-20260909-WGB",
+      "account_id": "ACC-1003",
+      "account": "Woodgrove Bank",
+      "date": "2026-09-09",
+      "source": "Pasted transcript",
+      "attendees": [
+        "Catherine Hughes",
+        "Rachel Adeyemi",
+        "Marcus Bell",
+        "Lucia Romero"
+      ],
+      "priorities": [
+        "Three warehouses to one by end 2028",
+        "BCBS 239 lineage for the regulator"
+      ],
+      "pain_points": [
+        "Cautious CISO on cloud"
+      ],
+      "budget": "$400M technology modernisation programme (announced 6 Oct)",
+      "timelines": [
+        "POC close-out 13 Nov 2026"
+      ],
+      "commitments": [
+        "Named team continuity in RFP",
+        "Security design pack for CISO"
+      ],
+      "competitors": [
+        "Accenture"
+      ],
+      "next_steps": [
+        "Invite CDO to webinar session 3 (attended 16 Sep)"
+      ],
+      "sentiment": "Neutral",
+      "stakeholder_changes": [
+        {
+          "name": "Catherine Hughes",
+          "change": "Appointed CDO 3 Aug 2026"
+        }
+      ],
+      "proposed_changes": [],
+      "captured_by": "Marcus Bell",
+      "extractor": "meeting-intel-extractor v1.3"
+    }
+  ]
+}

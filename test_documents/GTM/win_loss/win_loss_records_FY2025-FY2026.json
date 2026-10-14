@@ -1,0 +1,611 @@
+{
+  "source": "FocusNet win/loss module + bid debrief notes",
+  "generated": "2026-10-07",
+  "records": [
+    {
+      "bid_id": "BID-0541",
+      "opportunity_id": "OPP-23017",
+      "account": "Northwind Traders",
+      "industry": "Retail",
+      "service_line": "Application Modernization",
+      "offering": "POS Modernisation",
+      "deal_value": 3600000,
+      "outcome": "Won",
+      "decision_date": "2025-02-14",
+      "primary_reason": "Retail POS references; phased fixed price; strong sponsor (Daniel Okafor)",
+      "competitors": "Infosys; Accenture",
+      "price_position_vs_next_bidder": null,
+      "client_feedback": null,
+      "debrief_held": false
+    },
+    {
+      "bid_id": "BID-0546",
+      "opportunity_id": "OPP-23104",
+      "account": "Halcyon Health",
+      "industry": "Healthcare",
+      "service_line": "Data & AI",
+      "offering": "Microsoft Fabric Analytics",
+      "deal_value": 1100000,
+      "outcome": "Won",
+      "decision_date": "2025-03-21",
+      "primary_reason": "Payer data model accelerator; price 6% below next bidder",
+      "competitors": "Cognizant; Slalom",
+      "price_position_vs_next_bidder": null,
+      "client_feedback": null,
+      "debrief_held": false
+    },
+    {
+      "bid_id": "BID-0549",
+      "opportunity_id": "OPP-23121",
+      "account": "Wingtip Logistics",
+      "industry": "Logistics",
+      "service_line": "Data & AI",
+      "offering": "Cloud Data Platform (Azure Databricks)",
+      "deal_value": 1600000,
+      "outcome": "Won",
+      "decision_date": "2025-05-09",
+      "primary_reason": "Databricks co-sell and 6-week POC on client data",
+      "competitors": "Slalom; EPAM",
+      "price_position_vs_next_bidder": null,
+      "client_feedback": null,
+      "debrief_held": false
+    },
+    {
+      "bid_id": "BID-0552",
+      "opportunity_id": "OPP-23166",
+      "account": "Fabrikam Health",
+      "industry": "Healthcare",
+      "service_line": "Data & AI",
+      "offering": "Microsoft Fabric Analytics",
+      "deal_value": 2100000,
+      "outcome": "Won",
+      "decision_date": "2025-07-25",
+      "primary_reason": "HIPAA credentials and Epic Clarity accelerator",
+      "competitors": "Deloitte; Cognizant",
+      "price_position_vs_next_bidder": null,
+      "client_feedback": null,
+      "debrief_held": false
+    },
+    {
+      "bid_id": "BID-0555",
+      "opportunity_id": "OPP-23171",
+      "account": "Lamna Healthcare",
+      "industry": "Healthcare",
+      "service_line": "Application Modernization",
+      "offering": "Legacy to Cloud-Native",
+      "deal_value": 1800000,
+      "outcome": "Lost",
+      "decision_date": "2025-07-18",
+      "primary_reason": "Price 9% higher; client preferred winner's payer platform",
+      "winning_competitor": "Accenture",
+      "incumbent": "In-house",
+      "price_position_vs_winner": -0.09,
+      "evaluation_criteria": [
+        {
+          "criterion": "Payer platform",
+          "weight_pct": 35,
+          "our_score_of_5": 2.8
+        },
+        {
+          "criterion": "Price",
+          "weight_pct": 30,
+          "our_score_of_5": 2.9
+        },
+        {
+          "criterion": "Approach",
+          "weight_pct": 35,
+          "our_score_of_5": 3.8
+        }
+      ],
+      "client_feedback": "Strong team, but the winner's payer platform reduced our build risk.",
+      "debrief_held": false
+    },
+    {
+      "bid_id": "BID-0557",
+      "opportunity_id": "OPP-23098",
+      "account": "Tailspin Airlines",
+      "industry": "Travel & Transport",
+      "service_line": "Cloud & Infrastructure",
+      "offering": "AWS Migration Factory",
+      "deal_value": 1400000,
+      "outcome": "Won",
+      "decision_date": "2025-03-14",
+      "primary_reason": "MAP funding; 400-server factory plan",
+      "competitors": "Uncontested",
+      "price_position_vs_next_bidder": null,
+      "client_feedback": null,
+      "debrief_held": false
+    },
+    {
+      "bid_id": "BID-0560",
+      "opportunity_id": "OPP-23188",
+      "account": "Contoso Manufacturing",
+      "industry": "Manufacturing",
+      "service_line": "Data & AI",
+      "offering": "Advanced Analytics & ML",
+      "deal_value": 700000,
+      "outcome": "Lost",
+      "decision_date": "2025-08-01",
+      "primary_reason": "OT integration depth; no OSIsoft PI references",
+      "winning_competitor": "HCLTech",
+      "incumbent": "In-house",
+      "price_position_vs_winner": -0.06,
+      "evaluation_criteria": [
+        {
+          "criterion": "OT integration",
+          "weight_pct": 40,
+          "our_score_of_5": 2.5
+        },
+        {
+          "criterion": "Price",
+          "weight_pct": 30,
+          "our_score_of_5": 3.3
+        },
+        {
+          "criterion": "Approach",
+          "weight_pct": 30,
+          "our_score_of_5": 3.6
+        }
+      ],
+      "client_feedback": "We needed OSIsoft PI experience on day one.",
+      "debrief_held": false
+    },
+    {
+      "bid_id": "BID-0563",
+      "opportunity_id": null,
+      "account": "Coho Winery",
+      "industry": "Retail",
+      "service_line": "Digital Commerce",
+      "offering": "Unified Commerce Replatform",
+      "deal_value": 900000,
+      "outcome": "Lost",
+      "decision_date": "2025-08-08",
+      "primary_reason": "Winner had Shopify Plus specialism and lower day rates"
+    },
+    {
+      "bid_id": "BID-0566",
+      "opportunity_id": null,
+      "account": "Lucerne Publishing",
+      "industry": "Media",
+      "service_line": "Application Modernization",
+      "offering": "Legacy to Cloud-Native",
+      "deal_value": 1200000,
+      "outcome": "Lost",
+      "decision_date": "2025-07-11",
+      "primary_reason": "Not shortlisted after RFI; weak media references"
+    },
+    {
+      "bid_id": "BID-0569",
+      "opportunity_id": "OPP-23202",
+      "account": "Relecloud",
+      "industry": "Telecom",
+      "service_line": "Data & AI",
+      "offering": "Snowflake Data Cloud",
+      "deal_value": 1300000,
+      "outcome": "Lost",
+      "decision_date": "2025-09-05",
+      "primary_reason": "Winner held Snowflake Elite status; we were Select",
+      "winning_competitor": "Slalom",
+      "incumbent": "None",
+      "price_position_vs_winner": 0.02,
+      "evaluation_criteria": [
+        {
+          "criterion": "Snowflake expertise",
+          "weight_pct": 40,
+          "our_score_of_5": 3.0
+        },
+        {
+          "criterion": "Price",
+          "weight_pct": 30,
+          "our_score_of_5": 3.9
+        },
+        {
+          "criterion": "Approach",
+          "weight_pct": 30,
+          "our_score_of_5": 3.7
+        }
+      ],
+      "client_feedback": "Their Elite partner status mattered to our CDO.",
+      "debrief_held": false
+    },
+    {
+      "bid_id": "BID-0572",
+      "opportunity_id": "OPP-23207",
+      "account": "Adventure Works Retail",
+      "industry": "Retail",
+      "service_line": "Digital Commerce",
+      "offering": "Order Management (OMS)",
+      "deal_value": 750000,
+      "outcome": "Won",
+      "decision_date": "2025-09-12",
+      "primary_reason": "OMS accelerator cut timeline by 8 weeks",
+      "competitors": "EPAM; Publicis Sapient",
+      "price_position_vs_next_bidder": null,
+      "client_feedback": null,
+      "debrief_held": false
+    },
+    {
+      "bid_id": "BID-0575",
+      "opportunity_id": "OPP-23260",
+      "account": "Wide World Importers",
+      "industry": "Retail",
+      "service_line": "Managed Services",
+      "offering": "Application Managed Services (AMS)",
+      "deal_value": 1050000,
+      "outcome": "Won",
+      "decision_date": "2025-11-14",
+      "primary_reason": "Renewed for 12 months only; price reduced 5%",
+      "competitors": "Wipro",
+      "price_position_vs_next_bidder": null,
+      "client_feedback": null,
+      "debrief_held": false
+    },
+    {
+      "bid_id": "BID-0578",
+      "opportunity_id": "OPP-23241",
+      "account": "Trey Research",
+      "industry": "Life Sciences",
+      "service_line": "Data & AI",
+      "offering": "Snowflake Data Cloud",
+      "deal_value": 520000,
+      "outcome": "Won",
+      "decision_date": "2025-10-24",
+      "primary_reason": "GxP validation approach; Snowflake partnership",
+      "competitors": "Slalom",
+      "price_position_vs_next_bidder": null,
+      "client_feedback": null,
+      "debrief_held": false
+    },
+    {
+      "bid_id": "BID-0580",
+      "opportunity_id": null,
+      "account": "VanArsdel Ltd",
+      "industry": "Manufacturing",
+      "service_line": "Application Modernization",
+      "offering": "SAP Data Migration",
+      "deal_value": 2400000,
+      "outcome": "Lost",
+      "decision_date": "2025-11-21",
+      "primary_reason": "SAP migration depth and tooling; we partnered for SAP skills"
+    },
+    {
+      "bid_id": "BID-0582",
+      "opportunity_id": "OPP-23270",
+      "account": "Litware Insurance",
+      "industry": "BFSI",
+      "service_line": "Intelligent Automation",
+      "offering": "Intelligent Document Processing",
+      "deal_value": 380000,
+      "outcome": "Won",
+      "decision_date": "2025-12-05",
+      "primary_reason": "Live demo on Litware's own FNOL documents",
+      "competitors": "Genpact",
+      "price_position_vs_next_bidder": null,
+      "client_feedback": null,
+      "debrief_held": false
+    },
+    {
+      "bid_id": "BID-0584",
+      "opportunity_id": null,
+      "account": "Tailwind Traders",
+      "industry": "Retail",
+      "service_line": "Cloud & Infrastructure",
+      "offering": "Data Centre Exit",
+      "deal_value": 3400000,
+      "outcome": "Lost",
+      "decision_date": "2026-01-23",
+      "primary_reason": "Price 11% higher; winner bundled hardware buy-back",
+      "winning_competitor": "Kyndryl",
+      "incumbent": "Kyndryl",
+      "price_position_vs_winner": -0.11,
+      "evaluation_criteria": [
+        {
+          "criterion": "Price",
+          "weight_pct": 45,
+          "our_score_of_5": 2.7
+        },
+        {
+          "criterion": "Migration approach",
+          "weight_pct": 35,
+          "our_score_of_5": 4.0
+        },
+        {
+          "criterion": "Team",
+          "weight_pct": 20,
+          "our_score_of_5": 3.6
+        }
+      ],
+      "client_feedback": "Hardware buy-back made the business case.",
+      "debrief_held": false
+    },
+    {
+      "bid_id": "BID-0585",
+      "opportunity_id": "OPP-24310",
+      "account": "Woodgrove Bank",
+      "industry": "BFSI",
+      "service_line": "Managed Services",
+      "offering": "24x7 Service Desk",
+      "deal_value": 560000,
+      "outcome": "Won",
+      "decision_date": "2026-02-27",
+      "primary_reason": "SLA performance 99.1%; added GenAI agent assist",
+      "competitors": "Uncontested",
+      "price_position_vs_next_bidder": null,
+      "client_feedback": null,
+      "debrief_held": false
+    },
+    {
+      "bid_id": "BID-0586",
+      "opportunity_id": "OPP-24320",
+      "account": "Contoso Manufacturing",
+      "industry": "Manufacturing",
+      "service_line": "Managed Services",
+      "offering": "Application Managed Services (AMS)",
+      "deal_value": 980000,
+      "outcome": "Won",
+      "decision_date": "2026-01-30",
+      "primary_reason": "Incumbent; 3-year term with 4% annual productivity credit",
+      "competitors": "Uncontested",
+      "price_position_vs_next_bidder": null,
+      "client_feedback": null,
+      "debrief_held": false
+    },
+    {
+      "bid_id": "BID-0587",
+      "opportunity_id": null,
+      "account": "Graphic Design Institute",
+      "industry": "Education",
+      "service_line": "Cybersecurity",
+      "offering": "Zero Trust Assessment",
+      "deal_value": 350000,
+      "outcome": "Lost",
+      "decision_date": "2026-02-06",
+      "primary_reason": "Specialist security firm with education references"
+    },
+    {
+      "bid_id": "BID-0588",
+      "opportunity_id": "OPP-24131",
+      "account": "Tailspin Airlines",
+      "industry": "Travel & Transport",
+      "service_line": "Cloud & Infrastructure",
+      "offering": "AWS Migration Factory",
+      "deal_value": 1100000,
+      "outcome": "Won",
+      "decision_date": "2026-06-12",
+      "primary_reason": "Wave 1 delivered on time; MAP credits lowered client cost",
+      "competitors": "Uncontested",
+      "price_position_vs_next_bidder": null,
+      "client_feedback": null,
+      "debrief_held": false
+    },
+    {
+      "bid_id": "BID-0589",
+      "opportunity_id": "OPP-24270",
+      "account": "Alpine Ski House",
+      "industry": "Hospitality",
+      "service_line": "Cloud & Infrastructure",
+      "offering": "Azure Landing Zone",
+      "deal_value": 320000,
+      "outcome": "Won",
+      "decision_date": "2026-04-17",
+      "primary_reason": "Azure Migration Assessment offer converted",
+      "competitors": "Uncontested",
+      "price_position_vs_next_bidder": null,
+      "client_feedback": null,
+      "debrief_held": false
+    },
+    {
+      "bid_id": "BID-0590",
+      "opportunity_id": "OPP-24250",
+      "account": "Relecloud",
+      "industry": "Telecom",
+      "service_line": "Cybersecurity",
+      "offering": "Zero Trust Assessment",
+      "deal_value": 180000,
+      "outcome": "Won",
+      "decision_date": "2026-05-05",
+      "primary_reason": "Existing AIOps relationship; fixed-fee 8-week assessment",
+      "competitors": "Uncontested",
+      "price_position_vs_next_bidder": null,
+      "client_feedback": null,
+      "debrief_held": false
+    },
+    {
+      "bid_id": "BID-0591",
+      "opportunity_id": "OPP-24300",
+      "account": "Fabrikam Health",
+      "industry": "Healthcare",
+      "service_line": "Managed Services",
+      "offering": "Application Managed Services (AMS)",
+      "deal_value": 420000,
+      "outcome": "Won",
+      "decision_date": "2026-03-20",
+      "primary_reason": "Incumbent AMS; CSAT 8.7",
+      "competitors": "Uncontested",
+      "price_position_vs_next_bidder": null,
+      "client_feedback": null,
+      "debrief_held": false
+    },
+    {
+      "bid_id": "BID-0592",
+      "opportunity_id": "OPP-24330",
+      "account": "Adventure Works Retail",
+      "industry": "Retail",
+      "service_line": "Data & AI",
+      "offering": "Microsoft Fabric Analytics",
+      "deal_value": 450000,
+      "outcome": "Lost",
+      "decision_date": "2026-05-29",
+      "primary_reason": "Incumbent extended; our timeline 6 weeks longer",
+      "winning_competitor": "Incumbent (contract extended)",
+      "incumbent": "EPAM",
+      "price_position_vs_winner": -0.03,
+      "evaluation_criteria": [
+        {
+          "criterion": "Timeline",
+          "weight_pct": 35,
+          "our_score_of_5": 2.5
+        },
+        {
+          "criterion": "Price",
+          "weight_pct": 25,
+          "our_score_of_5": 3.8
+        },
+        {
+          "criterion": "Retail analytics depth",
+          "weight_pct": 25,
+          "our_score_of_5": 3.9
+        },
+        {
+          "criterion": "Team",
+          "weight_pct": 15,
+          "our_score_of_5": 3.5
+        }
+      ],
+      "client_feedback": "We could not wait six extra weeks before peak season. - Nora Klein",
+      "debrief_held": true
+    },
+    {
+      "bid_id": "BID-0594",
+      "opportunity_id": "OPP-24280",
+      "account": "Fourth Coffee",
+      "industry": "Retail",
+      "service_line": "Digital Commerce",
+      "offering": "Order Management (OMS)",
+      "deal_value": 410000,
+      "outcome": "Won",
+      "decision_date": "2026-06-26",
+      "primary_reason": "Retail OMS reference (Adventure Works); 10-week MVP",
+      "competitors": "EPAM",
+      "price_position_vs_next_bidder": null,
+      "client_feedback": null,
+      "debrief_held": false
+    },
+    {
+      "bid_id": "BID-0595",
+      "opportunity_id": "OPP-24340",
+      "account": "Trey Research",
+      "industry": "Life Sciences",
+      "service_line": "Data & AI",
+      "offering": "Snowflake Data Cloud",
+      "deal_value": 260000,
+      "outcome": "Won",
+      "decision_date": "2026-03-13",
+      "primary_reason": "Follow-on to research data platform",
+      "competitors": "Uncontested",
+      "price_position_vs_next_bidder": null,
+      "client_feedback": null,
+      "debrief_held": false
+    },
+    {
+      "bid_id": "BID-0597",
+      "opportunity_id": "OPP-24140",
+      "account": "Contoso Manufacturing",
+      "industry": "Manufacturing",
+      "service_line": "Data & AI",
+      "offering": "Advanced Analytics & ML",
+      "deal_value": 1900000,
+      "outcome": "Lost",
+      "decision_date": "2026-08-14",
+      "primary_reason": "Price 14% above winner; weaker OT/IoT plant-floor references",
+      "winning_competitor": "Capgemini",
+      "incumbent": "Incumbent MES vendor (in-house)",
+      "price_position_vs_winner": -0.14,
+      "evaluation_criteria": [
+        {
+          "criterion": "Plant-floor OT/IoT experience",
+          "weight_pct": 30,
+          "our_score_of_5": 3.1
+        },
+        {
+          "criterion": "Price",
+          "weight_pct": 30,
+          "our_score_of_5": 2.6
+        },
+        {
+          "criterion": "Solution architecture",
+          "weight_pct": 25,
+          "our_score_of_5": 4.2
+        },
+        {
+          "criterion": "Team and references",
+          "weight_pct": 15,
+          "our_score_of_5": 3.0
+        }
+      ],
+      "client_feedback": "Your architecture was the strongest we saw, but the price gap and the lack of plant-floor references were too much to overcome. - Ingrid Johansson",
+      "debrief_held": true
+    },
+    {
+      "bid_id": "BID-0598",
+      "opportunity_id": "OPP-24290",
+      "account": "Proseware Inc",
+      "industry": "Technology",
+      "service_line": "Application Modernization",
+      "offering": "Legacy to Cloud-Native",
+      "deal_value": 280000,
+      "outcome": "Won",
+      "decision_date": "2026-08-28",
+      "primary_reason": "AWS referral; SaaS factory blueprint",
+      "competitors": "Uncontested",
+      "price_position_vs_next_bidder": null,
+      "client_feedback": null,
+      "debrief_held": false
+    },
+    {
+      "bid_id": "BID-0599",
+      "opportunity_id": "OPP-24350",
+      "account": "Relecloud",
+      "industry": "Telecom",
+      "service_line": "Application Modernization",
+      "offering": "Legacy to Cloud-Native",
+      "deal_value": 1600000,
+      "outcome": "Lost",
+      "decision_date": "2026-07-31",
+      "primary_reason": "Telecom OSS/BSS depth; winner had BSS product partnership",
+      "winning_competitor": "Tech Mahindra",
+      "incumbent": "Amdocs (BSS)",
+      "price_position_vs_winner": -0.05,
+      "evaluation_criteria": [
+        {
+          "criterion": "Telecom OSS/BSS depth",
+          "weight_pct": 40,
+          "our_score_of_5": 2.4
+        },
+        {
+          "criterion": "Price",
+          "weight_pct": 25,
+          "our_score_of_5": 3.4
+        },
+        {
+          "criterion": "Approach",
+          "weight_pct": 20,
+          "our_score_of_5": 3.9
+        },
+        {
+          "criterion": "Team",
+          "weight_pct": 15,
+          "our_score_of_5": 3.2
+        }
+      ],
+      "client_feedback": "The winner brought a BSS product partnership we needed. - Aaron Mitchell",
+      "debrief_held": true
+    },
+    {
+      "bid_id": "BID-0601",
+      "opportunity_id": "OPP-24170",
+      "account": "Wingtip Logistics",
+      "industry": "Logistics",
+      "service_line": "Data & AI",
+      "offering": "Advanced Analytics & ML",
+      "deal_value": 850000,
+      "outcome": "Won",
+      "decision_date": "2026-07-20",
+      "primary_reason": "Phase 1 outcomes (7.4% fuel saving); incumbent advantage",
+      "competitors": "Uncontested",
+      "price_position_vs_next_bidder": null,
+      "client_feedback": null,
+      "debrief_held": false
+    }
+  ]
+}

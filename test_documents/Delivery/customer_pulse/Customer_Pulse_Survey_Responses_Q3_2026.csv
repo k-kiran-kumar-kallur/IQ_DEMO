@@ -1,0 +1,58 @@
+response_id,quarter,account_id,account_name,respondent_role,csat_1_10,likelihood_to_recommend_0_10,primary_theme,verbatim,submitted_date
+PULSE-26Q3-1001,2026-Q3,ACC-1001,Northwind Traders,Executive sponsor,7,8,Value for money,Wave 2 outages on a Saturday were unacceptable.,2026-09-21
+PULSE-26Q3-1002,2026-Q3,ACC-1001,Northwind Traders,IT leader,7,6,Responsiveness,AMS team is good; Atlas communication is poor.,2026-09-23
+PULSE-26Q3-1003,2026-Q3,ACC-1001,Northwind Traders,Business user,7,7,Responsiveness,Loyalty lookups keep failing at the till.,2026-09-29
+PULSE-26Q3-1004,2026-Q3,ACC-1001,Northwind Traders,Product owner,5,4,Responsiveness,We need one accountable senior person.,2026-09-24
+PULSE-26Q3-1005,2026-Q3,ACC-1001,Northwind Traders,Operations manager,6,5,Value for money,Checkout is faster in wave 1 stores when it works.,2026-09-25
+PULSE-26Q3-1006,2026-Q3,ACC-1001,Northwind Traders,Procurement,5,5,Innovation,"Recovery needs a written plan, not calls.",2026-09-21
+PULSE-26Q3-1007,2026-Q3,ACC-1002,Fabrikam Health,Executive sponsor,9,9,Value for money,Responsive team.,2026-09-24
+PULSE-26Q3-1008,2026-Q3,ACC-1002,Fabrikam Health,IT leader,9,9,Responsiveness,Good communication.,2026-09-27
+PULSE-26Q3-1009,2026-Q3,ACC-1002,Fabrikam Health,Business user,9,9,Delivery quality,Would like more proactive ideas.,2026-09-26
+PULSE-26Q3-1010,2026-Q3,ACC-1002,Fabrikam Health,Product owner,7,6,Responsiveness,Solid delivery.,2026-09-25
+PULSE-26Q3-1011,2026-Q3,ACC-1002,Fabrikam Health,Operations manager,9,10,Innovation,Pricing is fair.,2026-09-29
+PULSE-26Q3-1012,2026-Q3,ACC-1003,Woodgrove Bank,Executive sponsor,7,7,Innovation,Responsive team.,2026-09-24
+PULSE-26Q3-1013,2026-Q3,ACC-1003,Woodgrove Bank,IT leader,8,8,Communication,Good communication.,2026-09-30
+PULSE-26Q3-1014,2026-Q3,ACC-1003,Woodgrove Bank,Business user,9,8,Innovation,Would like more proactive ideas.,2026-10-02
+PULSE-26Q3-1015,2026-Q3,ACC-1003,Woodgrove Bank,Product owner,9,10,Innovation,Solid delivery.,2026-09-22
+PULSE-26Q3-1016,2026-Q3,ACC-1004,Tailspin Airlines,Executive sponsor,10,10,Innovation,Responsive team.,2026-09-23
+PULSE-26Q3-1017,2026-Q3,ACC-1004,Tailspin Airlines,IT leader,8,7,Innovation,Good communication.,2026-09-24
+PULSE-26Q3-1018,2026-Q3,ACC-1004,Tailspin Airlines,Business user,6,6,Innovation,Would like more proactive ideas.,2026-09-27
+PULSE-26Q3-1019,2026-Q3,ACC-1004,Tailspin Airlines,Product owner,10,10,Responsiveness,Solid delivery.,2026-09-25
+PULSE-26Q3-1020,2026-Q3,ACC-1005,Litware Insurance,Executive sponsor,8,9,Value for money,Responsive team.,2026-09-28
+PULSE-26Q3-1021,2026-Q3,ACC-1005,Litware Insurance,IT leader,9,8,Innovation,Good communication.,2026-10-02
+PULSE-26Q3-1022,2026-Q3,ACC-1005,Litware Insurance,Business user,7,6,Communication,Would like more proactive ideas.,2026-09-24
+PULSE-26Q3-1023,2026-Q3,ACC-1005,Litware Insurance,Product owner,8,7,Innovation,Solid delivery.,2026-09-28
+PULSE-26Q3-1024,2026-Q3,ACC-1006,Contoso Manufacturing,Executive sponsor,9,8,Responsiveness,Responsive team.,2026-10-02
+PULSE-26Q3-1025,2026-Q3,ACC-1006,Contoso Manufacturing,IT leader,7,8,Value for money,Good communication.,2026-09-22
+PULSE-26Q3-1026,2026-Q3,ACC-1006,Contoso Manufacturing,Business user,7,8,Delivery quality,Would like more proactive ideas.,2026-09-27
+PULSE-26Q3-1027,2026-Q3,ACC-1007,Adventure Works Retail,Executive sponsor,8,7,Value for money,Responsive team.,2026-09-22
+PULSE-26Q3-1028,2026-Q3,ACC-1007,Adventure Works Retail,IT leader,8,8,Responsiveness,Good communication.,2026-09-23
+PULSE-26Q3-1029,2026-Q3,ACC-1007,Adventure Works Retail,Business user,7,8,Value for money,Would like more proactive ideas.,2026-09-25
+PULSE-26Q3-1030,2026-Q3,ACC-1007,Adventure Works Retail,Product owner,9,9,Innovation,Solid delivery.,2026-09-28
+PULSE-26Q3-1031,2026-Q3,ACC-1008,Wingtip Logistics,Executive sponsor,9,9,Communication,Fuel savings are real and measured.,2026-09-26
+PULSE-26Q3-1032,2026-Q3,ACC-1008,Wingtip Logistics,IT leader,9,9,Delivery quality,Great partnership with the analytics team.,2026-10-02
+PULSE-26Q3-1033,2026-Q3,ACC-1008,Wingtip Logistics,Business user,9,10,Value for money,Proactive and data-driven.,2026-10-02
+PULSE-26Q3-1034,2026-Q3,ACC-1008,Wingtip Logistics,Product owner,9,10,Communication,Fuel savings are real and measured.,2026-09-30
+PULSE-26Q3-1035,2026-Q3,ACC-1009,Relecloud,Executive sponsor,7,8,Delivery quality,Responsive team.,2026-09-24
+PULSE-26Q3-1036,2026-Q3,ACC-1009,Relecloud,IT leader,8,9,Value for money,Good communication.,2026-09-22
+PULSE-26Q3-1037,2026-Q3,ACC-1009,Relecloud,Business user,9,10,Responsiveness,Would like more proactive ideas.,2026-09-23
+PULSE-26Q3-1038,2026-Q3,ACC-1009,Relecloud,Product owner,9,9,Value for money,Solid delivery.,2026-09-29
+PULSE-26Q3-1039,2026-Q3,ACC-1009,Relecloud,Operations manager,9,8,Responsiveness,Pricing is fair.,2026-09-27
+PULSE-26Q3-1040,2026-Q3,ACC-1010,Lamna Healthcare,Executive sponsor,10,10,Communication,Responsive team.,2026-09-25
+PULSE-26Q3-1041,2026-Q3,ACC-1010,Lamna Healthcare,IT leader,6,6,Responsiveness,Good communication.,2026-09-27
+PULSE-26Q3-1042,2026-Q3,ACC-1010,Lamna Healthcare,Business user,7,8,Value for money,Would like more proactive ideas.,2026-09-21
+PULSE-26Q3-1043,2026-Q3,ACC-1010,Lamna Healthcare,Product owner,8,8,Value for money,Solid delivery.,2026-10-01
+PULSE-26Q3-1044,2026-Q3,ACC-1011,Wide World Importers,Executive sponsor,7,8,Communication,Response times on pick-face sync issues are too slow.,2026-09-21
+PULSE-26Q3-1045,2026-Q3,ACC-1011,Wide World Importers,IT leader,8,8,Delivery quality,Price needs to come down for FY27.,2026-09-27
+PULSE-26Q3-1046,2026-Q3,ACC-1011,Wide World Importers,Business user,7,8,Delivery quality,Team knows our WMS well.,2026-10-01
+PULSE-26Q3-1047,2026-Q3,ACC-1011,Wide World Importers,Product owner,5,4,Value for money,Escalations take too long to close.,2026-09-26
+PULSE-26Q3-1048,2026-Q3,ACC-1011,Wide World Importers,Operations manager,6,6,Innovation,Response times on pick-face sync issues are too slow.,2026-09-21
+PULSE-26Q3-1049,2026-Q3,ACC-1011,Wide World Importers,Procurement,8,9,Communication,Price needs to come down for FY27.,2026-09-30
+PULSE-26Q3-1050,2026-Q3,ACC-1012,Trey Research,Executive sponsor,9,9,Innovation,Responsive team.,2026-09-22
+PULSE-26Q3-1051,2026-Q3,ACC-1012,Trey Research,IT leader,8,9,Communication,Good communication.,2026-09-22
+PULSE-26Q3-1052,2026-Q3,ACC-1012,Trey Research,Business user,8,9,Communication,Would like more proactive ideas.,2026-10-02
+PULSE-26Q3-1053,2026-Q3,ACC-1012,Trey Research,Product owner,9,9,Communication,Solid delivery.,2026-09-29
+PULSE-26Q3-1054,2026-Q3,ACC-1012,Trey Research,Operations manager,8,8,Communication,Pricing is fair.,2026-09-26
+PULSE-26Q3-1055,2026-Q3,ACC-1015,Halcyon Health,Executive sponsor,9,10,Value for money,Responsive team.,2026-09-23
+PULSE-26Q3-1056,2026-Q3,ACC-1015,Halcyon Health,IT leader,9,8,Value for money,Good communication.,2026-09-29
+PULSE-26Q3-1057,2026-Q3,ACC-1015,Halcyon Health,Business user,8,8,Value for money,Would like more proactive ideas.,2026-10-01

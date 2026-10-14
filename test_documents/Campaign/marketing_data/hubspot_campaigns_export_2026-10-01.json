@@ -1,0 +1,438 @@
+{
+  "portal_id": 21948833,
+  "exported_at": "2026-10-01T05:00:00Z",
+  "object": "campaigns",
+  "results": [
+    {
+      "id": "CMP-2601",
+      "hs_campaign_guid": "9f0644837981",
+      "name": "BFSI Cloud Data Modernisation Webinar Series",
+      "type": "Webinar series",
+      "utm_campaign": "cmp_2601",
+      "owner": "sarah.kim@visionet.example",
+      "start_date": "2026-07-08",
+      "end_date": "2026-09-30",
+      "industry_focus": "BFSI",
+      "target_account_ids": [
+        "ACC-1003",
+        "ACC-1013",
+        "ACC-1005",
+        "ACC-1014"
+      ],
+      "budget_usd": 50000,
+      "actual_spend_usd": 48500,
+      "spend_by_channel": {
+        "Webinar": 14817.44,
+        "LinkedIn Ads": 15767.03,
+        "Email": 17915.53
+      },
+      "co_funding": null,
+      "metrics": {
+        "reach": 184000,
+        "engagements": 6920,
+        "registrations": 612,
+        "attendees": 284,
+        "mqls": 96,
+        "sqls": 21
+      },
+      "assets": [
+        {
+          "type": "WEBINAR",
+          "name": "BFSI Cloud Data Modernisation Webinar Series - sessions",
+          "registrations": 612,
+          "attendees": 284
+        },
+        {
+          "type": "MARKETING_EMAIL",
+          "name": "CMP-2601 nurture sequence",
+          "sends": 30666,
+          "open_rate": 0.33,
+          "click_rate": 0.025
+        },
+        {
+          "type": "AD_CAMPAIGN",
+          "name": "CMP-2601 paid media",
+          "impressions": 552000,
+          "clicks": 3319
+        },
+        {
+          "type": "LANDING_PAGE",
+          "name": "BFSI Cloud Data Modernisation Webinar Series landing page",
+          "views": 11072,
+          "submissions": 612
+        }
+      ],
+      "sourced_deal_ids": [
+        "OPP-24220"
+      ],
+      "influenced_deal_ids": [
+        "OPP-24120",
+        "OPP-24121"
+      ]
+    },
+    {
+      "id": "CMP-2602",
+      "hs_campaign_guid": "9f3211142119",
+      "name": "Retail Unified Commerce ABM",
+      "type": "Account-based marketing",
+      "utm_campaign": "cmp_2602",
+      "owner": "sarah.kim@visionet.example",
+      "start_date": "2026-06-01",
+      "end_date": "2026-11-30",
+      "industry_focus": "Retail",
+      "target_account_ids": [
+        "ACC-1007",
+        "ACC-1001",
+        "ACC-1011",
+        "ACC-1017"
+      ],
+      "budget_usd": 95000,
+      "actual_spend_usd": 72000,
+      "spend_by_channel": {
+        "LinkedIn ABM": 11879.29,
+        "Direct mail": 14697.95,
+        "Intent (6sense)": 20738.74,
+        "Email": 24684.02
+      },
+      "co_funding": null,
+      "metrics": {
+        "reach": 41500,
+        "engagements": 3310,
+        "registrations": 0,
+        "attendees": 0,
+        "mqls": 58,
+        "sqls": 9
+      },
+      "assets": [
+        {
+          "type": "MARKETING_EMAIL",
+          "name": "CMP-2602 nurture sequence",
+          "sends": 6916,
+          "open_rate": 0.348,
+          "click_rate": 0.032
+        },
+        {
+          "type": "AD_CAMPAIGN",
+          "name": "CMP-2602 paid media",
+          "impressions": 124500,
+          "clicks": 977
+        },
+        {
+          "type": "LANDING_PAGE",
+          "name": "Retail Unified Commerce ABM landing page",
+          "views": 5296,
+          "submissions": 174
+        }
+      ],
+      "sourced_deal_ids": [
+        "OPP-24160"
+      ],
+      "influenced_deal_ids": [
+        "OPP-24102"
+      ]
+    },
+    {
+      "id": "CMP-2603",
+      "hs_campaign_guid": "9f3361805169",
+      "name": "Healthcare Data & AI Executive Roundtable - Boston",
+      "type": "Field event",
+      "utm_campaign": "cmp_2603",
+      "owner": "sarah.kim@visionet.example",
+      "start_date": "2026-05-04",
+      "end_date": "2026-06-11",
+      "industry_focus": "Healthcare",
+      "target_account_ids": [
+        "ACC-1002",
+        "ACC-1010",
+        "ACC-1015"
+      ],
+      "budget_usd": 40000,
+      "actual_spend_usd": 38000,
+      "spend_by_channel": {
+        "Event": 14685.05,
+        "Email": 9325.81,
+        "SDR outreach": 13989.13
+      },
+      "co_funding": null,
+      "metrics": {
+        "reach": 1450,
+        "engagements": 310,
+        "registrations": 41,
+        "attendees": 26,
+        "mqls": 19,
+        "sqls": 7
+      },
+      "assets": [
+        {
+          "type": "MARKETING_EMAIL",
+          "name": "CMP-2603 nurture sequence",
+          "sends": 241,
+          "open_rate": 0.26,
+          "click_rate": 0.031
+        },
+        {
+          "type": "LANDING_PAGE",
+          "name": "Healthcare Data & AI Executive Roundtable - Boston landing page",
+          "views": 496,
+          "submissions": 41
+        }
+      ],
+      "sourced_deal_ids": [
+        "OPP-24260"
+      ],
+      "influenced_deal_ids": [
+        "OPP-24110"
+      ]
+    },
+    {
+      "id": "CMP-2604",
+      "hs_campaign_guid": "9f1443202770",
+      "name": "Azure Migration Assessment Offer",
+      "type": "Demand generation",
+      "utm_campaign": "cmp_2604",
+      "owner": "sarah.kim@visionet.example",
+      "start_date": "2026-02-02",
+      "end_date": "2026-09-30",
+      "industry_focus": "Cross-industry",
+      "target_account_ids": [
+        "ACC-1010",
+        "ACC-1016",
+        "ACC-1012"
+      ],
+      "budget_usd": 60000,
+      "actual_spend_usd": 56000,
+      "spend_by_channel": {
+        "Paid search": 18331.83,
+        "Paid social": 19263.24,
+        "Landing page": 18404.93
+      },
+      "co_funding": "Microsoft MDF $25,000",
+      "metrics": {
+        "reach": 312000,
+        "engagements": 9840,
+        "registrations": 388,
+        "attendees": 0,
+        "mqls": 140,
+        "sqls": 24
+      },
+      "assets": [
+        {
+          "type": "AD_CAMPAIGN",
+          "name": "CMP-2604 paid media",
+          "impressions": 936000,
+          "clicks": 5563
+        },
+        {
+          "type": "LANDING_PAGE",
+          "name": "Azure Migration Assessment Offer landing page",
+          "views": 15744,
+          "submissions": 388
+        }
+      ],
+      "sourced_deal_ids": [
+        "OPP-24190",
+        "OPP-24270"
+      ],
+      "influenced_deal_ids": []
+    },
+    {
+      "id": "CMP-2605",
+      "hs_campaign_guid": "9f0553825860",
+      "name": "Insurance Claims Automation eBook",
+      "type": "Content syndication",
+      "utm_campaign": "cmp_2605",
+      "owner": "sarah.kim@visionet.example",
+      "start_date": "2026-06-15",
+      "end_date": "2026-10-31",
+      "industry_focus": "BFSI",
+      "target_account_ids": [
+        "ACC-1005",
+        "ACC-1014"
+      ],
+      "budget_usd": 25000,
+      "actual_spend_usd": 22000,
+      "spend_by_channel": {
+        "Content syndication": 9757.41,
+        "Email nurture": 12242.59
+      },
+      "co_funding": null,
+      "metrics": {
+        "reach": 96000,
+        "engagements": 4120,
+        "registrations": 1180,
+        "attendees": 0,
+        "mqls": 118,
+        "sqls": 12
+      },
+      "assets": [
+        {
+          "type": "MARKETING_EMAIL",
+          "name": "CMP-2605 nurture sequence",
+          "sends": 16000,
+          "open_rate": 0.258,
+          "click_rate": 0.022
+        },
+        {
+          "type": "LANDING_PAGE",
+          "name": "Insurance Claims Automation eBook landing page",
+          "views": 6592,
+          "submissions": 1180
+        }
+      ],
+      "sourced_deal_ids": [
+        "OPP-24150"
+      ],
+      "influenced_deal_ids": [
+        "OPP-24230"
+      ]
+    },
+    {
+      "id": "CMP-2606",
+      "hs_campaign_guid": "9f3087788030",
+      "name": "Smart Factory Summit Sponsorship - Detroit",
+      "type": "Sponsored event",
+      "utm_campaign": "cmp_2606",
+      "owner": "sarah.kim@visionet.example",
+      "start_date": "2026-04-20",
+      "end_date": "2026-05-20",
+      "industry_focus": "Manufacturing",
+      "target_account_ids": [
+        "ACC-1006"
+      ],
+      "budget_usd": 60000,
+      "actual_spend_usd": 64000,
+      "spend_by_channel": {
+        "Event sponsorship": 22614.55,
+        "Booth": 20295.08,
+        "Speaking slot": 21090.37
+      },
+      "co_funding": null,
+      "metrics": {
+        "reach": 3800,
+        "engagements": 540,
+        "registrations": 0,
+        "attendees": 212,
+        "mqls": 44,
+        "sqls": 5
+      },
+      "assets": [
+        {
+          "type": "LANDING_PAGE",
+          "name": "Smart Factory Summit Sponsorship - Detroit landing page",
+          "views": 864,
+          "submissions": 132
+        }
+      ],
+      "sourced_deal_ids": [],
+      "influenced_deal_ids": [
+        "OPP-24140",
+        "OPP-24141"
+      ]
+    },
+    {
+      "id": "CMP-2607",
+      "hs_campaign_guid": "9f3473725288",
+      "name": "GenAI Copilot Accelerator Launch",
+      "type": "Product launch",
+      "utm_campaign": "cmp_2607",
+      "owner": "sarah.kim@visionet.example",
+      "start_date": "2026-09-01",
+      "end_date": "2026-10-31",
+      "industry_focus": "Cross-industry",
+      "target_account_ids": [
+        "ACC-1010",
+        "ACC-1009",
+        "ACC-1003"
+      ],
+      "budget_usd": 35000,
+      "actual_spend_usd": 30000,
+      "spend_by_channel": {
+        "Email nurture": 8836.34,
+        "Webinar": 9049.15,
+        "LinkedIn organic": 12114.51
+      },
+      "co_funding": null,
+      "metrics": {
+        "reach": 58000,
+        "engagements": 2870,
+        "registrations": 214,
+        "attendees": 97,
+        "mqls": 37,
+        "sqls": 4
+      },
+      "assets": [
+        {
+          "type": "WEBINAR",
+          "name": "GenAI Copilot Accelerator Launch - sessions",
+          "registrations": 214,
+          "attendees": 97
+        },
+        {
+          "type": "MARKETING_EMAIL",
+          "name": "CMP-2607 nurture sequence",
+          "sends": 9666,
+          "open_rate": 0.307,
+          "click_rate": 0.021
+        },
+        {
+          "type": "AD_CAMPAIGN",
+          "name": "CMP-2607 paid media",
+          "impressions": 174000,
+          "clicks": 1215
+        },
+        {
+          "type": "LANDING_PAGE",
+          "name": "GenAI Copilot Accelerator Launch landing page",
+          "views": 4592,
+          "submissions": 214
+        }
+      ],
+      "sourced_deal_ids": [],
+      "influenced_deal_ids": [
+        "OPP-24260"
+      ]
+    },
+    {
+      "id": "CMP-2608",
+      "hs_campaign_guid": "9f1605618425",
+      "name": "Q4 Data & AI Thought Leadership (LinkedIn)",
+      "type": "Brand awareness",
+      "utm_campaign": "cmp_2608",
+      "owner": "sarah.kim@visionet.example",
+      "start_date": "2026-10-01",
+      "end_date": "2026-12-18",
+      "industry_focus": "Cross-industry",
+      "target_account_ids": [],
+      "budget_usd": 45000,
+      "actual_spend_usd": 4200,
+      "spend_by_channel": {
+        "LinkedIn sponsored content": 4200.0
+      },
+      "co_funding": null,
+      "metrics": {
+        "reach": 26000,
+        "engagements": 640,
+        "registrations": 0,
+        "attendees": 0,
+        "mqls": 3,
+        "sqls": 0
+      },
+      "assets": [
+        {
+          "type": "AD_CAMPAIGN",
+          "name": "CMP-2608 paid media",
+          "impressions": 78000,
+          "clicks": 616
+        },
+        {
+          "type": "LANDING_PAGE",
+          "name": "Q4 Data & AI Thought Leadership (LinkedIn) landing page",
+          "views": 1024,
+          "submissions": 9
+        }
+      ],
+      "sourced_deal_ids": [],
+      "influenced_deal_ids": []
+    }
+  ]
+}

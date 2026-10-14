@@ -1,0 +1,35 @@
+VOICE OF THE PROSPECT - SEPTEMBER 2026 DIGEST
+Inside Sales, compiled by Tom Alvarez (SDR Team Lead) from HubSpot call notes and Gong snippets
+Distribution: Sarah Kim, Laura Chen, account owners, Solutions (Ravi Shankar)
+Period: weeks 36-40 (31 Aug - 2 Oct 2026) | 2,320 calls, 246 connects, 71 meetings held
+
+TOP OBJECTIONS (count of calls where raised)
+1. "We already have a partner for that" (38) - incumbents named most: Accenture (11), Cognizant (8), Infosys (7), TCS (5),
+   Capgemini (4), in-house teams (3).
+2. "No budget until FY27 planning" (27) - mostly BFSI and retail; FY27 budgets lock between November and January.
+3. "Send me something to read" (21) - deflection; eBook follow-up converts ~1 in 9.
+4. "We're mid-migration, call after go-live" (14) - healthcare payers and airlines.
+5. "Your rates are higher than offshore-only providers" (9) - manufacturing and distribution.
+
+NOT-NOW REASONS
+- Leadership change under way (6): includes Northwind Traders (new VP Technology started 1 Oct) and Woodgrove Bank (new CDO in Aug).
+- Regulatory deadline first (5): CMS interoperability rule for payers; NAIC data security for insurers.
+- Cost-reduction programme (4): Wide World Importers CFO-led 12% IT cut - "renewals only, no new projects".
+
+BUDGET AND TIMING SIGNALS
+- Meridian Bank: Omar Reyes (Head of Data) confirmed board-approved budget for the data platform, decision before year end.
+- Calder Insurance: Steven Marsh no-showed on 15 Sep; his assistant said the team was "finalising an RFP" - it arrived 5 Oct.
+- Litware Insurance: Samuel Price has Q4 budget for underwriting intake automation, wants a pilot before January renewals.
+- Adventure Works: Nora Klein - RFI out end of September, full RFP mid-November, go-live before holiday 2027.
+- Lamna Healthcare: GenAI member service budget sits with Angela Wu; RFI expected after Thanksgiving.
+
+VERBATIMS
+- "If you can show me Teradata to lakehouse at a bank our size, you're on the shortlist." - Head of Data, regional bank
+- "We loved the eBook, but claims is a Guidewire conversation now." - VP Claims Technology, P&C insurer
+- "Atlas first. Nobody here will talk about loyalty analytics until the stores are stable." - Director Loyalty & CRM, Northwind
+- "Infosys came in last week offering to take over the AMS at a lower rate. I said we'd listen." - IT procurement, specialty retailer
+
+RECOMMENDATIONS
+- Build a 2-page "Teradata exit for regional banks" proof point from the Woodgrove POC (Solutions).
+- Flag Northwind AMS competitive threat to Priya Raman - renewal 1 Feb 2027.
+- Pause SDR outbound to Wide World Importers until the renewal closes.

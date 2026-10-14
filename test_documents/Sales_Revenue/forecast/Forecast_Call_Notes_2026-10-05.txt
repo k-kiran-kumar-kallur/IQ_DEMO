@@ -1,0 +1,33 @@
+Q4 FORECAST CALL - NOTES
+Monday 5 October 2026, 16:00-17:10 ET
+Chair: Laura Chen (CRO). Notes: Daniel Cho (Sales Ops & Finance).
+Present: Marcus Bell, Priya Raman, Sophie Turner, James Patel, Hannah Lee, Arjun Mehta, Anita Rao
+
+1. SEPTEMBER CLOSE
+- September revenue $1.80M, +7.5% on August, quarter-end lift.
+- YTD $14.63M. Atlas went margin-negative (-3.1%) in September.
+
+2. Q4 CALL
+- Q4 commit held at contracted run-rate, with Relecloud December risk-weighted at 85%.
+- Best case adds ~$370K of probable new work: Tailspin crew platform (if awarded 23 Oct), Woodgrove wave 1 mobilisation (if
+  awarded 20 Nov), Wingtip EU depots discovery, Halcyon CR-0219.
+- Laura: "Commit is commit. Do not put Woodgrove or Tailspin in commit until the paper is signed."
+
+3. DEALS AT RISK
+- Northwind AMS renewal (OPP-24101): probability cut from 60% to 45%. Sofia Lindqvist (new VP Technology) is meeting Infosys.
+  Priya and Arjun to deliver the Atlas recovery plan on Thursday 8 Oct. Laura to join the Northwind weekly sync.
+- Wide World renewal (OPP-24200): probability cut from 55% to 40%. Wipro ~18% below us. James meets Victor Grant (CFO) 13 Oct.
+  Option on the table: 10% reduction tied to automation of L1 tickets.
+- Relecloud renewal (OPP-24180): legal redlines on SLA credits. James to escalate to our General Counsel this week.
+- Loyalty Analytics (OPP-24102): stalled 55 days. Park until Atlas is green; keep the Microsoft referral (MSRF-3312090) alive -
+  it expires 20 Oct.
+
+4. UPSIDE
+- Meridian Bank (OPP-24220) shortlisted; win odds now 58%. No 2026 revenue - 2027 start.
+- Calder Insurance RFP received today (BID-0618, $5.8M). No 2026 impact.
+
+ACTIONS
+- Daniel: update Q4 forecast workbook with the revised probabilities by Tuesday noon.
+- Priya: Northwind renewal options paper (price, term, Atlas service credits) by 16 Oct.
+- James: Wide World and Relecloud updates in next Monday's pipeline call.
+- Hannah: confirm Lamna AMM funding ($95K) is used before it expires on 30 Nov.

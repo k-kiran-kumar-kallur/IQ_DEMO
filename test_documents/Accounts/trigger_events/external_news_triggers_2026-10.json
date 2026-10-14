@@ -1,0 +1,150 @@
+{
+  "feed": "Enterprise IQ external news and signals",
+  "provider": "news aggregator + LinkedIn signals",
+  "generated": "2026-10-07T05:30:00Z",
+  "items": [
+    {
+      "id": "NEWS-26-1041",
+      "published": "2026-10-06",
+      "account_id": "ACC-1003",
+      "account": "Woodgrove Bank",
+      "trigger_type": "Earnings",
+      "headline": "Woodgrove Bank Q3 2026 results: net income up 6%; $400M technology modernisation programme announced",
+      "source": "Woodgrove Bank investor relations",
+      "sentiment": "Positive",
+      "relevance_note": "Budget signal for OPP-24120 data platform; CDO mandate confirmed"
+    },
+    {
+      "id": "NEWS-26-1036",
+      "published": "2026-10-02",
+      "account_id": "ACC-1001",
+      "account": "Northwind Traders",
+      "trigger_type": "Leadership change",
+      "headline": "Northwind Traders names Sofia Lindqvist VP Technology",
+      "source": "Retail Dive (syndicated)",
+      "sentiment": "Watch",
+      "relevance_note": "Replaces Daniel Okafor (exited 28 Sep). New decision maker for AMS renewal"
+    },
+    {
+      "id": "NEWS-26-1012",
+      "published": "2026-08-21",
+      "account_id": "ACC-1001",
+      "account": "Northwind Traders",
+      "trigger_type": "Strategic programme",
+      "headline": "Northwind to close 40 underperforming stores, invest in loyalty personalisation",
+      "source": "Chicago Business Journal",
+      "sentiment": "Mixed",
+      "relevance_note": "Store count falls to ~600 by mid-2027; loyalty analytics (OPP-24102) aligned to strategy"
+    },
+    {
+      "id": "NEWS-26-1029",
+      "published": "2026-09-24",
+      "account_id": "ACC-1010",
+      "account": "Lamna Healthcare",
+      "trigger_type": "Breach",
+      "headline": "Lamna Healthcare discloses third-party vendor breach affecting about 120,000 members",
+      "source": "HHS breach portal / press release",
+      "sentiment": "Negative",
+      "relevance_note": "Security whitespace (MXDR, zero trust); handle sensitively - not our vendor"
+    },
+    {
+      "id": "NEWS-26-1018",
+      "published": "2026-09-03",
+      "account_id": "ACC-1006",
+      "account": "Contoso Manufacturing",
+      "trigger_type": "M&A",
+      "headline": "Contoso Manufacturing to acquire VanArsdel Robotics for $340M",
+      "source": "Company press release",
+      "sentiment": "Positive",
+      "relevance_note": "Integration work in 2027: ERP carve-in, SAP S/4 data migration (OPP-24141)"
+    },
+    {
+      "id": "NEWS-26-1022",
+      "published": "2026-09-10",
+      "account_id": "ACC-1014",
+      "account": "Calder Insurance",
+      "trigger_type": "Strategic programme",
+      "headline": "Calder Insurance selects Guidewire Cloud for claims transformation; systems integrator RFP to follow",
+      "source": "Insurance Journal",
+      "sentiment": "Positive",
+      "relevance_note": "RFP CI-2026-014 arrived 5 Oct (BID-0618)"
+    },
+    {
+      "id": "NEWS-26-1009",
+      "published": "2026-08-14",
+      "account_id": "ACC-1013",
+      "account": "Meridian Bank",
+      "trigger_type": "Hiring",
+      "headline": "Meridian Bank posts 14 data engineering roles (Databricks, Azure)",
+      "source": "LinkedIn Jobs signal",
+      "sentiment": "Positive",
+      "relevance_note": "Confirms Azure Databricks direction for OPP-24220"
+    },
+    {
+      "id": "NEWS-26-1031",
+      "published": "2026-09-28",
+      "account_id": "ACC-1002",
+      "account": "Fabrikam Health",
+      "trigger_type": "Regulation",
+      "headline": "CMS reaffirms January 2027 deadline for interoperability and prior authorisation APIs",
+      "source": "CMS.gov",
+      "sentiment": "Neutral",
+      "relevance_note": "Fabrikam must ship FHIR APIs; offer accelerator in phase 2"
+    },
+    {
+      "id": "NEWS-26-1038",
+      "published": "2026-10-05",
+      "account_id": "ACC-1007",
+      "account": "Adventure Works Retail",
+      "trigger_type": "Earnings",
+      "headline": "Adventure Works Q2: online sales up 22%; CEO commits to unified commerce by holiday 2027",
+      "source": "Company earnings call",
+      "sentiment": "Positive",
+      "relevance_note": "Aligns to OPP-24160 and RFP mid-Nov"
+    },
+    {
+      "id": "NEWS-26-1025",
+      "published": "2026-09-15",
+      "account_id": "ACC-1008",
+      "account": "Wingtip Logistics",
+      "trigger_type": "Expansion",
+      "headline": "Wingtip Logistics to open Rotterdam and Hamburg depots in Q1 2027",
+      "source": "Logistics Management",
+      "sentiment": "Positive",
+      "relevance_note": "Expansion signal for OPP-24171 (EU depots)"
+    },
+    {
+      "id": "NEWS-26-1015",
+      "published": "2026-08-24",
+      "account_id": "ACC-1011",
+      "account": "Wide World Importers",
+      "trigger_type": "Cost programme",
+      "headline": "Wide World Importers CFO announces 12% IT cost reduction for FY2027",
+      "source": "Analyst call transcript",
+      "sentiment": "Negative",
+      "relevance_note": "Renewal pressure on WMS AMS (OPP-24200)"
+    },
+    {
+      "id": "NEWS-26-1033",
+      "published": "2026-09-30",
+      "account_id": "ACC-1004",
+      "account": "Tailspin Airlines",
+      "trigger_type": "Operations",
+      "headline": "Tailspin Airlines: summer disruption cost $38M; crew system replacement accelerated",
+      "source": "Tailspin Q2 filing",
+      "sentiment": "Positive",
+      "relevance_note": "Supports OPP-24130 decision 23 Oct"
+    },
+    {
+      "id": "NEWS-26-1027",
+      "published": "2026-09-22",
+      "account_id": "ACC-1012",
+      "account": "Trey Research",
+      "trigger_type": "Regulatory approval",
+      "headline": "Trey Research receives FDA approval for TR-221",
+      "source": "FDA press release",
+      "sentiment": "Positive",
+      "relevance_note": "Commercial launch drives GxP data platform (OPP-24210)"
+    }
+  ]
+}

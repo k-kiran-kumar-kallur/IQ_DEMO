@@ -1,0 +1,22 @@
+RELECLOUD - QBR Q3 2026 - NOTES
+Date: 22 September 2026, Denver
+Relecloud: Aaron Mitchell (SVP Network Operations), Julia Santos (Director, IT Service Management)
+Visionet: James Patel, Omar Siddiqui, Sam Wright
+
+Service performance (AIOps managed services, PRG-2005)
+- Mean time to resolve network incidents: 2.1 hours (from 3.6 hours at contract start, -41%).
+- Event noise reduction: 78% of alarms auto-correlated; L1 tickets down 35% year on year.
+- SLA attainment Q3: 99.3% (target 99.0%). One P1 (fibre cut, 12 Aug) handled within SLA.
+
+Renewal (CTR-7105, contract ends 30 Nov 2026)
+- Aaron confirmed intent to renew for 3 years. Legal redlines on SLA service credits (they want 15% cap, we offered 8%).
+- Julia wants GenAI assistance for the service desk in year 2 - fits the GenAI Copilot Accelerator.
+
+Other
+- Zero trust assessment (closed May 2026) recommendations: 6 of 14 implemented by Relecloud's own team.
+- OSS/BSS: Relecloud plans a re-tender in January after leadership change; Aaron hinted we should bid again with a BSS partner.
+
+Actions
+- James: escalate SLA credit redlines to our General Counsel (by 2 Oct).
+- Omar: GenAI service desk proposal outline for year 2 (by 30 Oct).
+- Sam: quarterly AIOps model refresh report (by 15 Oct).

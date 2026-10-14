@@ -1,0 +1,18 @@
+partner_id,partner,certification,certified_people,target,gap_to_target,expiring_next_90_days,required_for,as_of
+PRT-01,Microsoft,Fabric Data Engineer Associate (DP-700),34,60,26,3,Specialization + FY27 JBP,2026-09-30
+PRT-01,Microsoft,Azure Solutions Architect Expert (AZ-305),28,30,2,4,Infrastructure designation,2026-09-30
+PRT-01,Microsoft,Azure AI Engineer Associate (AI-102),19,25,6,2,AI Platform specialization,2026-09-30
+PRT-01,Microsoft,Azure Security Engineer Associate (AZ-500),11,12,1,1,Security designation,2026-09-30
+PRT-02,AWS,AWS Certified Solutions Architect - Professional,22,25,3,5,Advanced tier + Migration Competency,2026-09-30
+PRT-02,AWS,AWS Certified Solutions Architect - Associate,61,60,0,9,Advanced tier,2026-09-30
+PRT-02,AWS,AWS Certified Data Engineer - Associate,9,15,6,0,Data & Analytics Competency,2026-09-30
+PRT-03,Databricks,Databricks Certified Data Engineer Professional,18,30,12,2,Elite tier target,2026-09-30
+PRT-03,Databricks,Databricks Certified Data Engineer Associate,57,75,18,6,Elite tier target,2026-09-30
+PRT-04,Snowflake,SnowPro Core,41,66,25,4,Elite tier (GAP-029: +25 by Q2 FY27),2026-09-30
+PRT-04,Snowflake,SnowPro Advanced: Architect,6,10,4,0,Elite tier,2026-09-30
+PRT-05,ServiceNow,ServiceNow Certified System Administrator,14,15,1,2,Specialist,2026-09-30
+PRT-05,ServiceNow,ServiceNow CIS - IT Service Management,7,10,3,1,Specialist,2026-09-30
+PRT-06,Guidewire,Guidewire ClaimCenter Associate Developer,64,60,0,0,PartnerConnect Select,2026-09-30
+PRT-06,Guidewire,Guidewire ClaimCenter Business Analyst,38,35,0,0,PartnerConnect Select,2026-09-30
+PRT-06,Guidewire,Guidewire PolicyCenter Associate Developer,26,25,0,0,PartnerConnect Select,2026-09-30
+PRT-06,Guidewire,Guidewire Integration Developer,12,15,3,0,PartnerConnect Select,2026-09-30

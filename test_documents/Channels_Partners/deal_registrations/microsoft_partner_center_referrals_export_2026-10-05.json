@@ -1,0 +1,324 @@
+{
+  "@odata.context": "partner-center/referrals/$metadata",
+  "exportedAt": "2026-10-05T04:00:00Z",
+  "value": [
+    {
+      "id": "MSRF-3318842",
+      "engagementId": "eng-318842",
+      "name": "Woodgrove Enterprise Data Platform",
+      "type": "Shared",
+      "status": "Active",
+      "substatus": "Accepted",
+      "qualification": "SalesQualified",
+      "createdDateTime": "2026-05-22T14:00:00Z",
+      "customerProfile": {
+        "name": "Woodgrove Bank",
+        "address": {
+          "city": "New York",
+          "state": "NY",
+          "country": "US"
+        },
+        "size": "1000orMore",
+        "team": [
+          {
+            "firstName": "Catherine",
+            "lastName": "Hughes",
+            "email": "catherine.hughes@woodgrovebank.example"
+          }
+        ]
+      },
+      "details": {
+        "dealValue": 3100000,
+        "currency": "USD",
+        "closingDateTime": "2026-11-20T00:00:00Z",
+        "requirements": {
+          "solutions": [
+            {
+              "name": "Cloud Data Platform (Azure Databricks)"
+            }
+          ],
+          "salesPlays": [
+            "Migrate and modernize your data estate"
+          ]
+        }
+      },
+      "team": [
+        {
+          "firstName": "Elena",
+          "lastName": "Novak",
+          "email": "elena.novak@visionet.example"
+        }
+      ],
+      "consent": {
+        "consentToShareReferralWithMicrosoftSellers": true
+      },
+      "expirationDateTime": "2026-11-22T00:00:00Z",
+      "externalReferenceId": "OPP-24120"
+    },
+    {
+      "id": "MSRF-3341107",
+      "engagementId": "eng-341107",
+      "name": "Meridian Cloud Data Platform",
+      "type": "Shared",
+      "status": "Active",
+      "substatus": "Engaged",
+      "qualification": "SalesQualified",
+      "createdDateTime": "2026-08-07T14:00:00Z",
+      "customerProfile": {
+        "name": "Meridian Bank",
+        "address": {
+          "city": "Charlotte",
+          "state": "NC",
+          "country": "US"
+        },
+        "size": "1000orMore",
+        "team": [
+          {
+            "firstName": "Lena",
+            "lastName": "Park",
+            "email": "lena.park@meridianbank.example"
+          }
+        ]
+      },
+      "details": {
+        "dealValue": 2400000,
+        "currency": "USD",
+        "closingDateTime": "2026-12-18T00:00:00Z",
+        "requirements": {
+          "solutions": [
+            {
+              "name": "Cloud Data Platform (Azure Databricks)"
+            }
+          ],
+          "salesPlays": [
+            "Migrate and modernize your data estate"
+          ]
+        }
+      },
+      "team": [
+        {
+          "firstName": "Elena",
+          "lastName": "Novak",
+          "email": "elena.novak@visionet.example"
+        }
+      ],
+      "consent": {
+        "consentToShareReferralWithMicrosoftSellers": true
+      },
+      "expirationDateTime": "2027-02-07T00:00:00Z",
+      "externalReferenceId": "OPP-24220"
+    },
+    {
+      "id": "MSRF-3329415",
+      "engagementId": "eng-329415",
+      "name": "Lamna Claims Platform Azure Migration",
+      "type": "Shared",
+      "status": "Active",
+      "substatus": "Accepted",
+      "qualification": "SalesQualified",
+      "createdDateTime": "2026-06-02T14:00:00Z",
+      "customerProfile": {
+        "name": "Lamna Healthcare",
+        "address": {
+          "city": "Minneapolis",
+          "state": "MN",
+          "country": "US"
+        },
+        "size": "1000orMore",
+        "team": [
+          {
+            "firstName": "Thomas",
+            "lastName": "Reed",
+            "email": "thomas.reed@lamnahealthcare.example"
+          }
+        ]
+      },
+      "details": {
+        "dealValue": 1500000,
+        "currency": "USD",
+        "closingDateTime": "2026-11-30T00:00:00Z",
+        "requirements": {
+          "solutions": [
+            {
+              "name": "Azure Landing Zone"
+            }
+          ],
+          "salesPlays": [
+            "Migrate and modernize your estate"
+          ]
+        }
+      },
+      "team": [
+        {
+          "firstName": "Elena",
+          "lastName": "Novak",
+          "email": "elena.novak@visionet.example"
+        }
+      ],
+      "consent": {
+        "consentToShareReferralWithMicrosoftSellers": true
+      },
+      "expirationDateTime": "2026-12-02T00:00:00Z",
+      "externalReferenceId": "OPP-24190"
+    },
+    {
+      "id": "MSRF-3350288",
+      "engagementId": "eng-350288",
+      "name": "Fabrikam Population Health on Fabric",
+      "type": "Shared",
+      "status": "Active",
+      "substatus": "Accepted",
+      "qualification": "SalesQualified",
+      "createdDateTime": "2026-07-01T14:00:00Z",
+      "customerProfile": {
+        "name": "Fabrikam Health",
+        "address": {
+          "city": "Boston",
+          "state": "MA",
+          "country": "US"
+        },
+        "size": "1000orMore",
+        "team": [
+          {
+            "firstName": "James",
+            "lastName": "Whitaker",
+            "email": "james.whitaker@fabrikamhealth.example"
+          }
+        ]
+      },
+      "details": {
+        "dealValue": 1250000,
+        "currency": "USD",
+        "closingDateTime": "2027-01-29T00:00:00Z",
+        "requirements": {
+          "solutions": [
+            {
+              "name": "Microsoft Fabric Analytics"
+            }
+          ],
+          "salesPlays": [
+            "Unify your intelligent data and analytics platform"
+          ]
+        }
+      },
+      "team": [
+        {
+          "firstName": "Elena",
+          "lastName": "Novak",
+          "email": "elena.novak@visionet.example"
+        }
+      ],
+      "consent": {
+        "consentToShareReferralWithMicrosoftSellers": true
+      },
+      "expirationDateTime": "2027-01-01T00:00:00Z",
+      "externalReferenceId": "OPP-24110"
+    },
+    {
+      "id": "MSRF-3312090",
+      "engagementId": "eng-312090",
+      "name": "Northwind Loyalty Analytics",
+      "type": "Shared",
+      "status": "Active",
+      "substatus": "Accepted",
+      "qualification": "SalesQualified",
+      "createdDateTime": "2026-04-20T14:00:00Z",
+      "customerProfile": {
+        "name": "Northwind Traders",
+        "address": {
+          "city": "Chicago",
+          "state": "IL",
+          "country": "US"
+        },
+        "size": "1000orMore",
+        "team": [
+          {
+            "firstName": "Lena",
+            "lastName": "Fischer",
+            "email": "lena.fischer@northwindtraders.example"
+          }
+        ]
+      },
+      "details": {
+        "dealValue": 640000,
+        "currency": "USD",
+        "closingDateTime": "2026-11-30T00:00:00Z",
+        "requirements": {
+          "solutions": [
+            {
+              "name": "Microsoft Fabric Analytics"
+            }
+          ],
+          "salesPlays": [
+            "Unify your intelligent data and analytics platform"
+          ]
+        }
+      },
+      "team": [
+        {
+          "firstName": "Elena",
+          "lastName": "Novak",
+          "email": "elena.novak@visionet.example"
+        }
+      ],
+      "consent": {
+        "consentToShareReferralWithMicrosoftSellers": true
+      },
+      "expirationDateTime": "2026-10-20T00:00:00Z",
+      "externalReferenceId": "OPP-24102"
+    },
+    {
+      "id": "MSRF-3360031",
+      "engagementId": "eng-360031",
+      "name": "Litware Underwriting Intake (Azure AI Document Intelligence)",
+      "type": "Shared",
+      "status": "New",
+      "substatus": "Pending",
+      "qualification": "SalesQualified",
+      "createdDateTime": "2026-08-04T14:00:00Z",
+      "customerProfile": {
+        "name": "Litware Insurance",
+        "address": {
+          "city": "Hartford",
+          "state": "CT",
+          "country": "US"
+        },
+        "size": "1000orMore",
+        "team": [
+          {
+            "firstName": "Samuel",
+            "lastName": "Price",
+            "email": "samuel.price@litwareinsurance.example"
+          }
+        ]
+      },
+      "details": {
+        "dealValue": 780000,
+        "currency": "USD",
+        "closingDateTime": "2026-12-18T00:00:00Z",
+        "requirements": {
+          "solutions": [
+            {
+              "name": "Intelligent Document Processing"
+            }
+          ],
+          "salesPlays": [
+            "Innovate with Azure AI"
+          ]
+        }
+      },
+      "team": [
+        {
+          "firstName": "Elena",
+          "lastName": "Novak",
+          "email": "elena.novak@visionet.example"
+        }
+      ],
+      "consent": {
+        "consentToShareReferralWithMicrosoftSellers": true
+      },
+      "expirationDateTime": "2027-02-04T00:00:00Z",
+      "externalReferenceId": "OPP-24150"
+    }
+  ]
+}

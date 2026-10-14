@@ -1,0 +1,5 @@
+ace_opportunity_id,partner_project_title,customer_company_name,customer_website,industry,country,stage,status,target_close_date,expected_monthly_aws_revenue_usd,delivery_model,use_case,apn_programs,partner_crm_unique_identifier,aws_account_manager,created_date
+O7718824,Tailspin Migration Factory Wave 2,Tailspin Airlines,tailspinairlines.example,Travel & Transport,US,Launched,Closed Won,2026-06-12,61000,Professional Services,Migration,MAP,OPP-24131,Ryan Cooper,2026-02-12
+O8012573,Trey Research GxP Data Lake,Trey Research,treyresearch.example,Life Sciences,US,Technical Validation,Approved,2027-02-26,18500,Professional Services,Data lake / analytics,MAP,OPP-24210,Ryan Cooper,2026-07-20
+O8106640,Calder Claims Modernisation (Guidewire Cloud on AWS),Calder Insurance,calderinsurance.example,BFSI,US,Technical Validation,Submitted,2027-01-29,42000,Professional Services,Migration / Business applications,MAP,OPP-24230,Ryan Cooper,2026-10-06
+O7902211,Tailspin Crew Operations Platform,Tailspin Airlines,tailspinairlines.example,Travel & Transport,US,Business Validation,Approved,2026-10-23,27500,Professional Services,Containers & serverless,,OPP-24130,Ryan Cooper,2026-07-10

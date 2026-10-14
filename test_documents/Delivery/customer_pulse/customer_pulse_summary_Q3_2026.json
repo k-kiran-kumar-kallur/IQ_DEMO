@@ -1,0 +1,138 @@
+{
+  "survey": "Customer Pulse Q3 2026",
+  "fielded": "2026-09-21 to 2026-10-02",
+  "responses": 57,
+  "accounts": [
+    {
+      "account_id": "ACC-1001",
+      "account": "Northwind Traders",
+      "responses": 6,
+      "csat_q3": 6.2,
+      "csat_q2": 8.4,
+      "change": -2.2,
+      "nps_q3": -67,
+      "status": "Red"
+    },
+    {
+      "account_id": "ACC-1002",
+      "account": "Fabrikam Health",
+      "responses": 5,
+      "csat_q3": 8.6,
+      "csat_q2": 8.4,
+      "change": 0.2,
+      "nps_q3": 60,
+      "status": "Green"
+    },
+    {
+      "account_id": "ACC-1003",
+      "account": "Woodgrove Bank",
+      "responses": 4,
+      "csat_q3": 8.2,
+      "csat_q2": 8.0,
+      "change": 0.2,
+      "nps_q3": 25,
+      "status": "Green"
+    },
+    {
+      "account_id": "ACC-1004",
+      "account": "Tailspin Airlines",
+      "responses": 4,
+      "csat_q3": 8.5,
+      "csat_q2": 8.1,
+      "change": 0.4,
+      "nps_q3": 25,
+      "status": "Green"
+    },
+    {
+      "account_id": "ACC-1005",
+      "account": "Litware Insurance",
+      "responses": 4,
+      "csat_q3": 8.0,
+      "csat_q2": 7.9,
+      "change": 0.1,
+      "nps_q3": 0,
+      "status": "Green"
+    },
+    {
+      "account_id": "ACC-1006",
+      "account": "Contoso Manufacturing",
+      "responses": 3,
+      "csat_q3": 7.7,
+      "csat_q2": 7.9,
+      "change": -0.2,
+      "nps_q3": 0,
+      "status": "Amber"
+    },
+    {
+      "account_id": "ACC-1007",
+      "account": "Adventure Works Retail",
+      "responses": 4,
+      "csat_q3": 8.0,
+      "csat_q2": 7.7,
+      "change": 0.3,
+      "nps_q3": 25,
+      "status": "Green"
+    },
+    {
+      "account_id": "ACC-1008",
+      "account": "Wingtip Logistics",
+      "responses": 4,
+      "csat_q3": 9.0,
+      "csat_q2": 8.8,
+      "change": 0.2,
+      "nps_q3": 100,
+      "status": "Green"
+    },
+    {
+      "account_id": "ACC-1009",
+      "account": "Relecloud",
+      "responses": 5,
+      "csat_q3": 8.4,
+      "csat_q2": 8.2,
+      "change": 0.2,
+      "nps_q3": 60,
+      "status": "Green"
+    },
+    {
+      "account_id": "ACC-1010",
+      "account": "Lamna Healthcare",
+      "responses": 4,
+      "csat_q3": 7.8,
+      "csat_q2": 8.0,
+      "change": -0.2,
+      "nps_q3": 0,
+      "status": "Amber"
+    },
+    {
+      "account_id": "ACC-1011",
+      "account": "Wide World Importers",
+      "responses": 6,
+      "csat_q3": 6.8,
+      "csat_q2": 7.4,
+      "change": -0.6,
+      "nps_q3": -17,
+      "status": "Red"
+    },
+    {
+      "account_id": "ACC-1012",
+      "account": "Trey Research",
+      "responses": 5,
+      "csat_q3": 8.4,
+      "csat_q2": 8.3,
+      "change": 0.1,
+      "nps_q3": 80,
+      "status": "Green"
+    },
+    {
+      "account_id": "ACC-1015",
+      "account": "Halcyon Health",
+      "responses": 3,
+      "csat_q3": 8.7,
+      "csat_q2": 8.5,
+      "change": 0.2,
+      "nps_q3": 33,
+      "status": "Green"
+    }
+  ],
+  "headline": "Two accounts red: Northwind Traders (6.1, from 8.4) and Wide World Importers (6.9)."
+}

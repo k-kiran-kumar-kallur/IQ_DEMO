@@ -1,0 +1,26 @@
+From: Jessica Wu <jessica.wu@microsoft.example>
+To: Elena Novak <elena.novak@visionet.example>
+Cc: Marcus Bell <marcus.bell@visionet.example>; Lucia Romero <lucia.romero@visionet.example>
+Date: Wed, 15 Jul 2026 17:22:09 -0400
+Subject: APPROVED - ECIF request for Woodgrove Bank lakehouse POC (ECIF-26-04417)
+
+Hi Elena,
+
+Good news - the ECIF request for the Woodgrove Bank lakehouse proof of concept is approved.
+
+  Programme:          End Customer Investment Funds (ECIF)
+  Customer:           Woodgrove Bank
+  Request ID:         ECIF-26-04417 (Visionet ref FND-901)
+  Approved amount:    USD 120,000
+  Scope:              Payments and cards domains on Azure Databricks; Unity Catalog lineage for 12 regulatory elements
+  Engagement window:  3 Aug 2026 - 13 Nov 2026
+  Claim deadline:     31 Dec 2026 (proof of execution + customer sign-off required)
+  Linked referral:    MSRF-3318842 (Woodgrove Enterprise Data Platform, co-sell ready)
+
+Please make sure the customer sign-off form is completed by Rachel Adeyemi or Catherine Hughes at close-out. Unclaimed funds
+lapse after 31 December and cannot be extended into the new half.
+
+Thanks,
+Jessica
+
+Jessica Wu | Partner Development Manager | Microsoft
